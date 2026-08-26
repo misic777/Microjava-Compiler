@@ -1,0 +1,2473 @@
+INFO  12:48:15,541 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  12:48:15,567 - #2 program
+INFO  12:48:15,567 - #48 test301
+INFO  12:48:15,567 - #28 enum
+INFO  12:48:15,568 - #48 Broj
+INFO  12:48:15,568 - #3 {
+INFO  12:48:15,569 - #48 NULA
+INFO  12:48:15,569 - #13 ,
+INFO  12:48:15,569 - #48 JEDAN
+INFO  12:48:15,569 - #13 ,
+INFO  12:48:15,569 - #48 PET
+INFO  12:48:15,569 - #10 =
+INFO  12:48:15,569 - #45 5
+INFO  12:48:15,569 - #13 ,
+INFO  12:48:15,569 - #48 DESET
+INFO  12:48:15,570 - #10 =
+INFO  12:48:15,570 - #45 10
+INFO  12:48:15,570 - #4 }
+INFO  12:48:15,570 - #9 const
+INFO  12:48:15,570 - #48 int
+INFO  12:48:15,570 - #48 nula
+INFO  12:48:15,571 - #10 =
+INFO  12:48:15,571 - #45 0
+INFO  12:48:15,571 - #11 ;
+INFO  12:48:15,573 - #9 const
+INFO  12:48:15,573 - #48 int
+INFO  12:48:15,573 - #48 jedan
+INFO  12:48:15,574 - #10 =
+INFO  12:48:15,574 - #45 1
+INFO  12:48:15,574 - #11 ;
+INFO  12:48:15,574 - #9 const
+INFO  12:48:15,574 - #48 int
+INFO  12:48:15,574 - #48 pet
+INFO  12:48:15,574 - #10 =
+INFO  12:48:15,574 - #45 5
+INFO  12:48:15,574 - #11 ;
+INFO  12:48:15,574 - #48 int
+INFO  12:48:15,574 - #48 niz
+INFO  12:48:15,574 - #7 [
+INFO  12:48:15,574 - #8 ]
+INFO  12:48:15,574 - #11 ;
+INFO  12:48:15,575 - #48 char
+INFO  12:48:15,575 - #48 nizch
+INFO  12:48:15,576 - #7 [
+INFO  12:48:15,576 - #8 ]
+INFO  12:48:15,576 - #11 ;
+INFO  12:48:15,576 - #48 int
+INFO  12:48:15,576 - #48 a
+INFO  12:48:15,576 - #11 ;
+INFO  12:48:15,576 - #3 {
+INFO  12:48:15,576 - #12 void
+INFO  12:48:15,577 - #48 main
+INFO  12:48:15,577 - #5 (
+INFO  12:48:15,577 - #6 )
+INFO  12:48:15,577 - #48 int
+INFO  12:48:15,578 - #48 bodovi
+INFO  12:48:15,578 - #11 ;
+INFO  12:48:15,578 - #48 int
+INFO  12:48:15,578 - #48 temp
+INFO  12:48:15,578 - #11 ;
+INFO  12:48:15,578 - #48 Broj
+INFO  12:48:15,578 - #48 nula
+INFO  12:48:15,578 - #13 ,
+INFO  12:48:15,578 - #48 jedan
+INFO  12:48:15,578 - #11 ;
+INFO  12:48:15,578 - #48 bool
+INFO  12:48:15,578 - #48 bt
+INFO  12:48:15,579 - #11 ;
+INFO  12:48:15,579 - #3 {
+INFO  12:48:15,579 - #48 nula
+INFO  12:48:15,579 - #10 =
+INFO  12:48:15,580 - #48 Broj
+INFO  12:48:15,581 - #27 .
+INFO  12:48:15,581 - #48 NULA
+INFO  12:48:15,581 - #11 ;
+INFO  12:48:15,582 - #48 jedan
+INFO  12:48:15,583 - #10 =
+INFO  12:48:15,583 - #48 Broj
+INFO  12:48:15,583 - #27 .
+INFO  12:48:15,583 - #48 JEDAN
+INFO  12:48:15,583 - #11 ;
+INFO  12:48:15,583 - #48 bodovi
+INFO  12:48:15,583 - #10 =
+INFO  12:48:15,583 - #45 0
+INFO  12:48:15,583 - #11 ;
+INFO  12:48:15,583 - #48 bodovi
+INFO  12:48:15,583 - #25 ++
+INFO  12:48:15,583 - #11 ;
+INFO  12:48:15,583 - #48 bodovi
+INFO  12:48:15,584 - #10 =
+INFO  12:48:15,584 - #48 bodovi
+INFO  12:48:15,584 - #38 +
+INFO  12:48:15,584 - #48 jedan
+INFO  12:48:15,584 - #11 ;
+INFO  12:48:15,585 - #48 bodovi
+INFO  12:48:15,585 - #10 =
+INFO  12:48:15,585 - #48 bodovi
+INFO  12:48:15,585 - #35 *
+INFO  12:48:15,585 - #48 pet
+INFO  12:48:15,585 - #11 ;
+INFO  12:48:15,586 - #48 bodovi
+INFO  12:48:15,586 - #26 --
+INFO  12:48:15,586 - #11 ;
+INFO  12:48:15,586 - #20 print
+INFO  12:48:15,586 - #5 (
+INFO  12:48:15,586 - #48 bodovi
+INFO  12:48:15,586 - #6 )
+INFO  12:48:15,586 - #11 ;
+INFO  12:48:15,586 - #20 print
+INFO  12:48:15,586 - #5 (
+INFO  12:48:15,586 - #48 eol
+INFO  12:48:15,586 - #6 )
+INFO  12:48:15,586 - #11 ;
+INFO  12:48:15,586 - #48 niz
+INFO  12:48:15,586 - #10 =
+INFO  12:48:15,587 - #44 new
+INFO  12:48:15,587 - #48 int
+INFO  12:48:15,587 - #7 [
+INFO  12:48:15,587 - #45 3
+INFO  12:48:15,587 - #8 ]
+INFO  12:48:15,587 - #11 ;
+INFO  12:48:15,587 - #48 niz
+INFO  12:48:15,587 - #7 [
+INFO  12:48:15,587 - #48 nula
+INFO  12:48:15,587 - #8 ]
+INFO  12:48:15,587 - #10 =
+INFO  12:48:15,587 - #45 2
+INFO  12:48:15,588 - #11 ;
+INFO  12:48:15,588 - #48 niz
+INFO  12:48:15,588 - #7 [
+INFO  12:48:15,588 - #48 jedan
+INFO  12:48:15,588 - #8 ]
+INFO  12:48:15,588 - #10 =
+INFO  12:48:15,588 - #45 3
+INFO  12:48:15,591 - #11 ;
+INFO  12:48:15,591 - #48 niz
+INFO  12:48:15,591 - #7 [
+INFO  12:48:15,591 - #48 niz
+INFO  12:48:15,591 - #7 [
+INFO  12:48:15,591 - #48 nula
+INFO  12:48:15,591 - #8 ]
+INFO  12:48:15,591 - #8 ]
+INFO  12:48:15,591 - #10 =
+INFO  12:48:15,591 - #48 niz
+INFO  12:48:15,591 - #7 [
+INFO  12:48:15,591 - #45 1
+INFO  12:48:15,591 - #8 ]
+INFO  12:48:15,591 - #35 *
+INFO  12:48:15,592 - #45 4
+INFO  12:48:15,592 - #11 ;
+INFO  12:48:15,592 - #48 bodovi
+INFO  12:48:15,592 - #10 =
+INFO  12:48:15,592 - #48 niz
+INFO  12:48:15,592 - #7 [
+INFO  12:48:15,592 - #45 2
+INFO  12:48:15,592 - #8 ]
+INFO  12:48:15,592 - #36 /
+INFO  12:48:15,592 - #48 niz
+INFO  12:48:15,593 - #7 [
+INFO  12:48:15,593 - #45 0
+INFO  12:48:15,593 - #8 ]
+INFO  12:48:15,593 - #11 ;
+INFO  12:48:15,593 - #20 print
+INFO  12:48:15,593 - #5 (
+INFO  12:48:15,593 - #48 bodovi
+INFO  12:48:15,593 - #6 )
+INFO  12:48:15,593 - #11 ;
+INFO  12:48:15,593 - #20 print
+INFO  12:48:15,593 - #5 (
+INFO  12:48:15,593 - #48 eol
+INFO  12:48:15,593 - #6 )
+INFO  12:48:15,593 - #11 ;
+INFO  12:48:15,594 - #20 print
+INFO  12:48:15,594 - #5 (
+INFO  12:48:15,594 - #48 niz
+INFO  12:48:15,594 - #7 [
+INFO  12:48:15,594 - #45 2
+INFO  12:48:15,594 - #8 ]
+INFO  12:48:15,594 - #6 )
+INFO  12:48:15,594 - #11 ;
+INFO  12:48:15,594 - #20 print
+INFO  12:48:15,594 - #5 (
+INFO  12:48:15,594 - #48 eol
+INFO  12:48:15,594 - #6 )
+INFO  12:48:15,594 - #11 ;
+INFO  12:48:15,594 - #48 nizch
+INFO  12:48:15,594 - #10 =
+INFO  12:48:15,594 - #44 new
+INFO  12:48:15,594 - #48 char
+INFO  12:48:15,594 - #7 [
+INFO  12:48:15,594 - #45 3
+INFO  12:48:15,595 - #8 ]
+INFO  12:48:15,595 - #11 ;
+INFO  12:48:15,595 - #48 nizch
+INFO  12:48:15,595 - #7 [
+INFO  12:48:15,595 - #45 0
+INFO  12:48:15,595 - #8 ]
+INFO  12:48:15,595 - #10 =
+INFO  12:48:15,595 - #47 a
+INFO  12:48:15,595 - #11 ;
+INFO  12:48:15,595 - #48 nizch
+INFO  12:48:15,595 - #7 [
+INFO  12:48:15,595 - #48 jedan
+INFO  12:48:15,596 - #8 ]
+INFO  12:48:15,596 - #10 =
+INFO  12:48:15,596 - #47 b
+INFO  12:48:15,596 - #11 ;
+INFO  12:48:15,596 - #48 nizch
+INFO  12:48:15,596 - #7 [
+INFO  12:48:15,596 - #48 pet
+INFO  12:48:15,596 - #39 -
+INFO  12:48:15,596 - #45 3
+INFO  12:48:15,597 - #8 ]
+INFO  12:48:15,597 - #10 =
+INFO  12:48:15,597 - #47 c
+INFO  12:48:15,597 - #11 ;
+INFO  12:48:15,597 - #20 print
+INFO  12:48:15,597 - #5 (
+INFO  12:48:15,597 - #48 nizch
+INFO  12:48:15,597 - #7 [
+INFO  12:48:15,597 - #45 1
+INFO  12:48:15,597 - #8 ]
+INFO  12:48:15,597 - #6 )
+INFO  12:48:15,597 - #11 ;
+INFO  12:48:15,597 - #20 print
+INFO  12:48:15,597 - #5 (
+INFO  12:48:15,597 - #48 eol
+INFO  12:48:15,597 - #6 )
+INFO  12:48:15,598 - #11 ;
+INFO  12:48:15,598 - #20 print
+INFO  12:48:15,598 - #5 (
+INFO  12:48:15,598 - #48 nizch
+INFO  12:48:15,598 - #7 [
+INFO  12:48:15,598 - #48 jedan
+INFO  12:48:15,598 - #35 *
+INFO  12:48:15,598 - #45 2
+INFO  12:48:15,598 - #8 ]
+INFO  12:48:15,598 - #6 )
+INFO  12:48:15,598 - #11 ;
+INFO  12:48:15,598 - #20 print
+INFO  12:48:15,598 - #5 (
+INFO  12:48:15,598 - #48 eol
+INFO  12:48:15,598 - #6 )
+INFO  12:48:15,598 - #11 ;
+INFO  12:48:15,598 - #20 print
+INFO  12:48:15,598 - #5 (
+INFO  12:48:15,598 - #48 ord
+INFO  12:48:15,598 - #5 (
+INFO  12:48:15,598 - #48 nizch
+INFO  12:48:15,598 - #7 [
+INFO  12:48:15,598 - #45 0
+INFO  12:48:15,598 - #8 ]
+INFO  12:48:15,598 - #6 )
+INFO  12:48:15,599 - #6 )
+INFO  12:48:15,599 - #11 ;
+INFO  12:48:15,599 - #20 print
+INFO  12:48:15,599 - #5 (
+INFO  12:48:15,599 - #48 nizch
+INFO  12:48:15,599 - #27 .
+INFO  12:48:15,599 - #40 length
+INFO  12:48:15,599 - #6 )
+INFO  12:48:15,600 - #11 ;
+INFO  12:48:15,600 - #20 print
+INFO  12:48:15,600 - #5 (
+INFO  12:48:15,600 - #48 niz
+INFO  12:48:15,600 - #27 .
+INFO  12:48:15,600 - #40 length
+INFO  12:48:15,600 - #6 )
+INFO  12:48:15,600 - #11 ;
+INFO  12:48:15,600 - #48 a
+INFO  12:48:15,600 - #10 =
+INFO  12:48:15,600 - #45 1
+INFO  12:48:15,600 - #11 ;
+INFO  12:48:15,600 - #19 read
+INFO  12:48:15,600 - #5 (
+INFO  12:48:15,600 - #48 bodovi
+INFO  12:48:15,600 - #6 )
+INFO  12:48:15,600 - #11 ;
+INFO  12:48:15,600 - #48 bodovi
+INFO  12:48:15,600 - #10 =
+INFO  12:48:15,600 - #39 -
+INFO  12:48:15,600 - #48 bodovi
+INFO  12:48:15,601 - #38 +
+INFO  12:48:15,601 - #5 (
+INFO  12:48:15,601 - #48 pet
+INFO  12:48:15,601 - #35 *
+INFO  12:48:15,601 - #48 a
+INFO  12:48:15,601 - #36 /
+INFO  12:48:15,601 - #45 2
+INFO  12:48:15,601 - #39 -
+INFO  12:48:15,601 - #48 nula
+INFO  12:48:15,601 - #6 )
+INFO  12:48:15,601 - #35 *
+INFO  12:48:15,601 - #48 bodovi
+INFO  12:48:15,601 - #39 -
+INFO  12:48:15,601 - #5 (
+INFO  12:48:15,601 - #45 3
+INFO  12:48:15,601 - #37 %
+INFO  12:48:15,601 - #45 2
+INFO  12:48:15,602 - #38 +
+INFO  12:48:15,602 - #45 3
+INFO  12:48:15,602 - #35 *
+INFO  12:48:15,602 - #45 2
+INFO  12:48:15,602 - #39 -
+INFO  12:48:15,602 - #45 7
+INFO  12:48:15,602 - #6 )
+INFO  12:48:15,602 - #11 ;
+INFO  12:48:15,602 - #20 print
+INFO  12:48:15,602 - #5 (
+INFO  12:48:15,602 - #48 bodovi
+INFO  12:48:15,602 - #6 )
+INFO  12:48:15,602 - #11 ;
+INFO  12:48:15,602 - #19 read
+INFO  12:48:15,602 - #5 (
+INFO  12:48:15,602 - #48 bodovi
+INFO  12:48:15,602 - #6 )
+INFO  12:48:15,602 - #11 ;
+INFO  12:48:15,602 - #48 bt
+INFO  12:48:15,602 - #10 =
+INFO  12:48:15,602 - #46 1
+INFO  12:48:15,602 - #11 ;
+INFO  12:48:15,602 - #20 print
+INFO  12:48:15,602 - #5 (
+INFO  12:48:15,602 - #48 bt
+INFO  12:48:15,602 - #43 ?
+INFO  12:48:15,603 - #48 bodovi
+INFO  12:48:15,603 - #24 :
+INFO  12:48:15,603 - #48 bodovi
+INFO  12:48:15,603 - #38 +
+INFO  12:48:15,603 - #45 10
+INFO  12:48:15,603 - #6 )
+INFO  12:48:15,603 - #11 ;
+INFO  12:48:15,603 - #20 print
+INFO  12:48:15,603 - #5 (
+INFO  12:48:15,603 - #46 0
+INFO  12:48:15,603 - #43 ?
+INFO  12:48:15,603 - #48 bodovi
+INFO  12:48:15,603 - #38 +
+INFO  12:48:15,603 - #45 20
+INFO  12:48:15,603 - #24 :
+INFO  12:48:15,604 - #48 bodovi
+INFO  12:48:15,604 - #38 +
+INFO  12:48:15,604 - #45 30
+INFO  12:48:15,604 - #6 )
+INFO  12:48:15,604 - #11 ;
+INFO  12:48:15,604 - #20 print
+INFO  12:48:15,604 - #5 (
+INFO  12:48:15,604 - #48 bodovi
+INFO  12:48:15,604 - #29 >
+INFO  12:48:15,604 - #45 10
+INFO  12:48:15,604 - #43 ?
+INFO  12:48:15,604 - #47 +
+INFO  12:48:15,604 - #24 :
+INFO  12:48:15,605 - #47 -
+INFO  12:48:15,605 - #6 )
+INFO  12:48:15,605 - #11 ;
+INFO  12:48:15,605 - #4 }
+INFO  12:48:15,605 - #4 }
+INFO  12:48:15,623 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Var(
+      DeclarationList_Var(
+        DeclarationList_Const(
+          DeclarationList_Const(
+            DeclarationList_Const(
+              DeclarationList_Enum(
+                DeclarationList_Epsilon(
+                ) [DeclarationList_Epsilon]
+                EnumDecl(
+                  EnumName(
+                   Broj
+                  ) [EnumName]
+                  EnumDeclMore_list(
+                    EnumDeclMore_list(
+                      EnumDeclMore_list(
+                        EnumDeclMore_base(
+                          AssignConst_noVal(
+                           NULA
+                          ) [AssignConst_noVal]
+                        ) [EnumDeclMore_base]
+                        AssignConst_noVal(
+                         JEDAN
+                        ) [AssignConst_noVal]
+                      ) [EnumDeclMore_list]
+                      AssignConst_val(
+                       PET
+                       5
+                      ) [AssignConst_val]
+                    ) [EnumDeclMore_list]
+                    AssignConst_val(
+                     DESET
+                     10
+                    ) [AssignConst_val]
+                  ) [EnumDeclMore_list]
+                ) [EnumDecl]
+              ) [DeclarationList_Enum]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstAssign(
+                 nula
+                  Constant_n(
+                   0
+                  ) [Constant_n]
+                ) [ConstAssign]
+                ConstantList_Epsilon(
+                ) [ConstantList_Epsilon]
+              ) [ConstDecl]
+            ) [DeclarationList_Const]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstAssign(
+               jedan
+                Constant_n(
+                 1
+                ) [Constant_n]
+              ) [ConstAssign]
+              ConstantList_Epsilon(
+              ) [ConstantList_Epsilon]
+            ) [ConstDecl]
+          ) [DeclarationList_Const]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstAssign(
+             pet
+              Constant_n(
+               5
+              ) [Constant_n]
+            ) [ConstAssign]
+            ConstantList_Epsilon(
+            ) [ConstantList_Epsilon]
+          ) [ConstDecl]
+        ) [DeclarationList_Const]
+        GlobalVarDecl_y(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_array(
+             niz
+            ) [VarDecl_array]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [GlobalVarDecl_y]
+      ) [DeclarationList_Var]
+      GlobalVarDecl_y(
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl_array(
+           nizch
+          ) [VarDecl_array]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [GlobalVarDecl_y]
+    ) [DeclarationList_Var]
+    GlobalVarDecl_y(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_var(
+         a
+        ) [VarDecl_var]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [GlobalVarDecl_y]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_y(
+        VarDeclListRec_y(
+          VarDeclListRec_y(
+            VarDeclListRec_y(
+              VarDeclListRec_Epsilon(
+              ) [VarDeclListRec_Epsilon]
+              VarDeclList(
+                Type(
+                 int
+                ) [Type]
+                VarDecl_var(
+                 bodovi
+                ) [VarDecl_var]
+                VarDeclMore_Epsilon(
+                ) [VarDeclMore_Epsilon]
+              ) [VarDeclList]
+            ) [VarDeclListRec_y]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               temp
+              ) [VarDecl_var]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclList]
+          ) [VarDeclListRec_y]
+          VarDeclList(
+            Type(
+             Broj
+            ) [Type]
+            VarDecl_var(
+             nula
+            ) [VarDecl_var]
+            VarDeclMore_y(
+              VarDecl_var(
+               jedan
+              ) [VarDecl_var]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclMore_y]
+          ) [VarDeclList]
+        ) [VarDeclListRec_y]
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl_var(
+           bt
+          ) [VarDecl_var]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [VarDeclListRec_y]
+      StatementList_y(
+        StatementList_y(
+          StatementList_y(
+            StatementList_y(
+              StatementList_y(
+                StatementList_y(
+                  StatementList_y(
+                    StatementList_y(
+                      StatementList_y(
+                        StatementList_y(
+                          StatementList_y(
+                            StatementList_y(
+                              StatementList_y(
+                                StatementList_y(
+                                  StatementList_y(
+                                    StatementList_y(
+                                      StatementList_y(
+                                        StatementList_y(
+                                          StatementList_y(
+                                            StatementList_y(
+                                              StatementList_y(
+                                                StatementList_y(
+                                                  StatementList_y(
+                                                    StatementList_y(
+                                                      StatementList_y(
+                                                        StatementList_y(
+                                                          StatementList_y(
+                                                            StatementList_y(
+                                                              StatementList_y(
+                                                                StatementList_y(
+                                                                  StatementList_y(
+                                                                    StatementList_y(
+                                                                      StatementList_y(
+                                                                        StatementList_y(
+                                                                          StatementList_y(
+                                                                            StatementList_y(
+                                                                              StatementList_y(
+                                                                                StatementList_y(
+                                                                                  StatementList_Epsilon(
+                                                                                  ) [StatementList_Epsilon]
+                                                                                  Statement_Designator(
+                                                                                    DesignatorStatement_A(
+                                                                                      DesignatorStatementA_Assignop(
+                                                                                        Designator_only(
+                                                                                          DesignatorName(
+                                                                                           nula
+                                                                                          ) [DesignatorName]
+                                                                                        ) [Designator_only]
+                                                                                        Assignop(
+                                                                                        ) [Assignop]
+                                                                                        Expr_NonTernary(
+                                                                                          NonTernaryExpr(
+                                                                                            AddopTermList_term(
+                                                                                              Term(
+                                                                                                MulopFactorList_factorMinus(
+                                                                                                  FactorMinus(
+                                                                                                    OptionalMinus_Epsilon(
+                                                                                                    ) [OptionalMinus_Epsilon]
+                                                                                                    Factor_designator(
+                                                                                                      Designator_enum(
+                                                                                                        DesignatorName(
+                                                                                                         Broj
+                                                                                                        ) [DesignatorName]
+                                                                                                       NULA
+                                                                                                      ) [Designator_enum]
+                                                                                                    ) [Factor_designator]
+                                                                                                  ) [FactorMinus]
+                                                                                                ) [MulopFactorList_factorMinus]
+                                                                                              ) [Term]
+                                                                                            ) [AddopTermList_term]
+                                                                                          ) [NonTernaryExpr]
+                                                                                        ) [Expr_NonTernary]
+                                                                                      ) [DesignatorStatementA_Assignop]
+                                                                                    ) [DesignatorStatement_A]
+                                                                                  ) [Statement_Designator]
+                                                                                ) [StatementList_y]
+                                                                                Statement_Designator(
+                                                                                  DesignatorStatement_A(
+                                                                                    DesignatorStatementA_Assignop(
+                                                                                      Designator_only(
+                                                                                        DesignatorName(
+                                                                                         jedan
+                                                                                        ) [DesignatorName]
+                                                                                      ) [Designator_only]
+                                                                                      Assignop(
+                                                                                      ) [Assignop]
+                                                                                      Expr_NonTernary(
+                                                                                        NonTernaryExpr(
+                                                                                          AddopTermList_term(
+                                                                                            Term(
+                                                                                              MulopFactorList_factorMinus(
+                                                                                                FactorMinus(
+                                                                                                  OptionalMinus_Epsilon(
+                                                                                                  ) [OptionalMinus_Epsilon]
+                                                                                                  Factor_designator(
+                                                                                                    Designator_enum(
+                                                                                                      DesignatorName(
+                                                                                                       Broj
+                                                                                                      ) [DesignatorName]
+                                                                                                     JEDAN
+                                                                                                    ) [Designator_enum]
+                                                                                                  ) [Factor_designator]
+                                                                                                ) [FactorMinus]
+                                                                                              ) [MulopFactorList_factorMinus]
+                                                                                            ) [Term]
+                                                                                          ) [AddopTermList_term]
+                                                                                        ) [NonTernaryExpr]
+                                                                                      ) [Expr_NonTernary]
+                                                                                    ) [DesignatorStatementA_Assignop]
+                                                                                  ) [DesignatorStatement_A]
+                                                                                ) [Statement_Designator]
+                                                                              ) [StatementList_y]
+                                                                              Statement_Designator(
+                                                                                DesignatorStatement_A(
+                                                                                  DesignatorStatementA_Assignop(
+                                                                                    Designator_only(
+                                                                                      DesignatorName(
+                                                                                       bodovi
+                                                                                      ) [DesignatorName]
+                                                                                    ) [Designator_only]
+                                                                                    Assignop(
+                                                                                    ) [Assignop]
+                                                                                    Expr_NonTernary(
+                                                                                      NonTernaryExpr(
+                                                                                        AddopTermList_term(
+                                                                                          Term(
+                                                                                            MulopFactorList_factorMinus(
+                                                                                              FactorMinus(
+                                                                                                OptionalMinus_Epsilon(
+                                                                                                ) [OptionalMinus_Epsilon]
+                                                                                                Factor_num(
+                                                                                                 0
+                                                                                                ) [Factor_num]
+                                                                                              ) [FactorMinus]
+                                                                                            ) [MulopFactorList_factorMinus]
+                                                                                          ) [Term]
+                                                                                        ) [AddopTermList_term]
+                                                                                      ) [NonTernaryExpr]
+                                                                                    ) [Expr_NonTernary]
+                                                                                  ) [DesignatorStatementA_Assignop]
+                                                                                ) [DesignatorStatement_A]
+                                                                              ) [Statement_Designator]
+                                                                            ) [StatementList_y]
+                                                                            Statement_Designator(
+                                                                              DesignatorStatement_O(
+                                                                                DesignatorStatementO_inc(
+                                                                                  Designator_only(
+                                                                                    DesignatorName(
+                                                                                     bodovi
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_only]
+                                                                                ) [DesignatorStatementO_inc]
+                                                                              ) [DesignatorStatement_O]
+                                                                            ) [Statement_Designator]
+                                                                          ) [StatementList_y]
+                                                                          Statement_Designator(
+                                                                            DesignatorStatement_A(
+                                                                              DesignatorStatementA_Assignop(
+                                                                                Designator_only(
+                                                                                  DesignatorName(
+                                                                                   bodovi
+                                                                                  ) [DesignatorName]
+                                                                                ) [Designator_only]
+                                                                                Assignop(
+                                                                                ) [Assignop]
+                                                                                Expr_NonTernary(
+                                                                                  NonTernaryExpr(
+                                                                                    AddopTermList_addop(
+                                                                                      AddopTermList_term(
+                                                                                        Term(
+                                                                                          MulopFactorList_factorMinus(
+                                                                                            FactorMinus(
+                                                                                              OptionalMinus_Epsilon(
+                                                                                              ) [OptionalMinus_Epsilon]
+                                                                                              Factor_designator(
+                                                                                                Designator_only(
+                                                                                                  DesignatorName(
+                                                                                                   bodovi
+                                                                                                  ) [DesignatorName]
+                                                                                                ) [Designator_only]
+                                                                                              ) [Factor_designator]
+                                                                                            ) [FactorMinus]
+                                                                                          ) [MulopFactorList_factorMinus]
+                                                                                        ) [Term]
+                                                                                      ) [AddopTermList_term]
+                                                                                      Addop_plus(
+                                                                                      ) [Addop_plus]
+                                                                                      Term(
+                                                                                        MulopFactorList_factorMinus(
+                                                                                          FactorMinus(
+                                                                                            OptionalMinus_Epsilon(
+                                                                                            ) [OptionalMinus_Epsilon]
+                                                                                            Factor_designator(
+                                                                                              Designator_only(
+                                                                                                DesignatorName(
+                                                                                                 jedan
+                                                                                                ) [DesignatorName]
+                                                                                              ) [Designator_only]
+                                                                                            ) [Factor_designator]
+                                                                                          ) [FactorMinus]
+                                                                                        ) [MulopFactorList_factorMinus]
+                                                                                      ) [Term]
+                                                                                    ) [AddopTermList_addop]
+                                                                                  ) [NonTernaryExpr]
+                                                                                ) [Expr_NonTernary]
+                                                                              ) [DesignatorStatementA_Assignop]
+                                                                            ) [DesignatorStatement_A]
+                                                                          ) [Statement_Designator]
+                                                                        ) [StatementList_y]
+                                                                        Statement_Designator(
+                                                                          DesignatorStatement_A(
+                                                                            DesignatorStatementA_Assignop(
+                                                                              Designator_only(
+                                                                                DesignatorName(
+                                                                                 bodovi
+                                                                                ) [DesignatorName]
+                                                                              ) [Designator_only]
+                                                                              Assignop(
+                                                                              ) [Assignop]
+                                                                              Expr_NonTernary(
+                                                                                NonTernaryExpr(
+                                                                                  AddopTermList_term(
+                                                                                    Term(
+                                                                                      MulopFactorList_mulop(
+                                                                                        MulopFactorList_factorMinus(
+                                                                                          FactorMinus(
+                                                                                            OptionalMinus_Epsilon(
+                                                                                            ) [OptionalMinus_Epsilon]
+                                                                                            Factor_designator(
+                                                                                              Designator_only(
+                                                                                                DesignatorName(
+                                                                                                 bodovi
+                                                                                                ) [DesignatorName]
+                                                                                              ) [Designator_only]
+                                                                                            ) [Factor_designator]
+                                                                                          ) [FactorMinus]
+                                                                                        ) [MulopFactorList_factorMinus]
+                                                                                        Mulop_mul(
+                                                                                        ) [Mulop_mul]
+                                                                                        FactorMinus(
+                                                                                          OptionalMinus_Epsilon(
+                                                                                          ) [OptionalMinus_Epsilon]
+                                                                                          Factor_designator(
+                                                                                            Designator_only(
+                                                                                              DesignatorName(
+                                                                                               pet
+                                                                                              ) [DesignatorName]
+                                                                                            ) [Designator_only]
+                                                                                          ) [Factor_designator]
+                                                                                        ) [FactorMinus]
+                                                                                      ) [MulopFactorList_mulop]
+                                                                                    ) [Term]
+                                                                                  ) [AddopTermList_term]
+                                                                                ) [NonTernaryExpr]
+                                                                              ) [Expr_NonTernary]
+                                                                            ) [DesignatorStatementA_Assignop]
+                                                                          ) [DesignatorStatement_A]
+                                                                        ) [Statement_Designator]
+                                                                      ) [StatementList_y]
+                                                                      Statement_Designator(
+                                                                        DesignatorStatement_O(
+                                                                          DesignatorStatementO_dec(
+                                                                            Designator_only(
+                                                                              DesignatorName(
+                                                                               bodovi
+                                                                              ) [DesignatorName]
+                                                                            ) [Designator_only]
+                                                                          ) [DesignatorStatementO_dec]
+                                                                        ) [DesignatorStatement_O]
+                                                                      ) [Statement_Designator]
+                                                                    ) [StatementList_y]
+                                                                    Statement_print1(
+                                                                      Expr_NonTernary(
+                                                                        NonTernaryExpr(
+                                                                          AddopTermList_term(
+                                                                            Term(
+                                                                              MulopFactorList_factorMinus(
+                                                                                FactorMinus(
+                                                                                  OptionalMinus_Epsilon(
+                                                                                  ) [OptionalMinus_Epsilon]
+                                                                                  Factor_designator(
+                                                                                    Designator_only(
+                                                                                      DesignatorName(
+                                                                                       bodovi
+                                                                                      ) [DesignatorName]
+                                                                                    ) [Designator_only]
+                                                                                  ) [Factor_designator]
+                                                                                ) [FactorMinus]
+                                                                              ) [MulopFactorList_factorMinus]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_term]
+                                                                        ) [NonTernaryExpr]
+                                                                      ) [Expr_NonTernary]
+                                                                    ) [Statement_print1]
+                                                                  ) [StatementList_y]
+                                                                  Statement_print1(
+                                                                    Expr_NonTernary(
+                                                                      NonTernaryExpr(
+                                                                        AddopTermList_term(
+                                                                          Term(
+                                                                            MulopFactorList_factorMinus(
+                                                                              FactorMinus(
+                                                                                OptionalMinus_Epsilon(
+                                                                                ) [OptionalMinus_Epsilon]
+                                                                                Factor_designator(
+                                                                                  Designator_only(
+                                                                                    DesignatorName(
+                                                                                     eol
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_only]
+                                                                                ) [Factor_designator]
+                                                                              ) [FactorMinus]
+                                                                            ) [MulopFactorList_factorMinus]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_term]
+                                                                      ) [NonTernaryExpr]
+                                                                    ) [Expr_NonTernary]
+                                                                  ) [Statement_print1]
+                                                                ) [StatementList_y]
+                                                                Statement_Designator(
+                                                                  DesignatorStatement_A(
+                                                                    DesignatorStatementA_Assignop(
+                                                                      Designator_only(
+                                                                        DesignatorName(
+                                                                         niz
+                                                                        ) [DesignatorName]
+                                                                      ) [Designator_only]
+                                                                      Assignop(
+                                                                      ) [Assignop]
+                                                                      Expr_NonTernary(
+                                                                        NonTernaryExpr(
+                                                                          AddopTermList_term(
+                                                                            Term(
+                                                                              MulopFactorList_factorMinus(
+                                                                                FactorMinus(
+                                                                                  OptionalMinus_Epsilon(
+                                                                                  ) [OptionalMinus_Epsilon]
+                                                                                  Factor_new(
+                                                                                    Type(
+                                                                                     int
+                                                                                    ) [Type]
+                                                                                    Expr_NonTernary(
+                                                                                      NonTernaryExpr(
+                                                                                        AddopTermList_term(
+                                                                                          Term(
+                                                                                            MulopFactorList_factorMinus(
+                                                                                              FactorMinus(
+                                                                                                OptionalMinus_Epsilon(
+                                                                                                ) [OptionalMinus_Epsilon]
+                                                                                                Factor_num(
+                                                                                                 3
+                                                                                                ) [Factor_num]
+                                                                                              ) [FactorMinus]
+                                                                                            ) [MulopFactorList_factorMinus]
+                                                                                          ) [Term]
+                                                                                        ) [AddopTermList_term]
+                                                                                      ) [NonTernaryExpr]
+                                                                                    ) [Expr_NonTernary]
+                                                                                  ) [Factor_new]
+                                                                                ) [FactorMinus]
+                                                                              ) [MulopFactorList_factorMinus]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_term]
+                                                                        ) [NonTernaryExpr]
+                                                                      ) [Expr_NonTernary]
+                                                                    ) [DesignatorStatementA_Assignop]
+                                                                  ) [DesignatorStatement_A]
+                                                                ) [Statement_Designator]
+                                                              ) [StatementList_y]
+                                                              Statement_Designator(
+                                                                DesignatorStatement_A(
+                                                                  DesignatorStatementA_Assignop(
+                                                                    Designator_arrElem(
+                                                                      DesignatorName(
+                                                                       niz
+                                                                      ) [DesignatorName]
+                                                                      Expr_NonTernary(
+                                                                        NonTernaryExpr(
+                                                                          AddopTermList_term(
+                                                                            Term(
+                                                                              MulopFactorList_factorMinus(
+                                                                                FactorMinus(
+                                                                                  OptionalMinus_Epsilon(
+                                                                                  ) [OptionalMinus_Epsilon]
+                                                                                  Factor_designator(
+                                                                                    Designator_only(
+                                                                                      DesignatorName(
+                                                                                       nula
+                                                                                      ) [DesignatorName]
+                                                                                    ) [Designator_only]
+                                                                                  ) [Factor_designator]
+                                                                                ) [FactorMinus]
+                                                                              ) [MulopFactorList_factorMinus]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_term]
+                                                                        ) [NonTernaryExpr]
+                                                                      ) [Expr_NonTernary]
+                                                                    ) [Designator_arrElem]
+                                                                    Assignop(
+                                                                    ) [Assignop]
+                                                                    Expr_NonTernary(
+                                                                      NonTernaryExpr(
+                                                                        AddopTermList_term(
+                                                                          Term(
+                                                                            MulopFactorList_factorMinus(
+                                                                              FactorMinus(
+                                                                                OptionalMinus_Epsilon(
+                                                                                ) [OptionalMinus_Epsilon]
+                                                                                Factor_num(
+                                                                                 2
+                                                                                ) [Factor_num]
+                                                                              ) [FactorMinus]
+                                                                            ) [MulopFactorList_factorMinus]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_term]
+                                                                      ) [NonTernaryExpr]
+                                                                    ) [Expr_NonTernary]
+                                                                  ) [DesignatorStatementA_Assignop]
+                                                                ) [DesignatorStatement_A]
+                                                              ) [Statement_Designator]
+                                                            ) [StatementList_y]
+                                                            Statement_Designator(
+                                                              DesignatorStatement_A(
+                                                                DesignatorStatementA_Assignop(
+                                                                  Designator_arrElem(
+                                                                    DesignatorName(
+                                                                     niz
+                                                                    ) [DesignatorName]
+                                                                    Expr_NonTernary(
+                                                                      NonTernaryExpr(
+                                                                        AddopTermList_term(
+                                                                          Term(
+                                                                            MulopFactorList_factorMinus(
+                                                                              FactorMinus(
+                                                                                OptionalMinus_Epsilon(
+                                                                                ) [OptionalMinus_Epsilon]
+                                                                                Factor_designator(
+                                                                                  Designator_only(
+                                                                                    DesignatorName(
+                                                                                     jedan
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_only]
+                                                                                ) [Factor_designator]
+                                                                              ) [FactorMinus]
+                                                                            ) [MulopFactorList_factorMinus]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_term]
+                                                                      ) [NonTernaryExpr]
+                                                                    ) [Expr_NonTernary]
+                                                                  ) [Designator_arrElem]
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  Expr_NonTernary(
+                                                                    NonTernaryExpr(
+                                                                      AddopTermList_term(
+                                                                        Term(
+                                                                          MulopFactorList_factorMinus(
+                                                                            FactorMinus(
+                                                                              OptionalMinus_Epsilon(
+                                                                              ) [OptionalMinus_Epsilon]
+                                                                              Factor_num(
+                                                                               3
+                                                                              ) [Factor_num]
+                                                                            ) [FactorMinus]
+                                                                          ) [MulopFactorList_factorMinus]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_term]
+                                                                    ) [NonTernaryExpr]
+                                                                  ) [Expr_NonTernary]
+                                                                ) [DesignatorStatementA_Assignop]
+                                                              ) [DesignatorStatement_A]
+                                                            ) [Statement_Designator]
+                                                          ) [StatementList_y]
+                                                          Statement_Designator(
+                                                            DesignatorStatement_A(
+                                                              DesignatorStatementA_Assignop(
+                                                                Designator_arrElem(
+                                                                  DesignatorName(
+                                                                   niz
+                                                                  ) [DesignatorName]
+                                                                  Expr_NonTernary(
+                                                                    NonTernaryExpr(
+                                                                      AddopTermList_term(
+                                                                        Term(
+                                                                          MulopFactorList_factorMinus(
+                                                                            FactorMinus(
+                                                                              OptionalMinus_Epsilon(
+                                                                              ) [OptionalMinus_Epsilon]
+                                                                              Factor_designator(
+                                                                                Designator_arrElem(
+                                                                                  DesignatorName(
+                                                                                   niz
+                                                                                  ) [DesignatorName]
+                                                                                  Expr_NonTernary(
+                                                                                    NonTernaryExpr(
+                                                                                      AddopTermList_term(
+                                                                                        Term(
+                                                                                          MulopFactorList_factorMinus(
+                                                                                            FactorMinus(
+                                                                                              OptionalMinus_Epsilon(
+                                                                                              ) [OptionalMinus_Epsilon]
+                                                                                              Factor_designator(
+                                                                                                Designator_only(
+                                                                                                  DesignatorName(
+                                                                                                   nula
+                                                                                                  ) [DesignatorName]
+                                                                                                ) [Designator_only]
+                                                                                              ) [Factor_designator]
+                                                                                            ) [FactorMinus]
+                                                                                          ) [MulopFactorList_factorMinus]
+                                                                                        ) [Term]
+                                                                                      ) [AddopTermList_term]
+                                                                                    ) [NonTernaryExpr]
+                                                                                  ) [Expr_NonTernary]
+                                                                                ) [Designator_arrElem]
+                                                                              ) [Factor_designator]
+                                                                            ) [FactorMinus]
+                                                                          ) [MulopFactorList_factorMinus]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_term]
+                                                                    ) [NonTernaryExpr]
+                                                                  ) [Expr_NonTernary]
+                                                                ) [Designator_arrElem]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                Expr_NonTernary(
+                                                                  NonTernaryExpr(
+                                                                    AddopTermList_term(
+                                                                      Term(
+                                                                        MulopFactorList_mulop(
+                                                                          MulopFactorList_factorMinus(
+                                                                            FactorMinus(
+                                                                              OptionalMinus_Epsilon(
+                                                                              ) [OptionalMinus_Epsilon]
+                                                                              Factor_designator(
+                                                                                Designator_arrElem(
+                                                                                  DesignatorName(
+                                                                                   niz
+                                                                                  ) [DesignatorName]
+                                                                                  Expr_NonTernary(
+                                                                                    NonTernaryExpr(
+                                                                                      AddopTermList_term(
+                                                                                        Term(
+                                                                                          MulopFactorList_factorMinus(
+                                                                                            FactorMinus(
+                                                                                              OptionalMinus_Epsilon(
+                                                                                              ) [OptionalMinus_Epsilon]
+                                                                                              Factor_num(
+                                                                                               1
+                                                                                              ) [Factor_num]
+                                                                                            ) [FactorMinus]
+                                                                                          ) [MulopFactorList_factorMinus]
+                                                                                        ) [Term]
+                                                                                      ) [AddopTermList_term]
+                                                                                    ) [NonTernaryExpr]
+                                                                                  ) [Expr_NonTernary]
+                                                                                ) [Designator_arrElem]
+                                                                              ) [Factor_designator]
+                                                                            ) [FactorMinus]
+                                                                          ) [MulopFactorList_factorMinus]
+                                                                          Mulop_mul(
+                                                                          ) [Mulop_mul]
+                                                                          FactorMinus(
+                                                                            OptionalMinus_Epsilon(
+                                                                            ) [OptionalMinus_Epsilon]
+                                                                            Factor_num(
+                                                                             4
+                                                                            ) [Factor_num]
+                                                                          ) [FactorMinus]
+                                                                        ) [MulopFactorList_mulop]
+                                                                      ) [Term]
+                                                                    ) [AddopTermList_term]
+                                                                  ) [NonTernaryExpr]
+                                                                ) [Expr_NonTernary]
+                                                              ) [DesignatorStatementA_Assignop]
+                                                            ) [DesignatorStatement_A]
+                                                          ) [Statement_Designator]
+                                                        ) [StatementList_y]
+                                                        Statement_Designator(
+                                                          DesignatorStatement_A(
+                                                            DesignatorStatementA_Assignop(
+                                                              Designator_only(
+                                                                DesignatorName(
+                                                                 bodovi
+                                                                ) [DesignatorName]
+                                                              ) [Designator_only]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              Expr_NonTernary(
+                                                                NonTernaryExpr(
+                                                                  AddopTermList_term(
+                                                                    Term(
+                                                                      MulopFactorList_mulop(
+                                                                        MulopFactorList_factorMinus(
+                                                                          FactorMinus(
+                                                                            OptionalMinus_Epsilon(
+                                                                            ) [OptionalMinus_Epsilon]
+                                                                            Factor_designator(
+                                                                              Designator_arrElem(
+                                                                                DesignatorName(
+                                                                                 niz
+                                                                                ) [DesignatorName]
+                                                                                Expr_NonTernary(
+                                                                                  NonTernaryExpr(
+                                                                                    AddopTermList_term(
+                                                                                      Term(
+                                                                                        MulopFactorList_factorMinus(
+                                                                                          FactorMinus(
+                                                                                            OptionalMinus_Epsilon(
+                                                                                            ) [OptionalMinus_Epsilon]
+                                                                                            Factor_num(
+                                                                                             2
+                                                                                            ) [Factor_num]
+                                                                                          ) [FactorMinus]
+                                                                                        ) [MulopFactorList_factorMinus]
+                                                                                      ) [Term]
+                                                                                    ) [AddopTermList_term]
+                                                                                  ) [NonTernaryExpr]
+                                                                                ) [Expr_NonTernary]
+                                                                              ) [Designator_arrElem]
+                                                                            ) [Factor_designator]
+                                                                          ) [FactorMinus]
+                                                                        ) [MulopFactorList_factorMinus]
+                                                                        Mulop_div(
+                                                                        ) [Mulop_div]
+                                                                        FactorMinus(
+                                                                          OptionalMinus_Epsilon(
+                                                                          ) [OptionalMinus_Epsilon]
+                                                                          Factor_designator(
+                                                                            Designator_arrElem(
+                                                                              DesignatorName(
+                                                                               niz
+                                                                              ) [DesignatorName]
+                                                                              Expr_NonTernary(
+                                                                                NonTernaryExpr(
+                                                                                  AddopTermList_term(
+                                                                                    Term(
+                                                                                      MulopFactorList_factorMinus(
+                                                                                        FactorMinus(
+                                                                                          OptionalMinus_Epsilon(
+                                                                                          ) [OptionalMinus_Epsilon]
+                                                                                          Factor_num(
+                                                                                           0
+                                                                                          ) [Factor_num]
+                                                                                        ) [FactorMinus]
+                                                                                      ) [MulopFactorList_factorMinus]
+                                                                                    ) [Term]
+                                                                                  ) [AddopTermList_term]
+                                                                                ) [NonTernaryExpr]
+                                                                              ) [Expr_NonTernary]
+                                                                            ) [Designator_arrElem]
+                                                                          ) [Factor_designator]
+                                                                        ) [FactorMinus]
+                                                                      ) [MulopFactorList_mulop]
+                                                                    ) [Term]
+                                                                  ) [AddopTermList_term]
+                                                                ) [NonTernaryExpr]
+                                                              ) [Expr_NonTernary]
+                                                            ) [DesignatorStatementA_Assignop]
+                                                          ) [DesignatorStatement_A]
+                                                        ) [Statement_Designator]
+                                                      ) [StatementList_y]
+                                                      Statement_print1(
+                                                        Expr_NonTernary(
+                                                          NonTernaryExpr(
+                                                            AddopTermList_term(
+                                                              Term(
+                                                                MulopFactorList_factorMinus(
+                                                                  FactorMinus(
+                                                                    OptionalMinus_Epsilon(
+                                                                    ) [OptionalMinus_Epsilon]
+                                                                    Factor_designator(
+                                                                      Designator_only(
+                                                                        DesignatorName(
+                                                                         bodovi
+                                                                        ) [DesignatorName]
+                                                                      ) [Designator_only]
+                                                                    ) [Factor_designator]
+                                                                  ) [FactorMinus]
+                                                                ) [MulopFactorList_factorMinus]
+                                                              ) [Term]
+                                                            ) [AddopTermList_term]
+                                                          ) [NonTernaryExpr]
+                                                        ) [Expr_NonTernary]
+                                                      ) [Statement_print1]
+                                                    ) [StatementList_y]
+                                                    Statement_print1(
+                                                      Expr_NonTernary(
+                                                        NonTernaryExpr(
+                                                          AddopTermList_term(
+                                                            Term(
+                                                              MulopFactorList_factorMinus(
+                                                                FactorMinus(
+                                                                  OptionalMinus_Epsilon(
+                                                                  ) [OptionalMinus_Epsilon]
+                                                                  Factor_designator(
+                                                                    Designator_only(
+                                                                      DesignatorName(
+                                                                       eol
+                                                                      ) [DesignatorName]
+                                                                    ) [Designator_only]
+                                                                  ) [Factor_designator]
+                                                                ) [FactorMinus]
+                                                              ) [MulopFactorList_factorMinus]
+                                                            ) [Term]
+                                                          ) [AddopTermList_term]
+                                                        ) [NonTernaryExpr]
+                                                      ) [Expr_NonTernary]
+                                                    ) [Statement_print1]
+                                                  ) [StatementList_y]
+                                                  Statement_print1(
+                                                    Expr_NonTernary(
+                                                      NonTernaryExpr(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factorMinus(
+                                                              FactorMinus(
+                                                                OptionalMinus_Epsilon(
+                                                                ) [OptionalMinus_Epsilon]
+                                                                Factor_designator(
+                                                                  Designator_arrElem(
+                                                                    DesignatorName(
+                                                                     niz
+                                                                    ) [DesignatorName]
+                                                                    Expr_NonTernary(
+                                                                      NonTernaryExpr(
+                                                                        AddopTermList_term(
+                                                                          Term(
+                                                                            MulopFactorList_factorMinus(
+                                                                              FactorMinus(
+                                                                                OptionalMinus_Epsilon(
+                                                                                ) [OptionalMinus_Epsilon]
+                                                                                Factor_num(
+                                                                                 2
+                                                                                ) [Factor_num]
+                                                                              ) [FactorMinus]
+                                                                            ) [MulopFactorList_factorMinus]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_term]
+                                                                      ) [NonTernaryExpr]
+                                                                    ) [Expr_NonTernary]
+                                                                  ) [Designator_arrElem]
+                                                                ) [Factor_designator]
+                                                              ) [FactorMinus]
+                                                            ) [MulopFactorList_factorMinus]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [NonTernaryExpr]
+                                                    ) [Expr_NonTernary]
+                                                  ) [Statement_print1]
+                                                ) [StatementList_y]
+                                                Statement_print1(
+                                                  Expr_NonTernary(
+                                                    NonTernaryExpr(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factorMinus(
+                                                            FactorMinus(
+                                                              OptionalMinus_Epsilon(
+                                                              ) [OptionalMinus_Epsilon]
+                                                              Factor_designator(
+                                                                Designator_only(
+                                                                  DesignatorName(
+                                                                   eol
+                                                                  ) [DesignatorName]
+                                                                ) [Designator_only]
+                                                              ) [Factor_designator]
+                                                            ) [FactorMinus]
+                                                          ) [MulopFactorList_factorMinus]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                    ) [NonTernaryExpr]
+                                                  ) [Expr_NonTernary]
+                                                ) [Statement_print1]
+                                              ) [StatementList_y]
+                                              Statement_Designator(
+                                                DesignatorStatement_A(
+                                                  DesignatorStatementA_Assignop(
+                                                    Designator_only(
+                                                      DesignatorName(
+                                                       nizch
+                                                      ) [DesignatorName]
+                                                    ) [Designator_only]
+                                                    Assignop(
+                                                    ) [Assignop]
+                                                    Expr_NonTernary(
+                                                      NonTernaryExpr(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factorMinus(
+                                                              FactorMinus(
+                                                                OptionalMinus_Epsilon(
+                                                                ) [OptionalMinus_Epsilon]
+                                                                Factor_new(
+                                                                  Type(
+                                                                   char
+                                                                  ) [Type]
+                                                                  Expr_NonTernary(
+                                                                    NonTernaryExpr(
+                                                                      AddopTermList_term(
+                                                                        Term(
+                                                                          MulopFactorList_factorMinus(
+                                                                            FactorMinus(
+                                                                              OptionalMinus_Epsilon(
+                                                                              ) [OptionalMinus_Epsilon]
+                                                                              Factor_num(
+                                                                               3
+                                                                              ) [Factor_num]
+                                                                            ) [FactorMinus]
+                                                                          ) [MulopFactorList_factorMinus]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_term]
+                                                                    ) [NonTernaryExpr]
+                                                                  ) [Expr_NonTernary]
+                                                                ) [Factor_new]
+                                                              ) [FactorMinus]
+                                                            ) [MulopFactorList_factorMinus]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [NonTernaryExpr]
+                                                    ) [Expr_NonTernary]
+                                                  ) [DesignatorStatementA_Assignop]
+                                                ) [DesignatorStatement_A]
+                                              ) [Statement_Designator]
+                                            ) [StatementList_y]
+                                            Statement_Designator(
+                                              DesignatorStatement_A(
+                                                DesignatorStatementA_Assignop(
+                                                  Designator_arrElem(
+                                                    DesignatorName(
+                                                     nizch
+                                                    ) [DesignatorName]
+                                                    Expr_NonTernary(
+                                                      NonTernaryExpr(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factorMinus(
+                                                              FactorMinus(
+                                                                OptionalMinus_Epsilon(
+                                                                ) [OptionalMinus_Epsilon]
+                                                                Factor_num(
+                                                                 0
+                                                                ) [Factor_num]
+                                                              ) [FactorMinus]
+                                                            ) [MulopFactorList_factorMinus]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [NonTernaryExpr]
+                                                    ) [Expr_NonTernary]
+                                                  ) [Designator_arrElem]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  Expr_NonTernary(
+                                                    NonTernaryExpr(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factorMinus(
+                                                            FactorMinus(
+                                                              OptionalMinus_Epsilon(
+                                                              ) [OptionalMinus_Epsilon]
+                                                              Factor_char(
+                                                               a
+                                                              ) [Factor_char]
+                                                            ) [FactorMinus]
+                                                          ) [MulopFactorList_factorMinus]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                    ) [NonTernaryExpr]
+                                                  ) [Expr_NonTernary]
+                                                ) [DesignatorStatementA_Assignop]
+                                              ) [DesignatorStatement_A]
+                                            ) [Statement_Designator]
+                                          ) [StatementList_y]
+                                          Statement_Designator(
+                                            DesignatorStatement_A(
+                                              DesignatorStatementA_Assignop(
+                                                Designator_arrElem(
+                                                  DesignatorName(
+                                                   nizch
+                                                  ) [DesignatorName]
+                                                  Expr_NonTernary(
+                                                    NonTernaryExpr(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factorMinus(
+                                                            FactorMinus(
+                                                              OptionalMinus_Epsilon(
+                                                              ) [OptionalMinus_Epsilon]
+                                                              Factor_designator(
+                                                                Designator_only(
+                                                                  DesignatorName(
+                                                                   jedan
+                                                                  ) [DesignatorName]
+                                                                ) [Designator_only]
+                                                              ) [Factor_designator]
+                                                            ) [FactorMinus]
+                                                          ) [MulopFactorList_factorMinus]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                    ) [NonTernaryExpr]
+                                                  ) [Expr_NonTernary]
+                                                ) [Designator_arrElem]
+                                                Assignop(
+                                                ) [Assignop]
+                                                Expr_NonTernary(
+                                                  NonTernaryExpr(
+                                                    AddopTermList_term(
+                                                      Term(
+                                                        MulopFactorList_factorMinus(
+                                                          FactorMinus(
+                                                            OptionalMinus_Epsilon(
+                                                            ) [OptionalMinus_Epsilon]
+                                                            Factor_char(
+                                                             b
+                                                            ) [Factor_char]
+                                                          ) [FactorMinus]
+                                                        ) [MulopFactorList_factorMinus]
+                                                      ) [Term]
+                                                    ) [AddopTermList_term]
+                                                  ) [NonTernaryExpr]
+                                                ) [Expr_NonTernary]
+                                              ) [DesignatorStatementA_Assignop]
+                                            ) [DesignatorStatement_A]
+                                          ) [Statement_Designator]
+                                        ) [StatementList_y]
+                                        Statement_Designator(
+                                          DesignatorStatement_A(
+                                            DesignatorStatementA_Assignop(
+                                              Designator_arrElem(
+                                                DesignatorName(
+                                                 nizch
+                                                ) [DesignatorName]
+                                                Expr_NonTernary(
+                                                  NonTernaryExpr(
+                                                    AddopTermList_addop(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factorMinus(
+                                                            FactorMinus(
+                                                              OptionalMinus_Epsilon(
+                                                              ) [OptionalMinus_Epsilon]
+                                                              Factor_designator(
+                                                                Designator_only(
+                                                                  DesignatorName(
+                                                                   pet
+                                                                  ) [DesignatorName]
+                                                                ) [Designator_only]
+                                                              ) [Factor_designator]
+                                                            ) [FactorMinus]
+                                                          ) [MulopFactorList_factorMinus]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                      Addop_minus(
+                                                      ) [Addop_minus]
+                                                      Term(
+                                                        MulopFactorList_factorMinus(
+                                                          FactorMinus(
+                                                            OptionalMinus_Epsilon(
+                                                            ) [OptionalMinus_Epsilon]
+                                                            Factor_num(
+                                                             3
+                                                            ) [Factor_num]
+                                                          ) [FactorMinus]
+                                                        ) [MulopFactorList_factorMinus]
+                                                      ) [Term]
+                                                    ) [AddopTermList_addop]
+                                                  ) [NonTernaryExpr]
+                                                ) [Expr_NonTernary]
+                                              ) [Designator_arrElem]
+                                              Assignop(
+                                              ) [Assignop]
+                                              Expr_NonTernary(
+                                                NonTernaryExpr(
+                                                  AddopTermList_term(
+                                                    Term(
+                                                      MulopFactorList_factorMinus(
+                                                        FactorMinus(
+                                                          OptionalMinus_Epsilon(
+                                                          ) [OptionalMinus_Epsilon]
+                                                          Factor_char(
+                                                           c
+                                                          ) [Factor_char]
+                                                        ) [FactorMinus]
+                                                      ) [MulopFactorList_factorMinus]
+                                                    ) [Term]
+                                                  ) [AddopTermList_term]
+                                                ) [NonTernaryExpr]
+                                              ) [Expr_NonTernary]
+                                            ) [DesignatorStatementA_Assignop]
+                                          ) [DesignatorStatement_A]
+                                        ) [Statement_Designator]
+                                      ) [StatementList_y]
+                                      Statement_print1(
+                                        Expr_NonTernary(
+                                          NonTernaryExpr(
+                                            AddopTermList_term(
+                                              Term(
+                                                MulopFactorList_factorMinus(
+                                                  FactorMinus(
+                                                    OptionalMinus_Epsilon(
+                                                    ) [OptionalMinus_Epsilon]
+                                                    Factor_designator(
+                                                      Designator_arrElem(
+                                                        DesignatorName(
+                                                         nizch
+                                                        ) [DesignatorName]
+                                                        Expr_NonTernary(
+                                                          NonTernaryExpr(
+                                                            AddopTermList_term(
+                                                              Term(
+                                                                MulopFactorList_factorMinus(
+                                                                  FactorMinus(
+                                                                    OptionalMinus_Epsilon(
+                                                                    ) [OptionalMinus_Epsilon]
+                                                                    Factor_num(
+                                                                     1
+                                                                    ) [Factor_num]
+                                                                  ) [FactorMinus]
+                                                                ) [MulopFactorList_factorMinus]
+                                                              ) [Term]
+                                                            ) [AddopTermList_term]
+                                                          ) [NonTernaryExpr]
+                                                        ) [Expr_NonTernary]
+                                                      ) [Designator_arrElem]
+                                                    ) [Factor_designator]
+                                                  ) [FactorMinus]
+                                                ) [MulopFactorList_factorMinus]
+                                              ) [Term]
+                                            ) [AddopTermList_term]
+                                          ) [NonTernaryExpr]
+                                        ) [Expr_NonTernary]
+                                      ) [Statement_print1]
+                                    ) [StatementList_y]
+                                    Statement_print1(
+                                      Expr_NonTernary(
+                                        NonTernaryExpr(
+                                          AddopTermList_term(
+                                            Term(
+                                              MulopFactorList_factorMinus(
+                                                FactorMinus(
+                                                  OptionalMinus_Epsilon(
+                                                  ) [OptionalMinus_Epsilon]
+                                                  Factor_designator(
+                                                    Designator_only(
+                                                      DesignatorName(
+                                                       eol
+                                                      ) [DesignatorName]
+                                                    ) [Designator_only]
+                                                  ) [Factor_designator]
+                                                ) [FactorMinus]
+                                              ) [MulopFactorList_factorMinus]
+                                            ) [Term]
+                                          ) [AddopTermList_term]
+                                        ) [NonTernaryExpr]
+                                      ) [Expr_NonTernary]
+                                    ) [Statement_print1]
+                                  ) [StatementList_y]
+                                  Statement_print1(
+                                    Expr_NonTernary(
+                                      NonTernaryExpr(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factorMinus(
+                                              FactorMinus(
+                                                OptionalMinus_Epsilon(
+                                                ) [OptionalMinus_Epsilon]
+                                                Factor_designator(
+                                                  Designator_arrElem(
+                                                    DesignatorName(
+                                                     nizch
+                                                    ) [DesignatorName]
+                                                    Expr_NonTernary(
+                                                      NonTernaryExpr(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_mulop(
+                                                              MulopFactorList_factorMinus(
+                                                                FactorMinus(
+                                                                  OptionalMinus_Epsilon(
+                                                                  ) [OptionalMinus_Epsilon]
+                                                                  Factor_designator(
+                                                                    Designator_only(
+                                                                      DesignatorName(
+                                                                       jedan
+                                                                      ) [DesignatorName]
+                                                                    ) [Designator_only]
+                                                                  ) [Factor_designator]
+                                                                ) [FactorMinus]
+                                                              ) [MulopFactorList_factorMinus]
+                                                              Mulop_mul(
+                                                              ) [Mulop_mul]
+                                                              FactorMinus(
+                                                                OptionalMinus_Epsilon(
+                                                                ) [OptionalMinus_Epsilon]
+                                                                Factor_num(
+                                                                 2
+                                                                ) [Factor_num]
+                                                              ) [FactorMinus]
+                                                            ) [MulopFactorList_mulop]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [NonTernaryExpr]
+                                                    ) [Expr_NonTernary]
+                                                  ) [Designator_arrElem]
+                                                ) [Factor_designator]
+                                              ) [FactorMinus]
+                                            ) [MulopFactorList_factorMinus]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [NonTernaryExpr]
+                                    ) [Expr_NonTernary]
+                                  ) [Statement_print1]
+                                ) [StatementList_y]
+                                Statement_print1(
+                                  Expr_NonTernary(
+                                    NonTernaryExpr(
+                                      AddopTermList_term(
+                                        Term(
+                                          MulopFactorList_factorMinus(
+                                            FactorMinus(
+                                              OptionalMinus_Epsilon(
+                                              ) [OptionalMinus_Epsilon]
+                                              Factor_designator(
+                                                Designator_only(
+                                                  DesignatorName(
+                                                   eol
+                                                  ) [DesignatorName]
+                                                ) [Designator_only]
+                                              ) [Factor_designator]
+                                            ) [FactorMinus]
+                                          ) [MulopFactorList_factorMinus]
+                                        ) [Term]
+                                      ) [AddopTermList_term]
+                                    ) [NonTernaryExpr]
+                                  ) [Expr_NonTernary]
+                                ) [Statement_print1]
+                              ) [StatementList_y]
+                              Statement_print1(
+                                Expr_NonTernary(
+                                  NonTernaryExpr(
+                                    AddopTermList_term(
+                                      Term(
+                                        MulopFactorList_factorMinus(
+                                          FactorMinus(
+                                            OptionalMinus_Epsilon(
+                                            ) [OptionalMinus_Epsilon]
+                                            Factor_meth(
+                                              Designator_only(
+                                                DesignatorName(
+                                                 ord
+                                                ) [DesignatorName]
+                                              ) [Designator_only]
+                                              ActParsOptional_y(
+                                                ActPars(
+                                                  ExprList_base(
+                                                    Expr_NonTernary(
+                                                      NonTernaryExpr(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factorMinus(
+                                                              FactorMinus(
+                                                                OptionalMinus_Epsilon(
+                                                                ) [OptionalMinus_Epsilon]
+                                                                Factor_designator(
+                                                                  Designator_arrElem(
+                                                                    DesignatorName(
+                                                                     nizch
+                                                                    ) [DesignatorName]
+                                                                    Expr_NonTernary(
+                                                                      NonTernaryExpr(
+                                                                        AddopTermList_term(
+                                                                          Term(
+                                                                            MulopFactorList_factorMinus(
+                                                                              FactorMinus(
+                                                                                OptionalMinus_Epsilon(
+                                                                                ) [OptionalMinus_Epsilon]
+                                                                                Factor_num(
+                                                                                 0
+                                                                                ) [Factor_num]
+                                                                              ) [FactorMinus]
+                                                                            ) [MulopFactorList_factorMinus]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_term]
+                                                                      ) [NonTernaryExpr]
+                                                                    ) [Expr_NonTernary]
+                                                                  ) [Designator_arrElem]
+                                                                ) [Factor_designator]
+                                                              ) [FactorMinus]
+                                                            ) [MulopFactorList_factorMinus]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [NonTernaryExpr]
+                                                    ) [Expr_NonTernary]
+                                                  ) [ExprList_base]
+                                                ) [ActPars]
+                                              ) [ActParsOptional_y]
+                                            ) [Factor_meth]
+                                          ) [FactorMinus]
+                                        ) [MulopFactorList_factorMinus]
+                                      ) [Term]
+                                    ) [AddopTermList_term]
+                                  ) [NonTernaryExpr]
+                                ) [Expr_NonTernary]
+                              ) [Statement_print1]
+                            ) [StatementList_y]
+                            Statement_print1(
+                              Expr_NonTernary(
+                                NonTernaryExpr(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factorMinus(
+                                        FactorMinus(
+                                          OptionalMinus_Epsilon(
+                                          ) [OptionalMinus_Epsilon]
+                                          Factor_designator(
+                                            Designator_len(
+                                              DesignatorName(
+                                               nizch
+                                              ) [DesignatorName]
+                                            ) [Designator_len]
+                                          ) [Factor_designator]
+                                        ) [FactorMinus]
+                                      ) [MulopFactorList_factorMinus]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                ) [NonTernaryExpr]
+                              ) [Expr_NonTernary]
+                            ) [Statement_print1]
+                          ) [StatementList_y]
+                          Statement_print1(
+                            Expr_NonTernary(
+                              NonTernaryExpr(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factorMinus(
+                                      FactorMinus(
+                                        OptionalMinus_Epsilon(
+                                        ) [OptionalMinus_Epsilon]
+                                        Factor_designator(
+                                          Designator_len(
+                                            DesignatorName(
+                                             niz
+                                            ) [DesignatorName]
+                                          ) [Designator_len]
+                                        ) [Factor_designator]
+                                      ) [FactorMinus]
+                                    ) [MulopFactorList_factorMinus]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [NonTernaryExpr]
+                            ) [Expr_NonTernary]
+                          ) [Statement_print1]
+                        ) [StatementList_y]
+                        Statement_Designator(
+                          DesignatorStatement_A(
+                            DesignatorStatementA_Assignop(
+                              Designator_only(
+                                DesignatorName(
+                                 a
+                                ) [DesignatorName]
+                              ) [Designator_only]
+                              Assignop(
+                              ) [Assignop]
+                              Expr_NonTernary(
+                                NonTernaryExpr(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factorMinus(
+                                        FactorMinus(
+                                          OptionalMinus_Epsilon(
+                                          ) [OptionalMinus_Epsilon]
+                                          Factor_num(
+                                           1
+                                          ) [Factor_num]
+                                        ) [FactorMinus]
+                                      ) [MulopFactorList_factorMinus]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                ) [NonTernaryExpr]
+                              ) [Expr_NonTernary]
+                            ) [DesignatorStatementA_Assignop]
+                          ) [DesignatorStatement_A]
+                        ) [Statement_Designator]
+                      ) [StatementList_y]
+                      Statement_read(
+                        Designator_only(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                        ) [Designator_only]
+                      ) [Statement_read]
+                    ) [StatementList_y]
+                    Statement_Designator(
+                      DesignatorStatement_A(
+                        DesignatorStatementA_Assignop(
+                          Designator_only(
+                            DesignatorName(
+                             bodovi
+                            ) [DesignatorName]
+                          ) [Designator_only]
+                          Assignop(
+                          ) [Assignop]
+                          Expr_NonTernary(
+                            NonTernaryExpr(
+                              AddopTermList_addop(
+                                AddopTermList_addop(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factorMinus(
+                                        FactorMinus(
+                                          OptionalMinus_y(
+                                          ) [OptionalMinus_y]
+                                          Factor_designator(
+                                            Designator_only(
+                                              DesignatorName(
+                                               bodovi
+                                              ) [DesignatorName]
+                                            ) [Designator_only]
+                                          ) [Factor_designator]
+                                        ) [FactorMinus]
+                                      ) [MulopFactorList_factorMinus]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                  Addop_plus(
+                                  ) [Addop_plus]
+                                  Term(
+                                    MulopFactorList_mulop(
+                                      MulopFactorList_factorMinus(
+                                        FactorMinus(
+                                          OptionalMinus_Epsilon(
+                                          ) [OptionalMinus_Epsilon]
+                                          Factor_expr(
+                                            Expr_NonTernary(
+                                              NonTernaryExpr(
+                                                AddopTermList_addop(
+                                                  AddopTermList_term(
+                                                    Term(
+                                                      MulopFactorList_mulop(
+                                                        MulopFactorList_mulop(
+                                                          MulopFactorList_factorMinus(
+                                                            FactorMinus(
+                                                              OptionalMinus_Epsilon(
+                                                              ) [OptionalMinus_Epsilon]
+                                                              Factor_designator(
+                                                                Designator_only(
+                                                                  DesignatorName(
+                                                                   pet
+                                                                  ) [DesignatorName]
+                                                                ) [Designator_only]
+                                                              ) [Factor_designator]
+                                                            ) [FactorMinus]
+                                                          ) [MulopFactorList_factorMinus]
+                                                          Mulop_mul(
+                                                          ) [Mulop_mul]
+                                                          FactorMinus(
+                                                            OptionalMinus_Epsilon(
+                                                            ) [OptionalMinus_Epsilon]
+                                                            Factor_designator(
+                                                              Designator_only(
+                                                                DesignatorName(
+                                                                 a
+                                                                ) [DesignatorName]
+                                                              ) [Designator_only]
+                                                            ) [Factor_designator]
+                                                          ) [FactorMinus]
+                                                        ) [MulopFactorList_mulop]
+                                                        Mulop_div(
+                                                        ) [Mulop_div]
+                                                        FactorMinus(
+                                                          OptionalMinus_Epsilon(
+                                                          ) [OptionalMinus_Epsilon]
+                                                          Factor_num(
+                                                           2
+                                                          ) [Factor_num]
+                                                        ) [FactorMinus]
+                                                      ) [MulopFactorList_mulop]
+                                                    ) [Term]
+                                                  ) [AddopTermList_term]
+                                                  Addop_minus(
+                                                  ) [Addop_minus]
+                                                  Term(
+                                                    MulopFactorList_factorMinus(
+                                                      FactorMinus(
+                                                        OptionalMinus_Epsilon(
+                                                        ) [OptionalMinus_Epsilon]
+                                                        Factor_designator(
+                                                          Designator_only(
+                                                            DesignatorName(
+                                                             nula
+                                                            ) [DesignatorName]
+                                                          ) [Designator_only]
+                                                        ) [Factor_designator]
+                                                      ) [FactorMinus]
+                                                    ) [MulopFactorList_factorMinus]
+                                                  ) [Term]
+                                                ) [AddopTermList_addop]
+                                              ) [NonTernaryExpr]
+                                            ) [Expr_NonTernary]
+                                          ) [Factor_expr]
+                                        ) [FactorMinus]
+                                      ) [MulopFactorList_factorMinus]
+                                      Mulop_mul(
+                                      ) [Mulop_mul]
+                                      FactorMinus(
+                                        OptionalMinus_Epsilon(
+                                        ) [OptionalMinus_Epsilon]
+                                        Factor_designator(
+                                          Designator_only(
+                                            DesignatorName(
+                                             bodovi
+                                            ) [DesignatorName]
+                                          ) [Designator_only]
+                                        ) [Factor_designator]
+                                      ) [FactorMinus]
+                                    ) [MulopFactorList_mulop]
+                                  ) [Term]
+                                ) [AddopTermList_addop]
+                                Addop_minus(
+                                ) [Addop_minus]
+                                Term(
+                                  MulopFactorList_factorMinus(
+                                    FactorMinus(
+                                      OptionalMinus_Epsilon(
+                                      ) [OptionalMinus_Epsilon]
+                                      Factor_expr(
+                                        Expr_NonTernary(
+                                          NonTernaryExpr(
+                                            AddopTermList_addop(
+                                              AddopTermList_addop(
+                                                AddopTermList_term(
+                                                  Term(
+                                                    MulopFactorList_mulop(
+                                                      MulopFactorList_factorMinus(
+                                                        FactorMinus(
+                                                          OptionalMinus_Epsilon(
+                                                          ) [OptionalMinus_Epsilon]
+                                                          Factor_num(
+                                                           3
+                                                          ) [Factor_num]
+                                                        ) [FactorMinus]
+                                                      ) [MulopFactorList_factorMinus]
+                                                      Mulop_mod(
+                                                      ) [Mulop_mod]
+                                                      FactorMinus(
+                                                        OptionalMinus_Epsilon(
+                                                        ) [OptionalMinus_Epsilon]
+                                                        Factor_num(
+                                                         2
+                                                        ) [Factor_num]
+                                                      ) [FactorMinus]
+                                                    ) [MulopFactorList_mulop]
+                                                  ) [Term]
+                                                ) [AddopTermList_term]
+                                                Addop_plus(
+                                                ) [Addop_plus]
+                                                Term(
+                                                  MulopFactorList_mulop(
+                                                    MulopFactorList_factorMinus(
+                                                      FactorMinus(
+                                                        OptionalMinus_Epsilon(
+                                                        ) [OptionalMinus_Epsilon]
+                                                        Factor_num(
+                                                         3
+                                                        ) [Factor_num]
+                                                      ) [FactorMinus]
+                                                    ) [MulopFactorList_factorMinus]
+                                                    Mulop_mul(
+                                                    ) [Mulop_mul]
+                                                    FactorMinus(
+                                                      OptionalMinus_Epsilon(
+                                                      ) [OptionalMinus_Epsilon]
+                                                      Factor_num(
+                                                       2
+                                                      ) [Factor_num]
+                                                    ) [FactorMinus]
+                                                  ) [MulopFactorList_mulop]
+                                                ) [Term]
+                                              ) [AddopTermList_addop]
+                                              Addop_minus(
+                                              ) [Addop_minus]
+                                              Term(
+                                                MulopFactorList_factorMinus(
+                                                  FactorMinus(
+                                                    OptionalMinus_Epsilon(
+                                                    ) [OptionalMinus_Epsilon]
+                                                    Factor_num(
+                                                     7
+                                                    ) [Factor_num]
+                                                  ) [FactorMinus]
+                                                ) [MulopFactorList_factorMinus]
+                                              ) [Term]
+                                            ) [AddopTermList_addop]
+                                          ) [NonTernaryExpr]
+                                        ) [Expr_NonTernary]
+                                      ) [Factor_expr]
+                                    ) [FactorMinus]
+                                  ) [MulopFactorList_factorMinus]
+                                ) [Term]
+                              ) [AddopTermList_addop]
+                            ) [NonTernaryExpr]
+                          ) [Expr_NonTernary]
+                        ) [DesignatorStatementA_Assignop]
+                      ) [DesignatorStatement_A]
+                    ) [Statement_Designator]
+                  ) [StatementList_y]
+                  Statement_print1(
+                    Expr_NonTernary(
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_designator(
+                                  Designator_only(
+                                    DesignatorName(
+                                     bodovi
+                                    ) [DesignatorName]
+                                  ) [Designator_only]
+                                ) [Factor_designator]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                    ) [Expr_NonTernary]
+                  ) [Statement_print1]
+                ) [StatementList_y]
+                Statement_read(
+                  Designator_only(
+                    DesignatorName(
+                     bodovi
+                    ) [DesignatorName]
+                  ) [Designator_only]
+                ) [Statement_read]
+              ) [StatementList_y]
+              Statement_Designator(
+                DesignatorStatement_A(
+                  DesignatorStatementA_Assignop(
+                    Designator_only(
+                      DesignatorName(
+                       bt
+                      ) [DesignatorName]
+                    ) [Designator_only]
+                    Assignop(
+                    ) [Assignop]
+                    Expr_NonTernary(
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_bool(
+                                 1
+                                ) [Factor_bool]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                    ) [Expr_NonTernary]
+                  ) [DesignatorStatementA_Assignop]
+                ) [DesignatorStatement_A]
+              ) [Statement_Designator]
+            ) [StatementList_y]
+            Statement_print1(
+              Expr_Ternary(
+                Condition_y(
+                  CondTermList_CondTerm(
+                    CondTerm(
+                      CondFactList_CondFact(
+                        CondFact_Base(
+                          NonTernaryExpr(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factorMinus(
+                                  FactorMinus(
+                                    OptionalMinus_Epsilon(
+                                    ) [OptionalMinus_Epsilon]
+                                    Factor_designator(
+                                      Designator_only(
+                                        DesignatorName(
+                                         bt
+                                        ) [DesignatorName]
+                                      ) [Designator_only]
+                                    ) [Factor_designator]
+                                  ) [FactorMinus]
+                                ) [MulopFactorList_factorMinus]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [NonTernaryExpr]
+                        ) [CondFact_Base]
+                      ) [CondFactList_CondFact]
+                    ) [CondTerm]
+                  ) [CondTermList_CondTerm]
+                ) [Condition_y]
+                Expr_NonTernary(
+                  NonTernaryExpr(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factorMinus(
+                          FactorMinus(
+                            OptionalMinus_Epsilon(
+                            ) [OptionalMinus_Epsilon]
+                            Factor_designator(
+                              Designator_only(
+                                DesignatorName(
+                                 bodovi
+                                ) [DesignatorName]
+                              ) [Designator_only]
+                            ) [Factor_designator]
+                          ) [FactorMinus]
+                        ) [MulopFactorList_factorMinus]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [NonTernaryExpr]
+                ) [Expr_NonTernary]
+                Expr_NonTernary(
+                  NonTernaryExpr(
+                    AddopTermList_addop(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factorMinus(
+                            FactorMinus(
+                              OptionalMinus_Epsilon(
+                              ) [OptionalMinus_Epsilon]
+                              Factor_designator(
+                                Designator_only(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [Designator_only]
+                              ) [Factor_designator]
+                            ) [FactorMinus]
+                          ) [MulopFactorList_factorMinus]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                      Addop_plus(
+                      ) [Addop_plus]
+                      Term(
+                        MulopFactorList_factorMinus(
+                          FactorMinus(
+                            OptionalMinus_Epsilon(
+                            ) [OptionalMinus_Epsilon]
+                            Factor_num(
+                             10
+                            ) [Factor_num]
+                          ) [FactorMinus]
+                        ) [MulopFactorList_factorMinus]
+                      ) [Term]
+                    ) [AddopTermList_addop]
+                  ) [NonTernaryExpr]
+                ) [Expr_NonTernary]
+              ) [Expr_Ternary]
+            ) [Statement_print1]
+          ) [StatementList_y]
+          Statement_print1(
+            Expr_Ternary(
+              Condition_y(
+                CondTermList_CondTerm(
+                  CondTerm(
+                    CondFactList_CondFact(
+                      CondFact_Base(
+                        NonTernaryExpr(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factorMinus(
+                                FactorMinus(
+                                  OptionalMinus_Epsilon(
+                                  ) [OptionalMinus_Epsilon]
+                                  Factor_bool(
+                                   0
+                                  ) [Factor_bool]
+                                ) [FactorMinus]
+                              ) [MulopFactorList_factorMinus]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [NonTernaryExpr]
+                      ) [CondFact_Base]
+                    ) [CondFactList_CondFact]
+                  ) [CondTerm]
+                ) [CondTermList_CondTerm]
+              ) [Condition_y]
+              Expr_NonTernary(
+                NonTernaryExpr(
+                  AddopTermList_addop(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factorMinus(
+                          FactorMinus(
+                            OptionalMinus_Epsilon(
+                            ) [OptionalMinus_Epsilon]
+                            Factor_designator(
+                              Designator_only(
+                                DesignatorName(
+                                 bodovi
+                                ) [DesignatorName]
+                              ) [Designator_only]
+                            ) [Factor_designator]
+                          ) [FactorMinus]
+                        ) [MulopFactorList_factorMinus]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      MulopFactorList_factorMinus(
+                        FactorMinus(
+                          OptionalMinus_Epsilon(
+                          ) [OptionalMinus_Epsilon]
+                          Factor_num(
+                           20
+                          ) [Factor_num]
+                        ) [FactorMinus]
+                      ) [MulopFactorList_factorMinus]
+                    ) [Term]
+                  ) [AddopTermList_addop]
+                ) [NonTernaryExpr]
+              ) [Expr_NonTernary]
+              Expr_NonTernary(
+                NonTernaryExpr(
+                  AddopTermList_addop(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factorMinus(
+                          FactorMinus(
+                            OptionalMinus_Epsilon(
+                            ) [OptionalMinus_Epsilon]
+                            Factor_designator(
+                              Designator_only(
+                                DesignatorName(
+                                 bodovi
+                                ) [DesignatorName]
+                              ) [Designator_only]
+                            ) [Factor_designator]
+                          ) [FactorMinus]
+                        ) [MulopFactorList_factorMinus]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      MulopFactorList_factorMinus(
+                        FactorMinus(
+                          OptionalMinus_Epsilon(
+                          ) [OptionalMinus_Epsilon]
+                          Factor_num(
+                           30
+                          ) [Factor_num]
+                        ) [FactorMinus]
+                      ) [MulopFactorList_factorMinus]
+                    ) [Term]
+                  ) [AddopTermList_addop]
+                ) [NonTernaryExpr]
+              ) [Expr_NonTernary]
+            ) [Expr_Ternary]
+          ) [Statement_print1]
+        ) [StatementList_y]
+        Statement_print1(
+          Expr_Ternary(
+            Condition_y(
+              CondTermList_CondTerm(
+                CondTerm(
+                  CondFactList_CondFact(
+                    CondFact_Relop(
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_designator(
+                                  Designator_only(
+                                    DesignatorName(
+                                     bodovi
+                                    ) [DesignatorName]
+                                  ) [Designator_only]
+                                ) [Factor_designator]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                      Relop_gt(
+                      ) [Relop_gt]
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_num(
+                                 10
+                                ) [Factor_num]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                    ) [CondFact_Relop]
+                  ) [CondFactList_CondFact]
+                ) [CondTerm]
+              ) [CondTermList_CondTerm]
+            ) [Condition_y]
+            Expr_NonTernary(
+              NonTernaryExpr(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factorMinus(
+                      FactorMinus(
+                        OptionalMinus_Epsilon(
+                        ) [OptionalMinus_Epsilon]
+                        Factor_char(
+                         +
+                        ) [Factor_char]
+                      ) [FactorMinus]
+                    ) [MulopFactorList_factorMinus]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [NonTernaryExpr]
+            ) [Expr_NonTernary]
+            Expr_NonTernary(
+              NonTernaryExpr(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factorMinus(
+                      FactorMinus(
+                        OptionalMinus_Epsilon(
+                        ) [OptionalMinus_Epsilon]
+                        Factor_char(
+                         -
+                        ) [Factor_char]
+                      ) [FactorMinus]
+                    ) [MulopFactorList_factorMinus]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [NonTernaryExpr]
+            ) [Expr_NonTernary]
+          ) [Expr_Ternary]
+        ) [Statement_print1]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  12:48:15,625 - =====================================================================
+INFO  12:48:15,632 - Pristup lokalnoj promenljivoj: nula [Kind: 1][Type: 6] na liniji 23
+INFO  12:48:15,632 - Pristup lokalnoj promenljivoj: jedan [Kind: 1][Type: 6] na liniji 24
+INFO  12:48:15,632 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 25
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 26
+INFO  12:48:15,633 - Pristup promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 26
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 27
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 27
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: jedan [Kind: 1][Type: 6] na liniji 27
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 28
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 28
+INFO  12:48:15,633 - Pristup simbolickoj konstanti: pet [Kind: 0][Type: 1] na liniji 28
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 29
+INFO  12:48:15,633 - Pristup promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 29
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 30
+INFO  12:48:15,633 - Pristup simbolickoj konstanti: eol [Kind: 0][Type: 2] na liniji 31
+INFO  12:48:15,633 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 33
+INFO  12:48:15,633 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 34
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: nula [Kind: 1][Type: 6] na liniji 34
+INFO  12:48:15,633 - Pristup elementu niza: niz [Kind: 5][Type: 1] na liniji 34
+INFO  12:48:15,633 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 35
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: jedan [Kind: 1][Type: 6] na liniji 35
+INFO  12:48:15,633 - Pristup elementu niza: niz [Kind: 5][Type: 1] na liniji 35
+INFO  12:48:15,633 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 36
+INFO  12:48:15,633 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 36
+INFO  12:48:15,633 - Pristup lokalnoj promenljivoj: nula [Kind: 1][Type: 6] na liniji 36
+INFO  12:48:15,634 - Pristup elementu niza: niz [Kind: 5][Type: 1] na liniji 36
+INFO  12:48:15,634 - Pristup elementu niza: niz [Kind: 5][Type: 1] na liniji 36
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 36
+INFO  12:48:15,634 - Pristup elementu niza: niz [Kind: 5][Type: 1] na liniji 36
+INFO  12:48:15,634 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 37
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 37
+INFO  12:48:15,634 - Pristup elementu niza: niz [Kind: 5][Type: 1] na liniji 37
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 37
+INFO  12:48:15,634 - Pristup elementu niza: niz [Kind: 5][Type: 1] na liniji 37
+INFO  12:48:15,634 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 38
+INFO  12:48:15,634 - Pristup simbolickoj konstanti: eol [Kind: 0][Type: 2] na liniji 39
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 40
+INFO  12:48:15,634 - Pristup elementu niza: niz [Kind: 5][Type: 1] na liniji 40
+INFO  12:48:15,634 - Pristup simbolickoj konstanti: eol [Kind: 0][Type: 2] na liniji 41
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: nizch [Kind: 1][Type: 3] na liniji 43
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: nizch [Kind: 1][Type: 3] na liniji 44
+INFO  12:48:15,634 - Pristup elementu niza: nizch [Kind: 5][Type: 2] na liniji 44
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: nizch [Kind: 1][Type: 3] na liniji 45
+INFO  12:48:15,634 - Pristup lokalnoj promenljivoj: jedan [Kind: 1][Type: 6] na liniji 45
+INFO  12:48:15,634 - Pristup elementu niza: nizch [Kind: 5][Type: 2] na liniji 45
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: nizch [Kind: 1][Type: 3] na liniji 46
+INFO  12:48:15,634 - Pristup simbolickoj konstanti: pet [Kind: 0][Type: 1] na liniji 46
+INFO  12:48:15,634 - Pristup elementu niza: nizch [Kind: 5][Type: 2] na liniji 46
+INFO  12:48:15,634 - Pristup globalnoj promenljivoj: nizch [Kind: 1][Type: 3] na liniji 47
+INFO  12:48:15,634 - Pristup elementu niza: nizch [Kind: 5][Type: 2] na liniji 47
+INFO  12:48:15,634 - Pristup simbolickoj konstanti: eol [Kind: 0][Type: 2] na liniji 48
+INFO  12:48:15,635 - Pristup globalnoj promenljivoj: nizch [Kind: 1][Type: 3] na liniji 49
+INFO  12:48:15,635 - Pristup lokalnoj promenljivoj: jedan [Kind: 1][Type: 6] na liniji 49
+INFO  12:48:15,635 - Pristup elementu niza: nizch [Kind: 5][Type: 2] na liniji 49
+INFO  12:48:15,635 - Pristup simbolickoj konstanti: eol [Kind: 0][Type: 2] na liniji 50
+INFO  12:48:15,635 - Pristup globalnoj promenljivoj: nizch [Kind: 1][Type: 3] na liniji 51
+INFO  12:48:15,635 - Pristup elementu niza: nizch [Kind: 5][Type: 2] na liniji 51
+INFO  12:48:15,690 - Pozivanje globalne funkcije ord [Kind: 3][Type: 1] na liniji 51
+INFO  12:48:15,690 - Pristup globalnoj promenljivoj: nizch [Kind: 1][Type: 3] na liniji 53
+INFO  12:48:15,690 - Pristup globalnoj promenljivoj: niz [Kind: 1][Type: 3] na liniji 54
+INFO  12:48:15,690 - Pristup globalnoj promenljivoj: a [Kind: 1][Type: 1] na liniji 56
+INFO  12:48:15,690 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 57
+INFO  12:48:15,690 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 58
+INFO  12:48:15,690 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 58
+INFO  12:48:15,690 - Pristup simbolickoj konstanti: pet [Kind: 0][Type: 1] na liniji 58
+INFO  12:48:15,690 - Pristup globalnoj promenljivoj: a [Kind: 1][Type: 1] na liniji 58
+INFO  12:48:15,690 - Pristup lokalnoj promenljivoj: nula [Kind: 1][Type: 6] na liniji 58
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 58
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 59
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 61
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bt [Kind: 1][Type: 5] na liniji 62
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bt [Kind: 1][Type: 5] na liniji 64
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 64
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 64
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 65
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 65
+INFO  12:48:15,691 - Pristup lokalnoj promenljivoj: bodovi [Kind: 1][Type: 1] na liniji 66
+INFO  12:48:15,691 - =====================================================================
+INFO  12:48:15,701 - Parsiranje uspesno zavrseno!

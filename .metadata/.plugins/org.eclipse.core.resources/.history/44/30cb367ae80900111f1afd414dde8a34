@@ -1,0 +1,38 @@
+program Test
+
+const int a = 3;
+const char c = 'a';
+
+int y;
+enum Broj { NULA, JEDAN, PET=5, DESET=10}
+
+
+{
+	
+	void main() 
+	int i;
+	Broj prom;
+	{
+	i = 3;
+	switch(i){
+		case 4:
+			print(1);
+			break;
+		
+		case 2:
+			print(2);
+			break;
+			
+		case 3:
+			print(3);
+		
+		case 5:
+			print(5);
+		
+		case 4:
+			print(4);
+			break;
+		}
+	}
+
+}

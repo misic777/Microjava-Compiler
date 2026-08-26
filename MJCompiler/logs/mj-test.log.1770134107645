@@ -1,0 +1,325 @@
+INFO  16:53:54,885 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  16:53:54,912 - #2 program
+INFO  16:53:54,912 - #48 test301
+INFO  16:53:54,912 - #28 enum
+INFO  16:53:54,913 - #48 Broj
+INFO  16:53:54,913 - #3 {
+INFO  16:53:54,913 - #48 NULA
+INFO  16:53:54,913 - #13 ,
+INFO  16:53:54,913 - #48 JEDAN
+INFO  16:53:54,913 - #13 ,
+INFO  16:53:54,914 - #48 PET
+INFO  16:53:54,914 - #10 =
+INFO  16:53:54,914 - #45 5
+INFO  16:53:54,914 - #13 ,
+INFO  16:53:54,914 - #48 DESET
+INFO  16:53:54,914 - #10 =
+INFO  16:53:54,914 - #45 10
+INFO  16:53:54,914 - #4 }
+INFO  16:53:54,915 - #9 const
+INFO  16:53:54,916 - #48 int
+INFO  16:53:54,916 - #48 nula
+INFO  16:53:54,916 - #10 =
+INFO  16:53:54,924 - #45 0
+INFO  16:53:54,924 - #11 ;
+INFO  16:53:54,925 - #9 const
+INFO  16:53:54,925 - #48 int
+INFO  16:53:54,925 - #48 jedan
+INFO  16:53:54,925 - #10 =
+INFO  16:53:54,926 - #45 1
+INFO  16:53:54,926 - #11 ;
+INFO  16:53:54,926 - #9 const
+INFO  16:53:54,926 - #48 int
+INFO  16:53:54,926 - #48 pet
+INFO  16:53:54,926 - #10 =
+INFO  16:53:54,926 - #45 5
+INFO  16:53:54,926 - #11 ;
+INFO  16:53:54,926 - #48 int
+INFO  16:53:54,926 - #48 niz
+INFO  16:53:54,926 - #7 [
+INFO  16:53:54,926 - #8 ]
+INFO  16:53:54,926 - #11 ;
+INFO  16:53:54,927 - #48 char
+INFO  16:53:54,928 - #48 nizch
+INFO  16:53:54,928 - #7 [
+INFO  16:53:54,928 - #8 ]
+INFO  16:53:54,928 - #11 ;
+INFO  16:53:54,928 - #48 int
+INFO  16:53:54,928 - #48 a
+INFO  16:53:54,928 - #11 ;
+INFO  16:53:54,928 - #3 {
+INFO  16:53:54,929 - #12 void
+INFO  16:53:54,929 - #48 main
+INFO  16:53:54,929 - #5 (
+INFO  16:53:54,929 - #6 )
+INFO  16:53:54,930 - #48 int
+INFO  16:53:54,930 - #48 bodovi
+INFO  16:53:54,930 - #11 ;
+INFO  16:53:54,930 - #48 int
+INFO  16:53:54,930 - #48 temp
+INFO  16:53:54,930 - #11 ;
+INFO  16:53:54,930 - #48 bool
+INFO  16:53:54,930 - #48 bt
+INFO  16:53:54,930 - #11 ;
+INFO  16:53:54,930 - #3 {
+INFO  16:53:54,931 - #4 }
+INFO  16:53:54,931 - #48 int
+INFO  16:53:54,932 - #48 fun1
+INFO  16:53:54,932 - #5 (
+INFO  16:53:54,932 - #48 int
+INFO  16:53:54,932 - #48 x
+INFO  16:53:54,932 - #13 ,
+INFO  16:53:54,935 - #48 char
+INFO  16:53:54,935 - #48 c
+INFO  16:53:54,935 - #6 )
+INFO  16:53:54,936 - #3 {
+INFO  16:53:54,936 - #4 }
+INFO  16:53:54,936 - #48 char
+INFO  16:53:54,936 - #48 fun2
+INFO  16:53:54,936 - #5 (
+INFO  16:53:54,936 - #48 int
+INFO  16:53:54,936 - #48 x
+INFO  16:53:54,936 - #7 [
+INFO  16:53:54,936 - #8 ]
+INFO  16:53:54,936 - #13 ,
+INFO  16:53:54,937 - #48 int
+INFO  16:53:54,937 - #48 y
+INFO  16:53:54,937 - #6 )
+INFO  16:53:54,937 - #3 {
+INFO  16:53:54,937 - #4 }
+INFO  16:53:54,937 - #4 }
+INFO  16:53:54,938 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Var(
+      DeclarationList_Var(
+        DeclarationList_Const(
+          DeclarationList_Const(
+            DeclarationList_Const(
+              DeclarationList_Enum(
+                DeclarationList_Epsilon(
+                ) [DeclarationList_Epsilon]
+                EnumDecl(
+                  EnumName(
+                   Broj
+                  ) [EnumName]
+                  AssignConst_noVal(
+                   NULA
+                  ) [AssignConst_noVal]
+                  EnumDeclMore_y(
+                    AssignConst_noVal(
+                     JEDAN
+                    ) [AssignConst_noVal]
+                    EnumDeclMore_y(
+                      AssignConst_val(
+                       PET
+                       5
+                      ) [AssignConst_val]
+                      EnumDeclMore_y(
+                        AssignConst_val(
+                         DESET
+                         10
+                        ) [AssignConst_val]
+                        EnumDeclMore_Epsilon(
+                        ) [EnumDeclMore_Epsilon]
+                      ) [EnumDeclMore_y]
+                    ) [EnumDeclMore_y]
+                  ) [EnumDeclMore_y]
+                ) [EnumDecl]
+              ) [DeclarationList_Enum]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstAssign(
+                 nula
+                  Constant_n(
+                   0
+                  ) [Constant_n]
+                ) [ConstAssign]
+                ConstantList_Epsilon(
+                ) [ConstantList_Epsilon]
+              ) [ConstDecl]
+            ) [DeclarationList_Const]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstAssign(
+               jedan
+                Constant_n(
+                 1
+                ) [Constant_n]
+              ) [ConstAssign]
+              ConstantList_Epsilon(
+              ) [ConstantList_Epsilon]
+            ) [ConstDecl]
+          ) [DeclarationList_Const]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstAssign(
+             pet
+              Constant_n(
+               5
+              ) [Constant_n]
+            ) [ConstAssign]
+            ConstantList_Epsilon(
+            ) [ConstantList_Epsilon]
+          ) [ConstDecl]
+        ) [DeclarationList_Const]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_array(
+           niz
+          ) [VarDecl_array]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [DeclarationList_Var]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_array(
+         nizch
+        ) [VarDecl_array]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [DeclarationList_Var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_var(
+       a
+      ) [VarDecl_var]
+      VarDeclMore_Epsilon(
+      ) [VarDeclMore_Epsilon]
+    ) [VarDeclList]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_y(
+      MethodDeclList_y(
+        MethodDeclList_Epsilon(
+        ) [MethodDeclList_Epsilon]
+        MethodDecl(
+          MethodType_Void(
+           main
+          ) [MethodType_Void]
+          FormParsList_Epsilon(
+          ) [FormParsList_Epsilon]
+          VarDeclListRec_y(
+            VarDeclListRec_y(
+              VarDeclListRec_y(
+                VarDeclListRec_Epsilon(
+                ) [VarDeclListRec_Epsilon]
+                VarDeclList(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDecl_var(
+                   bodovi
+                  ) [VarDecl_var]
+                  VarDeclMore_Epsilon(
+                  ) [VarDeclMore_Epsilon]
+                ) [VarDeclList]
+              ) [VarDeclListRec_y]
+              VarDeclList(
+                Type(
+                 int
+                ) [Type]
+                VarDecl_var(
+                 temp
+                ) [VarDecl_var]
+                VarDeclMore_Epsilon(
+                ) [VarDeclMore_Epsilon]
+              ) [VarDeclList]
+            ) [VarDeclListRec_y]
+            VarDeclList(
+              Type(
+               bool
+              ) [Type]
+              VarDecl_var(
+               bt
+              ) [VarDecl_var]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclList]
+          ) [VarDeclListRec_y]
+          StatementList_Epsilon(
+          ) [StatementList_Epsilon]
+        ) [MethodDecl]
+      ) [MethodDeclList_y]
+      MethodDecl(
+        MethodType_Type(
+          Type(
+           int
+          ) [Type]
+         fun1
+        ) [MethodType_Type]
+        FormParsList_y(
+          FormPars_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPars_var]
+          FormParsMore_y(
+            FormPars_var(
+              Type(
+               char
+              ) [Type]
+             c
+            ) [FormPars_var]
+            FormParsMore_Epsilon(
+            ) [FormParsMore_Epsilon]
+          ) [FormParsMore_y]
+        ) [FormParsList_y]
+        VarDeclListRec_Epsilon(
+        ) [VarDeclListRec_Epsilon]
+        StatementList_Epsilon(
+        ) [StatementList_Epsilon]
+      ) [MethodDecl]
+    ) [MethodDeclList_y]
+    MethodDecl(
+      MethodType_Type(
+        Type(
+         char
+        ) [Type]
+       fun2
+      ) [MethodType_Type]
+      FormParsList_y(
+        FormPars_array(
+          Type(
+           int
+          ) [Type]
+         x
+        ) [FormPars_array]
+        FormParsMore_y(
+          FormPars_var(
+            Type(
+             int
+            ) [Type]
+           y
+          ) [FormPars_var]
+          FormParsMore_Epsilon(
+          ) [FormParsMore_Epsilon]
+        ) [FormParsMore_y]
+      ) [FormParsList_y]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  16:53:54,939 - =====================================================================
+INFO  16:53:54,946 - =====================================================================
+INFO  16:53:54,946 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,161 @@
+INFO  00:47:59,717 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  00:47:59,766 - #2 program
+INFO  00:47:59,766 - #48 MJtest
+INFO  00:47:59,767 - #9 const
+INFO  00:47:59,768 - #48 int
+INFO  00:47:59,768 - #48 jedan
+INFO  00:47:59,769 - #10 =
+INFO  00:47:59,769 - #45 1
+INFO  00:47:59,770 - #11 ;
+INFO  00:47:59,772 - #28 enum
+INFO  00:47:59,773 - #48 Broj
+INFO  00:47:59,773 - #3 {
+INFO  00:47:59,774 - #48 NULA
+INFO  00:47:59,774 - #13 ,
+INFO  00:47:59,774 - #48 JEDAN
+INFO  00:47:59,774 - #13 ,
+INFO  00:47:59,774 - #48 DVA
+INFO  00:47:59,774 - #13 ,
+INFO  00:47:59,775 - #48 PET
+INFO  00:47:59,775 - #10 =
+INFO  00:47:59,775 - #45 5
+INFO  00:47:59,775 - #13 ,
+INFO  00:47:59,775 - #48 SEDAM
+INFO  00:47:59,775 - #10 =
+INFO  00:47:59,775 - #45 7
+INFO  00:47:59,776 - #4 }
+INFO  00:47:59,776 - #48 int
+INFO  00:47:59,777 - #48 i
+INFO  00:47:59,777 - #11 ;
+INFO  00:47:59,778 - #48 bool
+INFO  00:47:59,779 - #48 ibool
+INFO  00:47:59,780 - #11 ;
+INFO  00:47:59,780 - #48 int
+INFO  00:47:59,780 - #48 niz
+INFO  00:47:59,781 - #7 [
+INFO  00:47:59,781 - #8 ]
+INFO  00:47:59,781 - #11 ;
+INFO  00:47:59,781 - #3 {
+INFO  00:47:59,781 - #12 void
+INFO  00:47:59,781 - #48 main
+INFO  00:47:59,781 - #5 (
+INFO  00:47:59,781 - #6 )
+INFO  00:47:59,782 - #3 {
+INFO  00:47:59,783 - #4 }
+INFO  00:47:59,784 - #4 }
+INFO  00:47:59,787 - Program(
+  ProgramName(
+   MJtest
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Var(
+      DeclarationList_Var(
+        DeclarationList_Enum(
+          DeclarationList_Const(
+            DeclarationList_Epsilon(
+            ) [DeclarationList_Epsilon]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstAssign(
+               jedan
+                Constant_n(
+                 1
+                ) [Constant_n]
+              ) [ConstAssign]
+              ConstantList_Epsilon(
+              ) [ConstantList_Epsilon]
+            ) [ConstDecl]
+          ) [DeclarationList_Const]
+          EnumDecl(
+            EnumName(
+             Broj
+            ) [EnumName]
+            EnumDeclMore_list(
+              EnumDeclMore_list(
+                EnumDeclMore_list(
+                  EnumDeclMore_list(
+                    EnumDeclMore_base(
+                      AssignConst_noVal(
+                       NULA
+                      ) [AssignConst_noVal]
+                    ) [EnumDeclMore_base]
+                    AssignConst_noVal(
+                     JEDAN
+                    ) [AssignConst_noVal]
+                  ) [EnumDeclMore_list]
+                  AssignConst_noVal(
+                   DVA
+                  ) [AssignConst_noVal]
+                ) [EnumDeclMore_list]
+                AssignConst_val(
+                 PET
+                 5
+                ) [AssignConst_val]
+              ) [EnumDeclMore_list]
+              AssignConst_val(
+               SEDAM
+               7
+              ) [AssignConst_val]
+            ) [EnumDeclMore_list]
+          ) [EnumDecl]
+        ) [DeclarationList_Enum]
+        GlobalVarDecl_y(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             i
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [GlobalVarDecl_y]
+      ) [DeclarationList_Var]
+      GlobalVarDecl_y(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl_var(
+           ibool
+          ) [VarDecl_var]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [GlobalVarDecl_y]
+    ) [DeclarationList_Var]
+    GlobalVarDecl_y(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_array(
+         niz
+        ) [VarDecl_array]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [GlobalVarDecl_y]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  00:47:59,788 - =====================================================================
+INFO  00:47:59,802 - =====================================================================
+INFO  00:47:59,817 - Parsiranje uspesno zavrseno!

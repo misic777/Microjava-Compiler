@@ -1,0 +1,159 @@
+INFO  23:29:26,940 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  23:29:26,968 - #2 program
+INFO  23:29:26,968 - #48 Test
+INFO  23:29:26,968 - #9 const
+INFO  23:29:26,969 - #48 int
+INFO  23:29:26,969 - #48 a
+INFO  23:29:26,969 - #10 =
+INFO  23:29:26,969 - #45 3
+INFO  23:29:26,969 - #11 ;
+INFO  23:29:26,970 - #9 const
+INFO  23:29:26,971 - #48 char
+INFO  23:29:26,971 - #48 c
+INFO  23:29:26,971 - #10 =
+INFO  23:29:26,971 - #47 a
+INFO  23:29:26,971 - #11 ;
+INFO  23:29:26,971 - #3 {
+INFO  23:29:26,971 - #48 int
+INFO  23:29:26,972 - #48 abc
+INFO  23:29:26,972 - #5 (
+INFO  23:29:26,972 - #6 )
+INFO  23:29:26,972 - #48 int
+INFO  23:29:26,973 - #48 x
+INFO  23:29:26,973 - #11 ;
+INFO  23:29:26,973 - #3 {
+INFO  23:29:26,974 - #48 a
+INFO  23:29:26,974 - #10 =
+INFO  23:29:26,975 - #48 x
+INFO  23:29:26,976 - #11 ;
+INFO  23:29:26,977 - #4 }
+INFO  23:29:26,978 - #12 void
+INFO  23:29:26,978 - #48 main
+INFO  23:29:26,978 - #5 (
+INFO  23:29:26,979 - #6 )
+INFO  23:29:26,979 - #3 {
+INFO  23:29:26,979 - #4 }
+INFO  23:29:26,979 - #4 }
+INFO  23:29:26,980 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         a
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstAssign(
+       c
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_y(
+      MethodDeclList_Epsilon(
+      ) [MethodDeclList_Epsilon]
+      MethodDecl(
+        MethodType_Type(
+          Type(
+           int
+          ) [Type]
+         abc
+        ) [MethodType_Type]
+        FormParsList_Epsilon(
+        ) [FormParsList_Epsilon]
+        VarDeclListRec_y(
+          VarDeclListRec_Epsilon(
+          ) [VarDeclListRec_Epsilon]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             x
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [VarDeclListRec_y]
+        StatementList_y(
+          StatementList_Epsilon(
+          ) [StatementList_Epsilon]
+          Statement_Designator(
+            DesignatorStatement_A(
+              DesignatorStatementA_Assignop(
+                Designator_only(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [Designator_only]
+                Assignop(
+                ) [Assignop]
+                Expr_NonTernary(
+                  NonTernaryExpr(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factorMinus(
+                          FactorMinus(
+                            OptionalMinus_Epsilon(
+                            ) [OptionalMinus_Epsilon]
+                            Factor_designator(
+                              Designator_only(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                              ) [Designator_only]
+                            ) [Factor_designator]
+                          ) [FactorMinus]
+                        ) [MulopFactorList_factorMinus]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [NonTernaryExpr]
+                ) [Expr_NonTernary]
+              ) [DesignatorStatementA_Assignop]
+            ) [DesignatorStatement_A]
+          ) [Statement_Designator]
+        ) [StatementList_y]
+      ) [MethodDecl]
+    ) [MethodDeclList_y]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  23:29:26,980 - =====================================================================
+INFO  23:29:26,986 - Pristup simbolickoj konstanti: a [Kind: 0][Type: 1] na liniji 13
+INFO  23:29:26,986 - Pristup lokalnoj promenljivoj: x [Kind: 1][Type: 1] na liniji 13
+ERROR 23:29:26,987 - Operacija dodele za neadekvatnu promenljivu na liniji 13
+ERROR 23:29:26,987 - Metoda abcmora da ima povratnu vrednost na liniji 9
+INFO  23:29:26,987 - =====================================================================
+INFO  23:29:26,988 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,77 @@
+INFO  22:47:28,622 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  22:47:28,732 - #2 program
+INFO  22:47:28,732 - #48 Test
+INFO  22:47:28,733 - #9 const
+INFO  22:47:28,736 - #48 int
+INFO  22:47:28,736 - #48 a
+INFO  22:47:28,737 - #10 =
+INFO  22:47:28,738 - #45 3
+INFO  22:47:28,739 - #11 ;
+INFO  22:47:28,742 - #9 const
+INFO  22:47:28,745 - #48 char
+INFO  22:47:28,745 - #48 c
+INFO  22:47:28,745 - #10 =
+INFO  22:47:28,745 - #47 a
+INFO  22:47:28,746 - #11 ;
+INFO  22:47:28,746 - #48 int
+INFO  22:47:28,746 - #48 y
+INFO  22:47:28,747 - #11 ;
+INFO  22:47:28,748 - #3 {
+INFO  22:47:28,750 - #48 int
+INFO  22:47:28,752 - #48 abc
+INFO  22:47:28,753 - #5 (
+INFO  22:47:28,753 - #48 int
+INFO  22:47:28,762 - #48 a
+INFO  22:47:28,762 - #13 ,
+INFO  22:47:28,763 - #48 int
+INFO  22:47:28,763 - #48 b
+INFO  22:47:28,763 - #6 )
+INFO  22:47:28,766 - #3 {
+INFO  22:47:28,767 - #18 return
+INFO  22:47:28,768 - #48 a
+INFO  22:47:28,770 - #38 +
+INFO  22:47:28,775 - #48 b
+INFO  22:47:28,777 - #11 ;
+INFO  22:47:28,779 - #4 }
+INFO  22:47:28,780 - #12 void
+INFO  22:47:28,782 - #48 main
+INFO  22:47:28,782 - #5 (
+INFO  22:47:28,783 - #6 )
+INFO  22:47:28,784 - #48 int
+INFO  22:47:28,784 - #48 i
+INFO  22:47:28,785 - #10 =
+ERROR 22:47:28,785 - 
+Sintaksna greska na liniji 16
+INFO  22:47:28,786 - #45 4
+INFO  22:47:28,786 - #11 ;
+INFO  22:47:28,786 - #3 {
+INFO  22:47:28,787 - #14 if
+INFO  22:47:28,788 - #5 (
+INFO  22:47:28,788 - #48 i
+INFO  22:47:28,788 - #33 ==
+INFO  22:47:28,788 - #45 4
+INFO  22:47:28,788 - #6 )
+INFO  22:47:28,789 - #3 {
+INFO  22:47:28,789 - #20 print
+INFO  22:47:28,789 - #5 (
+ERROR 22:47:28,790 - Oporavak od greske kod deklaracije formalnih parametara f-je. Linija: 15
+INFO  22:47:28,792 - #45 1
+INFO  22:47:28,793 - #6 )
+INFO  22:47:28,793 - #11 ;
+INFO  22:47:28,793 - #4 }
+INFO  22:47:28,794 - #15 else
+ERROR 22:47:28,794 - 
+Sintaksna greska na liniji 20
+INFO  22:47:28,794 - #3 {
+INFO  22:47:28,794 - #20 print
+INFO  22:47:28,795 - #5 (
+INFO  22:47:28,795 - #45 2
+INFO  22:47:28,795 - #6 )
+INFO  22:47:28,796 - #11 ;
+INFO  22:47:28,796 - #4 }
+INFO  22:47:28,796 - #4 }
+INFO  22:47:28,808 - #4 }
+ERROR 22:47:28,809 - Oporavak od greske u iskazu dodele. Linija: 11
+ERROR 22:47:28,812 - 
+Sintaksna greska na liniji 25
+ERROR 22:47:28,813 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 25

@@ -1,0 +1,50 @@
+INFO  14:31:39,896 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  14:31:39,936 - #2 program
+INFO  14:31:39,937 - #48 test123
+INFO  14:31:39,937 - #3 {
+INFO  14:31:39,938 - #12 void
+INFO  14:31:39,938 - #48 main
+INFO  14:31:39,939 - #5 (
+INFO  14:31:39,939 - #6 )
+INFO  14:31:39,939 - #3 {
+INFO  14:31:39,940 - #48 a
+INFO  14:31:39,941 - #35 *
+ERROR 14:31:39,943 - 
+Sintaksna greska na liniji 5
+INFO  14:31:39,943 - #35 *
+INFO  14:31:39,943 - #11 ;
+INFO  14:31:39,943 - #4 }
+INFO  14:31:39,944 - #4 }
+ERROR 14:31:39,944 - Oporavak od greske u iskazu dodele. Linija: 12
+INFO  14:31:39,947 - Program(
+  ProgramName(
+   test123
+  ) [ProgramName]
+  DeclarationList_Epsilon(
+  ) [DeclarationList_Epsilon]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_y(
+        StatementList_Epsilon(
+        ) [StatementList_Epsilon]
+        Statement_Designator(
+          DesignatorStatement_A(
+            DesignatorStatementA_error(
+            ) [DesignatorStatementA_error]
+          ) [DesignatorStatement_A]
+        ) [Statement_Designator]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  14:31:39,947 - =====================================================================
+ERROR 14:31:39,947 - Parsiranje NIJE uspesno zavrseno!

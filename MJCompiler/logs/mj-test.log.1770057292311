@@ -1,0 +1,190 @@
+INFO  19:31:40,408 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  19:31:40,496 - #2 program
+INFO  19:31:40,496 - #48 test301
+INFO  19:31:40,496 - #28 enum
+INFO  19:31:40,498 - #48 Broj
+INFO  19:31:40,498 - #3 {
+INFO  19:31:40,498 - #48 NULA
+INFO  19:31:40,498 - #13 ,
+INFO  19:31:40,500 - #48 JEDAN
+INFO  19:31:40,500 - #13 ,
+INFO  19:31:40,500 - #48 PET
+INFO  19:31:40,500 - #10 =
+INFO  19:31:40,500 - #45 5
+INFO  19:31:40,500 - #13 ,
+INFO  19:31:40,501 - #48 DESET
+INFO  19:31:40,501 - #10 =
+INFO  19:31:40,501 - #45 10
+INFO  19:31:40,501 - #4 }
+INFO  19:31:40,502 - #9 const
+INFO  19:31:40,504 - #48 int
+INFO  19:31:40,504 - #48 nula
+INFO  19:31:40,505 - #10 =
+INFO  19:31:40,506 - #45 0
+INFO  19:31:40,506 - #11 ;
+INFO  19:31:40,508 - #9 const
+INFO  19:31:40,510 - #48 int
+INFO  19:31:40,510 - #48 jedan
+INFO  19:31:40,510 - #10 =
+INFO  19:31:40,510 - #45 1
+INFO  19:31:40,510 - #11 ;
+INFO  19:31:40,510 - #9 const
+INFO  19:31:40,510 - #48 int
+INFO  19:31:40,511 - #48 pet
+INFO  19:31:40,511 - #10 =
+INFO  19:31:40,511 - #45 5
+INFO  19:31:40,511 - #11 ;
+INFO  19:31:40,511 - #48 int
+INFO  19:31:40,511 - #48 niz
+INFO  19:31:40,511 - #7 [
+INFO  19:31:40,511 - #8 ]
+INFO  19:31:40,512 - #11 ;
+INFO  19:31:40,513 - #48 char
+INFO  19:31:40,514 - #48 nizch
+INFO  19:31:40,514 - #7 [
+INFO  19:31:40,514 - #8 ]
+INFO  19:31:40,514 - #11 ;
+INFO  19:31:40,515 - #48 int
+INFO  19:31:40,515 - #48 a
+INFO  19:31:40,515 - #11 ;
+INFO  19:31:40,515 - #3 {
+INFO  19:31:40,515 - #12 void
+INFO  19:31:40,516 - #48 main
+INFO  19:31:40,516 - #5 (
+INFO  19:31:40,516 - #6 )
+INFO  19:31:40,516 - #3 {
+INFO  19:31:40,518 - #4 }
+INFO  19:31:40,519 - #4 }
+INFO  19:31:40,523 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Var(
+      DeclarationList_Var(
+        DeclarationList_Const(
+          DeclarationList_Const(
+            DeclarationList_Const(
+              DeclarationList_Enum(
+                DeclarationList_Epsilon(
+                ) [DeclarationList_Epsilon]
+                EnumDecl(
+                 Broj
+                 NULA
+                  AssignConst_Epsilon(
+                  ) [AssignConst_Epsilon]
+                  EnumDeclMore_y(
+                   JEDAN
+                    AssignConst_Epsilon(
+                    ) [AssignConst_Epsilon]
+                    EnumDeclMore_y(
+                     PET
+                      AssignConst_y(
+                       5
+                      ) [AssignConst_y]
+                      EnumDeclMore_y(
+                       DESET
+                        AssignConst_y(
+                         10
+                        ) [AssignConst_y]
+                        EnumDeclMore_Epsilon(
+                        ) [EnumDeclMore_Epsilon]
+                      ) [EnumDeclMore_y]
+                    ) [EnumDeclMore_y]
+                  ) [EnumDeclMore_y]
+                ) [EnumDecl]
+              ) [DeclarationList_Enum]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstAssign(
+                 nula
+                  Constant_n(
+                   0
+                  ) [Constant_n]
+                ) [ConstAssign]
+                ConstantList_Epsilon(
+                ) [ConstantList_Epsilon]
+              ) [ConstDecl]
+            ) [DeclarationList_Const]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstAssign(
+               jedan
+                Constant_n(
+                 1
+                ) [Constant_n]
+              ) [ConstAssign]
+              ConstantList_Epsilon(
+              ) [ConstantList_Epsilon]
+            ) [ConstDecl]
+          ) [DeclarationList_Const]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstAssign(
+             pet
+              Constant_n(
+               5
+              ) [Constant_n]
+            ) [ConstAssign]
+            ConstantList_Epsilon(
+            ) [ConstantList_Epsilon]
+          ) [ConstDecl]
+        ) [DeclarationList_Const]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_array(
+           niz
+          ) [VarDecl_array]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [DeclarationList_Var]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_array(
+         nizch
+        ) [VarDecl_array]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [DeclarationList_Var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_var(
+       a
+      ) [VarDecl_var]
+      VarDeclMore_Epsilon(
+      ) [VarDeclMore_Epsilon]
+    ) [VarDeclList]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  19:31:40,523 - =====================================================================
+INFO  19:31:40,534 - =====================================================================
+INFO  19:31:40,536 - Parsiranje uspesno zavrseno!

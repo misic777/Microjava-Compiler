@@ -1,0 +1,146 @@
+INFO  18:27:15,976 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  18:27:16,019 - #2 program
+INFO  18:27:16,019 - #48 Test
+INFO  18:27:16,020 - #9 const
+INFO  18:27:16,021 - #48 int
+INFO  18:27:16,021 - #48 a
+INFO  18:27:16,022 - #10 =
+INFO  18:27:16,022 - #45 3
+INFO  18:27:16,022 - #11 ;
+INFO  18:27:16,023 - #9 const
+INFO  18:27:16,024 - #48 char
+INFO  18:27:16,024 - #48 c
+INFO  18:27:16,024 - #10 =
+INFO  18:27:16,024 - #47 a
+INFO  18:27:16,024 - #11 ;
+INFO  18:27:16,025 - #3 {
+INFO  18:27:16,025 - #12 void
+INFO  18:27:16,025 - #48 main
+INFO  18:27:16,025 - #5 (
+INFO  18:27:16,026 - #6 )
+INFO  18:27:16,026 - #3 {
+INFO  18:27:16,027 - #48 ord
+INFO  18:27:16,027 - #5 (
+INFO  18:27:16,028 - #6 )
+INFO  18:27:16,029 - #11 ;
+INFO  18:27:16,030 - #48 chr
+INFO  18:27:16,030 - #5 (
+INFO  18:27:16,030 - #48 a
+INFO  18:27:16,031 - #6 )
+INFO  18:27:16,034 - #11 ;
+INFO  18:27:16,034 - #4 }
+INFO  18:27:16,034 - #4 }
+INFO  18:27:16,036 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         a
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstAssign(
+       c
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_y(
+        StatementList_y(
+          StatementList_Epsilon(
+          ) [StatementList_Epsilon]
+          Statement_Designator(
+            DesignatorStatement_O(
+              DesignatorStatementO_ActPars(
+                Designator_only(
+                  DesignatorName(
+                   ord
+                  ) [DesignatorName]
+                ) [Designator_only]
+                ActParsOptional_Epsilon(
+                ) [ActParsOptional_Epsilon]
+              ) [DesignatorStatementO_ActPars]
+            ) [DesignatorStatement_O]
+          ) [Statement_Designator]
+        ) [StatementList_y]
+        Statement_Designator(
+          DesignatorStatement_O(
+            DesignatorStatementO_ActPars(
+              Designator_only(
+                DesignatorName(
+                 chr
+                ) [DesignatorName]
+              ) [Designator_only]
+              ActParsOptional_y(
+                ActPars(
+                  ExprList_base(
+                    Expr_NonTernary(
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_designator(
+                                  Designator_only(
+                                    DesignatorName(
+                                     a
+                                    ) [DesignatorName]
+                                  ) [Designator_only]
+                                ) [Factor_designator]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                    ) [Expr_NonTernary]
+                  ) [ExprList_base]
+                ) [ActPars]
+              ) [ActParsOptional_y]
+            ) [DesignatorStatementO_ActPars]
+          ) [DesignatorStatement_O]
+        ) [Statement_Designator]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  18:27:16,037 - =====================================================================
+ERROR 18:27:16,046 - Metoda ord ocekuje 1 parametara, a dobila je 0 na liniji 10
+INFO  18:27:16,047 - Pozivanje globalne funkcije ord [Kind: 3][Type: 1] na liniji 10
+INFO  18:27:16,047 - Pristup simbolickoj konstanti: a [Kind: 0][Type: 1] na liniji 11
+INFO  18:27:16,102 - Pozivanje globalne funkcije chr [Kind: 3][Type: 2] na liniji 11
+INFO  18:27:16,102 - =====================================================================
+INFO  18:27:16,103 - Parsiranje uspesno zavrseno!

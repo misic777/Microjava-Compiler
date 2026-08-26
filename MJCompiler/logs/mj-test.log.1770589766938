@@ -1,0 +1,173 @@
+INFO  23:29:13,286 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  23:29:13,316 - #2 program
+INFO  23:29:13,316 - #48 Test
+INFO  23:29:13,316 - #9 const
+INFO  23:29:13,317 - #48 int
+INFO  23:29:13,317 - #48 a
+INFO  23:29:13,317 - #10 =
+INFO  23:29:13,317 - #45 3
+INFO  23:29:13,317 - #11 ;
+INFO  23:29:13,318 - #9 const
+INFO  23:29:13,319 - #48 char
+INFO  23:29:13,319 - #48 c
+INFO  23:29:13,319 - #10 =
+INFO  23:29:13,319 - #47 a
+INFO  23:29:13,319 - #11 ;
+INFO  23:29:13,319 - #3 {
+INFO  23:29:13,319 - #48 int
+INFO  23:29:13,320 - #48 abc
+INFO  23:29:13,320 - #5 (
+INFO  23:29:13,320 - #6 )
+INFO  23:29:13,321 - #48 int
+INFO  23:29:13,321 - #48 x
+INFO  23:29:13,321 - #11 ;
+INFO  23:29:13,322 - #48 int
+INFO  23:29:13,323 - #48 a
+INFO  23:29:13,323 - #11 ;
+INFO  23:29:13,323 - #3 {
+INFO  23:29:13,323 - #48 a
+INFO  23:29:13,324 - #10 =
+INFO  23:29:13,324 - #48 x
+INFO  23:29:13,326 - #11 ;
+INFO  23:29:13,328 - #4 }
+INFO  23:29:13,329 - #12 void
+INFO  23:29:13,329 - #48 main
+INFO  23:29:13,329 - #5 (
+INFO  23:29:13,329 - #6 )
+INFO  23:29:13,329 - #3 {
+INFO  23:29:13,329 - #4 }
+INFO  23:29:13,329 - #4 }
+INFO  23:29:13,330 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         a
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstAssign(
+       c
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_y(
+      MethodDeclList_Epsilon(
+      ) [MethodDeclList_Epsilon]
+      MethodDecl(
+        MethodType_Type(
+          Type(
+           int
+          ) [Type]
+         abc
+        ) [MethodType_Type]
+        FormParsList_Epsilon(
+        ) [FormParsList_Epsilon]
+        VarDeclListRec_y(
+          VarDeclListRec_y(
+            VarDeclListRec_Epsilon(
+            ) [VarDeclListRec_Epsilon]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               x
+              ) [VarDecl_var]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclList]
+          ) [VarDeclListRec_y]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             a
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [VarDeclListRec_y]
+        StatementList_y(
+          StatementList_Epsilon(
+          ) [StatementList_Epsilon]
+          Statement_Designator(
+            DesignatorStatement_A(
+              DesignatorStatementA_Assignop(
+                Designator_only(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [Designator_only]
+                Assignop(
+                ) [Assignop]
+                Expr_NonTernary(
+                  NonTernaryExpr(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factorMinus(
+                          FactorMinus(
+                            OptionalMinus_Epsilon(
+                            ) [OptionalMinus_Epsilon]
+                            Factor_designator(
+                              Designator_only(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                              ) [Designator_only]
+                            ) [Factor_designator]
+                          ) [FactorMinus]
+                        ) [MulopFactorList_factorMinus]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [NonTernaryExpr]
+                ) [Expr_NonTernary]
+              ) [DesignatorStatementA_Assignop]
+            ) [DesignatorStatement_A]
+          ) [Statement_Designator]
+        ) [StatementList_y]
+      ) [MethodDecl]
+    ) [MethodDeclList_y]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  23:29:13,331 - =====================================================================
+INFO  23:29:13,337 - Pristup lokalnoj promenljivoj: a [Kind: 1][Type: 1] na liniji 13
+INFO  23:29:13,337 - Pristup lokalnoj promenljivoj: x [Kind: 1][Type: 1] na liniji 13
+ERROR 23:29:13,338 - Metoda abcmora da ima povratnu vrednost na liniji 9
+INFO  23:29:13,338 - =====================================================================
+INFO  23:29:13,339 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,33 @@
+program MJtest
+
+const int jedan = 1;
+
+enum Broj { NULA, JEDAN, DVA, PET = 5, SEDAM = 7}
+
+int i;
+bool ibool;
+
+int niz[];
+{
+			
+	
+	int fun(){
+		return 1;
+	}
+	
+	void main()
+	{
+		switch(i) {
+			case 1:
+				print(1);
+				break;
+			case 2:
+				print(2);
+				for(;true;){
+					print(3);
+					break;
+				}
+				print(4);
+		}
+	}
+}

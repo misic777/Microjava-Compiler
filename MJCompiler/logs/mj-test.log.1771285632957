@@ -1,0 +1,135 @@
+INFO  00:47:03,946 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  00:47:03,996 - #2 program
+INFO  00:47:03,996 - #48 MJtest
+INFO  00:47:03,997 - #9 const
+INFO  00:47:03,998 - #48 int
+INFO  00:47:03,998 - #48 jedan
+INFO  00:47:04,000 - #10 =
+INFO  00:47:04,000 - #45 1
+INFO  00:47:04,000 - #11 ;
+INFO  00:47:04,002 - #28 enum
+INFO  00:47:04,003 - #48 Broj
+INFO  00:47:04,003 - #10 =
+ERROR 00:47:04,003 - 
+Sintaksna greska na liniji 5
+INFO  00:47:04,003 - #3 {
+INFO  00:47:04,003 - #48 NULA
+INFO  00:47:04,004 - #13 ,
+INFO  00:47:04,005 - #48 JEDAN
+INFO  00:47:04,005 - #13 ,
+INFO  00:47:04,005 - #48 DVA
+INFO  00:47:04,005 - #13 ,
+INFO  00:47:04,005 - #48 PET
+INFO  00:47:04,005 - #10 =
+INFO  00:47:04,009 - #45 5
+INFO  00:47:04,009 - #13 ,
+INFO  00:47:04,009 - #48 SEDAM
+INFO  00:47:04,009 - #10 =
+INFO  00:47:04,009 - #45 7
+INFO  00:47:04,009 - #4 }
+INFO  00:47:04,010 - #48 int
+INFO  00:47:04,010 - #48 i
+INFO  00:47:04,010 - #11 ;
+INFO  00:47:04,010 - #48 bool
+ERROR 00:47:04,010 - Oporavak od greske kod deklaracije globalnih promenljivih Linija: 8
+INFO  00:47:04,013 - #48 ibool
+INFO  00:47:04,013 - #11 ;
+INFO  00:47:04,013 - #48 int
+INFO  00:47:04,014 - #48 niz
+INFO  00:47:04,014 - #7 [
+INFO  00:47:04,014 - #8 ]
+INFO  00:47:04,014 - #11 ;
+INFO  00:47:04,014 - #3 {
+INFO  00:47:04,014 - #12 void
+INFO  00:47:04,015 - #48 main
+INFO  00:47:04,015 - #5 (
+INFO  00:47:04,016 - #6 )
+INFO  00:47:04,016 - #3 {
+INFO  00:47:04,017 - #4 }
+INFO  00:47:04,018 - #4 }
+INFO  00:47:04,020 - Program(
+  ProgramName(
+   MJtest
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Var(
+      DeclarationList_Var(
+        DeclarationList_Var(
+          DeclarationList_Const(
+            DeclarationList_Epsilon(
+            ) [DeclarationList_Epsilon]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstAssign(
+               jedan
+                Constant_n(
+                 1
+                ) [Constant_n]
+              ) [ConstAssign]
+              ConstantList_Epsilon(
+              ) [ConstantList_Epsilon]
+            ) [ConstDecl]
+          ) [DeclarationList_Const]
+          GlobalVarDecl_error(
+          ) [GlobalVarDecl_error]
+        ) [DeclarationList_Var]
+        GlobalVarDecl_y(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             i
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [GlobalVarDecl_y]
+      ) [DeclarationList_Var]
+      GlobalVarDecl_y(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl_var(
+           ibool
+          ) [VarDecl_var]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [GlobalVarDecl_y]
+    ) [DeclarationList_Var]
+    GlobalVarDecl_y(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_array(
+         niz
+        ) [VarDecl_array]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [GlobalVarDecl_y]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  00:47:04,021 - =====================================================================
+INFO  00:47:04,033 - =====================================================================
+ERROR 00:47:04,035 - Parsiranje NIJE uspesno zavrseno!

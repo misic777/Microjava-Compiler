@@ -1,0 +1,218 @@
+INFO  23:31:09,922 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  23:31:09,949 - #2 program
+INFO  23:31:09,949 - #48 Test
+INFO  23:31:09,949 - #9 const
+INFO  23:31:09,950 - #48 int
+INFO  23:31:09,950 - #48 a
+INFO  23:31:09,951 - #10 =
+INFO  23:31:09,951 - #45 3
+INFO  23:31:09,951 - #11 ;
+INFO  23:31:09,952 - #9 const
+INFO  23:31:09,952 - #48 char
+INFO  23:31:09,952 - #48 c
+INFO  23:31:09,952 - #10 =
+INFO  23:31:09,952 - #47 a
+INFO  23:31:09,952 - #11 ;
+INFO  23:31:09,953 - #48 int
+INFO  23:31:09,953 - #48 y
+INFO  23:31:09,953 - #11 ;
+INFO  23:31:09,953 - #3 {
+INFO  23:31:09,954 - #48 int
+INFO  23:31:09,954 - #48 abc
+INFO  23:31:09,954 - #5 (
+INFO  23:31:09,955 - #6 )
+INFO  23:31:09,955 - #48 int
+INFO  23:31:09,955 - #48 x
+INFO  23:31:09,956 - #11 ;
+INFO  23:31:09,956 - #48 int
+INFO  23:31:09,956 - #48 y
+INFO  23:31:09,956 - #11 ;
+INFO  23:31:09,956 - #3 {
+INFO  23:31:09,956 - #48 y
+INFO  23:31:09,956 - #10 =
+INFO  23:31:09,957 - #48 x
+INFO  23:31:09,958 - #11 ;
+INFO  23:31:09,959 - #18 return
+INFO  23:31:09,960 - #48 x
+INFO  23:31:09,960 - #11 ;
+INFO  23:31:09,960 - #4 }
+INFO  23:31:09,960 - #12 void
+INFO  23:31:09,960 - #48 main
+INFO  23:31:09,960 - #5 (
+INFO  23:31:09,961 - #6 )
+INFO  23:31:09,961 - #3 {
+INFO  23:31:09,961 - #4 }
+INFO  23:31:09,961 - #4 }
+INFO  23:31:09,962 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Const(
+      DeclarationList_Const(
+        DeclarationList_Epsilon(
+        ) [DeclarationList_Epsilon]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstAssign(
+           a
+            Constant_n(
+             3
+            ) [Constant_n]
+          ) [ConstAssign]
+          ConstantList_Epsilon(
+          ) [ConstantList_Epsilon]
+        ) [ConstDecl]
+      ) [DeclarationList_Const]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        ConstAssign(
+         c
+          Constant_c(
+           a
+          ) [Constant_c]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    GlobalVarDecl_y(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_var(
+         y
+        ) [VarDecl_var]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [GlobalVarDecl_y]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_y(
+      MethodDeclList_Epsilon(
+      ) [MethodDeclList_Epsilon]
+      MethodDecl(
+        MethodType_Type(
+          Type(
+           int
+          ) [Type]
+         abc
+        ) [MethodType_Type]
+        FormParsList_Epsilon(
+        ) [FormParsList_Epsilon]
+        VarDeclListRec_y(
+          VarDeclListRec_y(
+            VarDeclListRec_Epsilon(
+            ) [VarDeclListRec_Epsilon]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               x
+              ) [VarDecl_var]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclList]
+          ) [VarDeclListRec_y]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             y
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [VarDeclListRec_y]
+        StatementList_y(
+          StatementList_y(
+            StatementList_Epsilon(
+            ) [StatementList_Epsilon]
+            Statement_Designator(
+              DesignatorStatement_A(
+                DesignatorStatementA_Assignop(
+                  Designator_only(
+                    DesignatorName(
+                     y
+                    ) [DesignatorName]
+                  ) [Designator_only]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_NonTernary(
+                    NonTernaryExpr(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factorMinus(
+                            FactorMinus(
+                              OptionalMinus_Epsilon(
+                              ) [OptionalMinus_Epsilon]
+                              Factor_designator(
+                                Designator_only(
+                                  DesignatorName(
+                                   x
+                                  ) [DesignatorName]
+                                ) [Designator_only]
+                              ) [Factor_designator]
+                            ) [FactorMinus]
+                          ) [MulopFactorList_factorMinus]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [NonTernaryExpr]
+                  ) [Expr_NonTernary]
+                ) [DesignatorStatementA_Assignop]
+              ) [DesignatorStatement_A]
+            ) [Statement_Designator]
+          ) [StatementList_y]
+          Statement_return2(
+            Expr_NonTernary(
+              NonTernaryExpr(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factorMinus(
+                      FactorMinus(
+                        OptionalMinus_Epsilon(
+                        ) [OptionalMinus_Epsilon]
+                        Factor_designator(
+                          Designator_only(
+                            DesignatorName(
+                             x
+                            ) [DesignatorName]
+                          ) [Designator_only]
+                        ) [Factor_designator]
+                      ) [FactorMinus]
+                    ) [MulopFactorList_factorMinus]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [NonTernaryExpr]
+            ) [Expr_NonTernary]
+          ) [Statement_return2]
+        ) [StatementList_y]
+      ) [MethodDecl]
+    ) [MethodDeclList_y]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  23:31:09,962 - =====================================================================
+INFO  23:31:09,968 - Pristup lokalnoj promenljivoj: y [Kind: 1][Type: 1] na liniji 14
+INFO  23:31:09,968 - Pristup lokalnoj promenljivoj: x [Kind: 1][Type: 1] na liniji 14
+INFO  23:31:09,969 - Pristup lokalnoj promenljivoj: x [Kind: 1][Type: 1] na liniji 16
+INFO  23:31:09,969 - =====================================================================
+INFO  23:31:09,970 - Parsiranje uspesno zavrseno!

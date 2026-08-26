@@ -1,0 +1,57 @@
+INFO  17:27:44,103 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  17:27:44,209 - #2 program
+INFO  17:27:44,209 - #48 test123
+INFO  17:27:44,209 - #9 const
+INFO  17:27:44,214 - #48 int
+INFO  17:27:44,214 - #48 pi
+INFO  17:27:44,216 - #10 =
+INFO  17:27:44,216 - #45 3
+INFO  17:27:44,216 - #11 ;
+INFO  17:27:44,220 - #3 {
+INFO  17:27:44,222 - #12 void
+INFO  17:27:44,223 - #48 main
+INFO  17:27:44,223 - #5 (
+INFO  17:27:44,224 - #6 )
+INFO  17:27:44,225 - #3 {
+INFO  17:27:44,227 - #4 }
+INFO  17:27:44,228 - #4 }
+INFO  17:27:44,232 - Program(
+  ProgramName(
+   test123
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Epsilon(
+    ) [DeclarationList_Epsilon]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstAssign(
+       pi
+        Constant_n(
+         3
+        ) [Constant_n]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  17:27:44,242 - =====================================================================
+INFO  17:27:44,263 - =====================================================================
+INFO  17:27:44,265 - Parsiranje uspesno zavrseno!

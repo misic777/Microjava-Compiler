@@ -1,0 +1,23 @@
+INFO  17:27:16,090 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  17:27:16,143 - #2 program
+INFO  17:27:16,143 - #48 test123
+INFO  17:27:16,143 - #3 {
+INFO  17:27:16,144 - #9 const
+ERROR 17:27:16,145 - 
+Sintaksna greska na liniji 3
+INFO  17:27:16,145 - #48 int
+INFO  17:27:16,145 - #48 pi
+INFO  17:27:16,145 - #10 =
+ERROR 17:27:16,146 - Oporavak od greske kod definicije globalne promenljive. Linija: 8
+INFO  17:27:16,148 - #45 3
+INFO  17:27:16,148 - #11 ;
+INFO  17:27:16,149 - #12 void
+ERROR 17:27:16,149 - 
+Sintaksna greska na liniji 4
+INFO  17:27:16,150 - #48 main
+INFO  17:27:16,150 - #5 (
+INFO  17:27:16,150 - #6 )
+INFO  17:27:16,150 - #3 {
+INFO  17:27:16,150 - #4 }
+INFO  17:27:16,151 - #4 }
+ERROR 17:27:16,151 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9

@@ -1,0 +1,88 @@
+INFO  14:35:58,275 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  14:35:58,302 - #2 program
+INFO  14:35:58,302 - #48 test123
+INFO  14:35:58,303 - #3 {
+INFO  14:35:58,303 - #12 void
+INFO  14:35:58,304 - #48 main
+INFO  14:35:58,304 - #5 (
+INFO  14:35:58,304 - #6 )
+INFO  14:35:58,304 - #48 int
+INFO  14:35:58,305 - #48 a
+INFO  14:35:58,306 - #11 ;
+INFO  14:35:58,308 - #3 {
+INFO  14:35:58,309 - #48 a
+INFO  14:35:58,309 - #10 =
+INFO  14:35:58,311 - #45 5
+INFO  14:35:58,313 - #11 ;
+INFO  14:35:58,316 - #4 }
+INFO  14:35:58,316 - #4 }
+INFO  14:35:58,318 - Program(
+  ProgramName(
+   test123
+  ) [ProgramName]
+  DeclarationList_Epsilon(
+  ) [DeclarationList_Epsilon]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_y(
+        VarDeclListRec_Epsilon(
+        ) [VarDeclListRec_Epsilon]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         a
+          OptionalArray_Epsilon(
+          ) [OptionalArray_Epsilon]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDecl]
+      ) [VarDeclListRec_y]
+      StatementList_y(
+        StatementList_Epsilon(
+        ) [StatementList_Epsilon]
+        Statement_Designator(
+          DesignatorStatement_A(
+            DesignatorStatementA_Assignop(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                DesignatorOptionsList_Epsilon(
+                ) [DesignatorOptionsList_Epsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr_NonTernary(
+                NonTernaryExpr(
+                  Term(
+                    FactorMinus(
+                      OptionalMinus_Epsilon(
+                      ) [OptionalMinus_Epsilon]
+                      Factor_num(
+                       5
+                      ) [Factor_num]
+                    ) [FactorMinus]
+                    MulopFactorList_Epsilon(
+                    ) [MulopFactorList_Epsilon]
+                  ) [Term]
+                  AddopTermList_Epsilon(
+                  ) [AddopTermList_Epsilon]
+                ) [NonTernaryExpr]
+              ) [Expr_NonTernary]
+            ) [DesignatorStatementA_Assignop]
+          ) [DesignatorStatement_A]
+        ) [Statement_Designator]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  14:35:58,318 - =====================================================================
+INFO  14:35:58,318 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,23 @@
+program returnTest
+
+
+int i;
+int arr[];
+{
+
+	int fun(){
+		i = 1;
+		if(i == 1) return 7;
+		
+	}
+	
+
+	void main(){
+		arr = new int[4];
+		arr[0] = 3; arr[1] = 6; arr[2] = 2; arr[3] = 1;
+		i = arr.max;
+		print(i);
+	}
+
+	
+}

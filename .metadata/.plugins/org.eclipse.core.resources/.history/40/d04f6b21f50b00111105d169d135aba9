@@ -1,0 +1,27 @@
+program loopsTest
+
+int i, j, k;
+char x, y, z;
+
+{
+
+	void funcSwitch(){
+		i = 3;
+			switch(i){
+				case 1:
+					print(1);
+					break;
+				
+				case 2:
+					print(2);
+				case 3:
+					print(3);
+			}
+	}
+
+
+	void main(){
+		funcSwitch();
+	}
+
+}

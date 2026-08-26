@@ -1,0 +1,409 @@
+INFO  14:59:06,687 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\ternaryTest.mj
+INFO  14:59:06,714 - #2 program
+INFO  14:59:06,714 - #48 ternary_test
+INFO  14:59:06,714 - #9 const
+INFO  14:59:06,715 - #48 bool
+INFO  14:59:06,715 - #48 tr
+INFO  14:59:06,716 - #10 =
+INFO  14:59:06,716 - #46 1
+INFO  14:59:06,716 - #11 ;
+INFO  14:59:06,717 - #3 {
+INFO  14:59:06,717 - #12 void
+INFO  14:59:06,718 - #48 main
+INFO  14:59:06,718 - #5 (
+INFO  14:59:06,718 - #6 )
+INFO  14:59:06,719 - #48 bool
+INFO  14:59:06,719 - #48 cond
+INFO  14:59:06,719 - #11 ;
+INFO  14:59:06,720 - #48 int
+INFO  14:59:06,720 - #48 x
+INFO  14:59:06,720 - #11 ;
+INFO  14:59:06,721 - #3 {
+INFO  14:59:06,721 - #48 cond
+INFO  14:59:06,729 - #10 =
+INFO  14:59:06,730 - #46 1
+INFO  14:59:06,731 - #11 ;
+INFO  14:59:06,732 - #48 x
+INFO  14:59:06,733 - #10 =
+INFO  14:59:06,733 - #48 x
+INFO  14:59:06,733 - #33 ==
+INFO  14:59:06,733 - #45 10
+INFO  14:59:06,734 - #42 &&
+INFO  14:59:06,734 - #5 (
+INFO  14:59:06,734 - #48 x
+INFO  14:59:06,734 - #33 ==
+INFO  14:59:06,734 - #45 10
+INFO  14:59:06,734 - #42 &&
+INFO  14:59:06,734 - #48 cond
+INFO  14:59:06,734 - #43 ?
+INFO  14:59:06,735 - #46 0
+INFO  14:59:06,735 - #24 :
+INFO  14:59:06,736 - #46 1
+INFO  14:59:06,736 - #6 )
+INFO  14:59:06,736 - #43 ?
+INFO  14:59:06,736 - #45 55
+INFO  14:59:06,736 - #24 :
+INFO  14:59:06,736 - #45 22
+INFO  14:59:06,736 - #11 ;
+INFO  14:59:06,737 - #20 print
+INFO  14:59:06,737 - #5 (
+INFO  14:59:06,737 - #48 x
+INFO  14:59:06,737 - #6 )
+INFO  14:59:06,737 - #11 ;
+INFO  14:59:06,737 - #4 }
+INFO  14:59:06,737 - #4 }
+INFO  14:59:06,740 - Program(
+  ProgramName(
+   ternary_test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Epsilon(
+    ) [DeclarationList_Epsilon]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstAssign(
+       tr
+        Constant_b(
+         1
+        ) [Constant_b]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_y(
+        VarDeclListRec_y(
+          VarDeclListRec_Epsilon(
+          ) [VarDeclListRec_Epsilon]
+          VarDeclList(
+            Type(
+             bool
+            ) [Type]
+            VarDecl_var(
+             cond
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [VarDeclListRec_y]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_var(
+           x
+          ) [VarDecl_var]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [VarDeclListRec_y]
+      StatementList_y(
+        StatementList_y(
+          StatementList_y(
+            StatementList_Epsilon(
+            ) [StatementList_Epsilon]
+            Statement_Designator(
+              DesignatorStatement_A(
+                DesignatorStatementA_Assignop(
+                  Designator_only(
+                    DesignatorName(
+                     cond
+                    ) [DesignatorName]
+                  ) [Designator_only]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_NonTernary(
+                    NonTernaryExpr(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factorMinus(
+                            FactorMinus(
+                              OptionalMinus_Epsilon(
+                              ) [OptionalMinus_Epsilon]
+                              Factor_bool(
+                               1
+                              ) [Factor_bool]
+                            ) [FactorMinus]
+                          ) [MulopFactorList_factorMinus]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [NonTernaryExpr]
+                  ) [Expr_NonTernary]
+                ) [DesignatorStatementA_Assignop]
+              ) [DesignatorStatement_A]
+            ) [Statement_Designator]
+          ) [StatementList_y]
+          Statement_Designator(
+            DesignatorStatement_A(
+              DesignatorStatementA_Assignop(
+                Designator_only(
+                  DesignatorName(
+                   x
+                  ) [DesignatorName]
+                ) [Designator_only]
+                Assignop(
+                ) [Assignop]
+                Expr_Ternary(
+                  Condition_y(
+                    CondTermList_CondTerm(
+                      CondTerm(
+                        CondFactList_and(
+                          CondFactList_CondFact(
+                            CondFact_Relop(
+                              NonTernaryExpr(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factorMinus(
+                                      FactorMinus(
+                                        OptionalMinus_Epsilon(
+                                        ) [OptionalMinus_Epsilon]
+                                        Factor_designator(
+                                          Designator_only(
+                                            DesignatorName(
+                                             x
+                                            ) [DesignatorName]
+                                          ) [Designator_only]
+                                        ) [Factor_designator]
+                                      ) [FactorMinus]
+                                    ) [MulopFactorList_factorMinus]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [NonTernaryExpr]
+                              Relop_eq(
+                              ) [Relop_eq]
+                              NonTernaryExpr(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factorMinus(
+                                      FactorMinus(
+                                        OptionalMinus_Epsilon(
+                                        ) [OptionalMinus_Epsilon]
+                                        Factor_num(
+                                         10
+                                        ) [Factor_num]
+                                      ) [FactorMinus]
+                                    ) [MulopFactorList_factorMinus]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [NonTernaryExpr]
+                            ) [CondFact_Relop]
+                          ) [CondFactList_CondFact]
+                          CondFact_Base(
+                            NonTernaryExpr(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factorMinus(
+                                    FactorMinus(
+                                      OptionalMinus_Epsilon(
+                                      ) [OptionalMinus_Epsilon]
+                                      Factor_expr(
+                                        Expr_Ternary(
+                                          Condition_y(
+                                            CondTermList_CondTerm(
+                                              CondTerm(
+                                                CondFactList_and(
+                                                  CondFactList_CondFact(
+                                                    CondFact_Relop(
+                                                      NonTernaryExpr(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factorMinus(
+                                                              FactorMinus(
+                                                                OptionalMinus_Epsilon(
+                                                                ) [OptionalMinus_Epsilon]
+                                                                Factor_designator(
+                                                                  Designator_only(
+                                                                    DesignatorName(
+                                                                     x
+                                                                    ) [DesignatorName]
+                                                                  ) [Designator_only]
+                                                                ) [Factor_designator]
+                                                              ) [FactorMinus]
+                                                            ) [MulopFactorList_factorMinus]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [NonTernaryExpr]
+                                                      Relop_eq(
+                                                      ) [Relop_eq]
+                                                      NonTernaryExpr(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factorMinus(
+                                                              FactorMinus(
+                                                                OptionalMinus_Epsilon(
+                                                                ) [OptionalMinus_Epsilon]
+                                                                Factor_num(
+                                                                 10
+                                                                ) [Factor_num]
+                                                              ) [FactorMinus]
+                                                            ) [MulopFactorList_factorMinus]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [NonTernaryExpr]
+                                                    ) [CondFact_Relop]
+                                                  ) [CondFactList_CondFact]
+                                                  CondFact_Base(
+                                                    NonTernaryExpr(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factorMinus(
+                                                            FactorMinus(
+                                                              OptionalMinus_Epsilon(
+                                                              ) [OptionalMinus_Epsilon]
+                                                              Factor_designator(
+                                                                Designator_only(
+                                                                  DesignatorName(
+                                                                   cond
+                                                                  ) [DesignatorName]
+                                                                ) [Designator_only]
+                                                              ) [Factor_designator]
+                                                            ) [FactorMinus]
+                                                          ) [MulopFactorList_factorMinus]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                    ) [NonTernaryExpr]
+                                                  ) [CondFact_Base]
+                                                ) [CondFactList_and]
+                                              ) [CondTerm]
+                                            ) [CondTermList_CondTerm]
+                                          ) [Condition_y]
+                                          QMark(
+                                          ) [QMark]
+                                          Expr_NonTernary(
+                                            NonTernaryExpr(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factorMinus(
+                                                    FactorMinus(
+                                                      OptionalMinus_Epsilon(
+                                                      ) [OptionalMinus_Epsilon]
+                                                      Factor_bool(
+                                                       0
+                                                      ) [Factor_bool]
+                                                    ) [FactorMinus]
+                                                  ) [MulopFactorList_factorMinus]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [NonTernaryExpr]
+                                          ) [Expr_NonTernary]
+                                          Colon(
+                                          ) [Colon]
+                                          Expr_NonTernary(
+                                            NonTernaryExpr(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factorMinus(
+                                                    FactorMinus(
+                                                      OptionalMinus_Epsilon(
+                                                      ) [OptionalMinus_Epsilon]
+                                                      Factor_bool(
+                                                       1
+                                                      ) [Factor_bool]
+                                                    ) [FactorMinus]
+                                                  ) [MulopFactorList_factorMinus]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [NonTernaryExpr]
+                                          ) [Expr_NonTernary]
+                                        ) [Expr_Ternary]
+                                      ) [Factor_expr]
+                                    ) [FactorMinus]
+                                  ) [MulopFactorList_factorMinus]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [NonTernaryExpr]
+                          ) [CondFact_Base]
+                        ) [CondFactList_and]
+                      ) [CondTerm]
+                    ) [CondTermList_CondTerm]
+                  ) [Condition_y]
+                  QMark(
+                  ) [QMark]
+                  Expr_NonTernary(
+                    NonTernaryExpr(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factorMinus(
+                            FactorMinus(
+                              OptionalMinus_Epsilon(
+                              ) [OptionalMinus_Epsilon]
+                              Factor_num(
+                               55
+                              ) [Factor_num]
+                            ) [FactorMinus]
+                          ) [MulopFactorList_factorMinus]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [NonTernaryExpr]
+                  ) [Expr_NonTernary]
+                  Colon(
+                  ) [Colon]
+                  Expr_NonTernary(
+                    NonTernaryExpr(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factorMinus(
+                            FactorMinus(
+                              OptionalMinus_Epsilon(
+                              ) [OptionalMinus_Epsilon]
+                              Factor_num(
+                               22
+                              ) [Factor_num]
+                            ) [FactorMinus]
+                          ) [MulopFactorList_factorMinus]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [NonTernaryExpr]
+                  ) [Expr_NonTernary]
+                ) [Expr_Ternary]
+              ) [DesignatorStatementA_Assignop]
+            ) [DesignatorStatement_A]
+          ) [Statement_Designator]
+        ) [StatementList_y]
+        Statement_print1(
+          Expr_NonTernary(
+            NonTernaryExpr(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factorMinus(
+                    FactorMinus(
+                      OptionalMinus_Epsilon(
+                      ) [OptionalMinus_Epsilon]
+                      Factor_designator(
+                        Designator_only(
+                          DesignatorName(
+                           x
+                          ) [DesignatorName]
+                        ) [Designator_only]
+                      ) [Factor_designator]
+                    ) [FactorMinus]
+                  ) [MulopFactorList_factorMinus]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [NonTernaryExpr]
+          ) [Expr_NonTernary]
+        ) [Statement_print1]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  14:59:06,742 - =====================================================================
+INFO  14:59:06,751 - Pristup lokalnoj promenljivoj: cond [Kind: Var][Type: Bool] na liniji 9
+INFO  14:59:06,751 - Pristup lokalnoj promenljivoj: x [Kind: Var][Type: Int] na liniji 10
+INFO  14:59:06,751 - Pristup lokalnoj promenljivoj: x [Kind: Var][Type: Int] na liniji 10
+INFO  14:59:06,751 - Pristup lokalnoj promenljivoj: x [Kind: Var][Type: Int] na liniji 10
+INFO  14:59:06,751 - Pristup lokalnoj promenljivoj: cond [Kind: Var][Type: Bool] na liniji 10
+INFO  14:59:06,752 - Pristup lokalnoj promenljivoj: x [Kind: Var][Type: Int] na liniji 11
+INFO  14:59:06,752 - =====================================================================
+INFO  14:59:06,761 - Parsiranje uspesno zavrseno!

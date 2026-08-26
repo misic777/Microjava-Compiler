@@ -1,0 +1,241 @@
+INFO  21:46:37,888 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  21:46:37,916 - #2 program
+INFO  21:46:37,916 - #48 Prog1
+INFO  21:46:37,916 - #9 const
+INFO  21:46:37,916 - #48 int
+INFO  21:46:37,917 - #48 pi
+INFO  21:46:37,917 - #10 =
+INFO  21:46:37,917 - #45 3
+INFO  21:46:37,917 - #11 ;
+INFO  21:46:37,918 - #48 int
+INFO  21:46:37,919 - #48 x
+INFO  21:46:37,919 - #13 ,
+INFO  21:46:37,919 - #48 y
+INFO  21:46:37,919 - #7 [
+INFO  21:46:37,919 - #8 ]
+INFO  21:46:37,919 - #11 ;
+INFO  21:46:37,920 - #3 {
+INFO  21:46:37,920 - #12 void
+INFO  21:46:37,921 - #48 main
+INFO  21:46:37,921 - #5 (
+INFO  21:46:37,921 - #6 )
+INFO  21:46:37,922 - #48 int
+INFO  21:46:37,922 - #48 a
+INFO  21:46:37,930 - #13 ,
+INFO  21:46:37,930 - #48 b
+INFO  21:46:37,930 - #13 ,
+INFO  21:46:37,930 - #48 c
+INFO  21:46:37,930 - #11 ;
+INFO  21:46:37,930 - #3 {
+INFO  21:46:37,930 - #48 int
+INFO  21:46:37,931 - #48 z
+ERROR 21:46:37,931 - 
+Sintaksna greska na liniji 8
+INFO  21:46:37,931 - #7 [
+INFO  21:46:37,931 - #8 ]
+INFO  21:46:37,931 - #10 =
+INFO  21:46:37,932 - #44 new
+INFO  21:46:37,932 - #48 int
+INFO  21:46:37,932 - #7 [
+INFO  21:46:37,932 - #45 3
+INFO  21:46:37,932 - #8 ]
+INFO  21:46:37,932 - #11 ;
+INFO  21:46:37,932 - #48 z
+INFO  21:46:37,932 - #7 [
+INFO  21:46:37,933 - #45 2
+ERROR 21:46:37,933 - Oporavak od greske u iskazu dodele. Linija: 25
+INFO  21:46:37,934 - #8 ]
+INFO  21:46:37,935 - #10 =
+INFO  21:46:37,936 - #45 2
+INFO  21:46:37,936 - #11 ;
+INFO  21:46:37,936 - #48 x
+INFO  21:46:37,936 - #26 --
+INFO  21:46:37,936 - #11 ;
+INFO  21:46:37,937 - #20 print
+INFO  21:46:37,937 - #5 (
+INFO  21:46:37,937 - #48 x
+INFO  21:46:37,937 - #6 )
+INFO  21:46:37,937 - #11 ;
+INFO  21:46:37,937 - #4 }
+INFO  21:46:37,937 - #4 }
+INFO  21:46:37,939 - Program(
+  ProgramName(
+   Prog1
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         pi
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    GlobalVarDecl_y(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_var(
+         x
+        ) [VarDecl_var]
+        VarDeclMore_y(
+          VarDecl_array(
+           y
+          ) [VarDecl_array]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclMore_y]
+      ) [VarDeclList]
+    ) [GlobalVarDecl_y]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_y(
+        VarDeclListRec_Epsilon(
+        ) [VarDeclListRec_Epsilon]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_var(
+           a
+          ) [VarDecl_var]
+          VarDeclMore_y(
+            VarDecl_var(
+             b
+            ) [VarDecl_var]
+            VarDeclMore_y(
+              VarDecl_var(
+               c
+              ) [VarDecl_var]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclMore_y]
+          ) [VarDeclMore_y]
+        ) [VarDeclList]
+      ) [VarDeclListRec_y]
+      StatementList_y(
+        StatementList_y(
+          StatementList_y(
+            StatementList_y(
+              StatementList_Epsilon(
+              ) [StatementList_Epsilon]
+              Statement_Designator(
+                DesignatorStatement_A(
+                  DesignatorStatementA_error(
+                  ) [DesignatorStatementA_error]
+                ) [DesignatorStatement_A]
+              ) [Statement_Designator]
+            ) [StatementList_y]
+            Statement_Designator(
+              DesignatorStatement_A(
+                DesignatorStatementA_Assignop(
+                  Designator_arrElem(
+                    DesignatorName(
+                     z
+                    ) [DesignatorName]
+                    Expr_NonTernary(
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_num(
+                                 2
+                                ) [Factor_num]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                    ) [Expr_NonTernary]
+                  ) [Designator_arrElem]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_NonTernary(
+                    NonTernaryExpr(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factorMinus(
+                            FactorMinus(
+                              OptionalMinus_Epsilon(
+                              ) [OptionalMinus_Epsilon]
+                              Factor_num(
+                               2
+                              ) [Factor_num]
+                            ) [FactorMinus]
+                          ) [MulopFactorList_factorMinus]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [NonTernaryExpr]
+                  ) [Expr_NonTernary]
+                ) [DesignatorStatementA_Assignop]
+              ) [DesignatorStatement_A]
+            ) [Statement_Designator]
+          ) [StatementList_y]
+          Statement_Designator(
+            DesignatorStatement_O(
+              DesignatorStatementO_dec(
+                Designator_only(
+                  DesignatorName(
+                   x
+                  ) [DesignatorName]
+                ) [Designator_only]
+              ) [DesignatorStatementO_dec]
+            ) [DesignatorStatement_O]
+          ) [Statement_Designator]
+        ) [StatementList_y]
+        Statement_print1(
+          Expr_NonTernary(
+            NonTernaryExpr(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factorMinus(
+                    FactorMinus(
+                      OptionalMinus_Epsilon(
+                      ) [OptionalMinus_Epsilon]
+                      Factor_designator(
+                        Designator_only(
+                          DesignatorName(
+                           x
+                          ) [DesignatorName]
+                        ) [Designator_only]
+                      ) [Factor_designator]
+                    ) [FactorMinus]
+                  ) [MulopFactorList_factorMinus]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [NonTernaryExpr]
+          ) [Expr_NonTernary]
+        ) [Statement_print1]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  21:46:37,939 - =====================================================================
+ERROR 21:46:37,946 - Nije pronadjen simbol z na liniji 9
+ERROR 21:46:37,947 - Dodela neadekvatne vrednosti u noObj na liniji 9
+INFO  21:46:37,947 - Pristup globalnoj promenljivoj: x [Kind: 1][Type: 1] na liniji 10
+INFO  21:46:37,947 - Pristup promenljivoj: x [Kind: 1][Type: 1] na liniji 10
+INFO  21:46:37,947 - Pristup globalnoj promenljivoj: x [Kind: 1][Type: 1] na liniji 11
+INFO  21:46:37,947 - =====================================================================
+ERROR 21:46:37,948 - Parsiranje NIJE uspesno zavrseno!

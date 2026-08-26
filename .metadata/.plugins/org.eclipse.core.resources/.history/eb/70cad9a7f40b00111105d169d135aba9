@@ -1,0 +1,18 @@
+program enumTest
+
+enum Broj {NULA, JEDAN, TRI = 3, PET = 5, SEST, SEDAM, DESET = 10}
+
+{
+	void main()
+		Broj a;
+	{
+		a = Broj.DESET;
+		print(a);
+		//a = 3; greska
+		//print(a);
+		print(Broj.NULA + Broj.TRI + 5);
+		Broj.PET = 3;
+	}
+	
+	
+}

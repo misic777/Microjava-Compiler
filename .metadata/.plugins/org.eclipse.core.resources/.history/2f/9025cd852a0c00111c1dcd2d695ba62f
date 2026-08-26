@@ -1,0 +1,479 @@
+package rs.ac.bg.etf.pp1;
+
+import java.util.Stack;
+
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.mj.runtime.Code;
+import rs.etf.pp1.symboltable.Tab;
+import rs.etf.pp1.symboltable.concepts.Obj;
+import rs.etf.pp1.symboltable.concepts.Struct;
+
+public class CodeGenerator extends VisitorAdaptor {
+
+	private int mainPC;
+	private int loopType = 0;
+	private Struct methodType;
+	
+	public int getMainPC() {
+		return this.mainPC;
+	}
+	
+
+	public CodeGenerator() {
+		Tab.chrObj.setAdr(Code.pc);
+        Code.put(Code.enter);
+        Code.put(Tab.chrObj.getLevel());
+        Code.put(Tab.chrObj.getLocalSymbols().size());
+        Code.put(Code.load_n);
+        Code.put(Code.exit);
+        Code.put(Code.return_);
+
+        Tab.ordObj.setAdr(Code.pc);
+        Code.put(Code.enter);
+        Code.put(Tab.ordObj.getLevel());
+        Code.put(Tab.ordObj.getLocalSymbols().size());
+        Code.put(Code.load_n);
+        Code.put(Code.exit);
+        Code.put(Code.return_);
+
+        Tab.lenObj.setAdr(Code.pc);
+        Code.put(Code.enter);
+        Code.put(Tab.lenObj.getLevel());
+        Code.put(Tab.lenObj.getLocalSymbols().size());
+        Code.put(Code.load_n);
+        Code.put(Code.arraylength);
+        Code.put(Code.exit);
+        Code.put(Code.return_);
+	}
+	
+	/*----- METHODS -----*/
+	
+	@Override
+	public void visit(MethodType_Void methodType_void) {
+		methodType = Tab.noType;
+		methodType_void.obj.setAdr(Code.pc);
+		if(methodType_void.getI1().equalsIgnoreCase("main")) this.mainPC = Code.pc;
+		Code.put(Code.enter);
+		Code.put(methodType_void.obj.getLevel()); //b1, br form parametara
+		Code.put(methodType_void.obj.getLocalSymbols().size()); // b2, br ukupno parametara
+	}
+	
+	@Override
+	public void visit(MethodType_Type methodType_Type) {
+		methodType_Type.obj.setAdr(Code.pc);
+		Code.put(Code.enter);
+		Code.put(methodType_Type.obj.getLevel()); //b1, br form parametara
+		Code.put(methodType_Type.obj.getLocalSymbols().size()); // b2, br ukupno parametara
+	}
+	
+
+	@Override
+	public void visit(MethodDecl methodDecl) {
+		if(methodType == Tab.noType) {
+			Code.put(Code.exit);
+			Code.put(Code.return_);
+		}else {
+			Code.put(Code.trap);
+			Code.put(1);
+		}
+		
+	}
+	
+	
+	
+	/*----- FACTORS -----*/
+	
+	@Override
+	public void visit(Factor_num factor_num) {
+		Code.loadConst(factor_num.getN1());
+	}
+	
+	@Override
+	public void visit(Factor_char factor_char) {
+		Code.loadConst(factor_char.getC1());
+	}
+	
+	@Override
+	public void visit(Factor_bool factor_bool) {
+		Code.loadConst(factor_bool.getB1());
+	}
+	
+	@Override
+	public void visit(Factor_designator factor_designator) {
+		if(factor_designator.getDesignator() instanceof Designator_len
+				|| factor_designator.getDesignator() instanceof Designator_enum) return;
+		Code.load(factor_designator.getDesignator().obj);
+	}
+	
+	@Override
+	public void visit(FactorMinus factorMinus) {
+		if(factorMinus.getOptionalMinus() instanceof OptionalMinus_y) {
+			Code.put(Code.neg);
+		}
+	}
+	
+	@Override
+	public void visit(Factor_new factor_new) {
+		Code.put(Code.newarray);
+		if(factor_new.getType().struct.equals(Tab.charType)) {
+			Code.put(0);
+		}else {
+			Code.put(1);
+		}
+	}
+	
+	@Override
+	public void visit(Factor_meth factor_meth) {
+		int offset = factor_meth.getDesignator().obj.getAdr() - Code.pc;
+		Code.put(Code.call);
+		Code.put2(offset);
+	}
+	
+	
+	
+	/*----- OPERATIONS -----*/
+	
+	@Override
+	public void visit(AddopTermList_addop addopTermList_addop) {
+		if(addopTermList_addop.getAddop() instanceof Addop_plus) {
+			Code.put(Code.add);
+		} else {
+			Code.put(Code.sub);
+		}
+	}
+	
+	@Override
+	public void visit(MulopFactorList_mulop mulopFactorList_mulop) {
+		if(mulopFactorList_mulop.getMulop() instanceof Mulop_mul) {
+			Code.put(Code.mul);
+		} else if(mulopFactorList_mulop.getMulop() instanceof Mulop_div) {
+			Code.put(Code.div);
+		} else {
+			Code.put(Code.rem);
+		}
+	}
+	
+	
+	
+	/*----- STATEMENT -----*/
+	
+	@Override
+	public void visit(Statement_print1 statement_print1) {
+		Code.loadConst(0);
+		if(statement_print1.getExpr().struct.equals(Tab.intType) || statement_print1.getExpr().struct.getKind() == Struct.Enum) {
+			Code.put(Code.print);
+		}
+		else Code.put(Code.bprint);
+	}
+	
+	@Override
+	public void visit(Statement_print2 statement_print2) {
+		Code.loadConst(statement_print2.getN2());
+		if(statement_print2.getExpr().struct.equals(Tab.intType) || statement_print2.getExpr().struct.getKind() == Struct.Enum) {
+			Code.put(Code.print);
+		}
+		else Code.put(Code.bprint);
+	}
+	
+	@Override
+	public void visit(Statement_return1 statement_return1) {
+		Code.put(Code.exit);
+		Code.put(Code.return_);
+	}
+	
+	@Override
+	public void visit(Statement_return2 statement_return2) {
+		Code.put(Code.exit);
+		Code.put(Code.return_);
+	}
+	
+	@Override
+	public void visit(Statement_read statement_read) {
+		Code.put(Code.read);
+		Code.store(statement_read.getDesignator().obj);
+	}
+	
+	
+	
+	/*----- DESIGNATOR STATEMENT -----*/
+	
+	@Override
+	public void visit(DesignatorStatementA_Assignop designatorStatementA_Assignop) {
+		Code.store(designatorStatementA_Assignop.getDesignator().obj);
+	}
+	
+	@Override
+	public void visit(DesignatorStatementO_inc designatorStatementO_inc) {
+		if(designatorStatementO_inc.getDesignator().obj.getKind() == Obj.Elem) {
+			Code.put(Code.dup2);
+		}
+		Code.load(designatorStatementO_inc.getDesignator().obj);
+		Code.loadConst(1);
+		Code.put(Code.add);
+		Code.store(designatorStatementO_inc.getDesignator().obj);	
+	}
+	
+	@Override
+	public void visit(DesignatorStatementO_dec designatorStatementO_dec) {
+		Code.load(designatorStatementO_dec.getDesignator().obj);
+		Code.loadConst(1);
+		Code.put(Code.sub);
+		Code.store(designatorStatementO_dec.getDesignator().obj);	
+	}
+	
+	@Override
+	public void visit(DesignatorStatementO_meth designatorStatementO_meth) {
+		int offset = designatorStatementO_meth.getDesignator().obj.getAdr() - Code.pc;
+		Code.put(Code.call);
+		Code.put2(offset);
+		if(designatorStatementO_meth.getDesignator().obj.getType() != Tab.noType) {
+			Code.put(Code.pop);
+		}
+	}
+	
+	
+	/*----- DESIGNATOR -----*/
+		
+	@Override
+	public void visit(DesignatorName designatorName) {
+		if(designatorName.getParent() instanceof Designator_arrElem
+			|| designatorName.getParent() instanceof Designator_len) {
+			Code.load(designatorName.obj);
+		}
+	}
+	
+	@Override
+	public void visit(Designator_len designator_len) {
+		Code.put(Code.arraylength);
+	}
+	
+	@Override
+	public void visit(Designator_enum designator_enum) {
+		Code.load(designator_enum.obj); //  <--- vrednost enuma
+	}
+	
+	@Override
+	public void visit(Designator_max designator_max) {
+		Code.loadConst(-1);
+		Code.loadConst(-1);
+		// -1,-1
+		Code.load(designator_max.getDesignatorName().obj);
+		Code.put(Code.arraylength);
+		// -1,-1, len
+	}
+	
+	
+	
+	/*----- CONDITIONS -----*/
+	
+	// Treba bilo koji CondTerm da bude tacan
+	// Treba svi CondFactovi da budu tacni da bi CondTerm bio tacan
+	
+	
+	private Stack<Integer> condFactStack = new Stack<>();
+	private Stack<Integer> conditionStack = new Stack<>();
+	private Stack<Integer> skipThen = new Stack<>();
+	private Stack<Integer> skipElse = new Stack<>();
+
+	@Override
+	public void visit(CondFact_Base condFact_Base) {
+		Code.loadConst(0);
+		Code.putFalseJump(Code.ne, 0); // isto kao i putJump(0), adresa ostaje da visi i ceka fixUp
+		condFactStack.push(Code.pc - 2);
+	}
+	
+	@Override
+	public void visit(CondFact_Relop CondFact_Relop) {
+		Code.putFalseJump(getRelop(CondFact_Relop.getRelop()), 0); // ako je ispunjen kontra uslov, skace se
+		condFactStack.push(Code.pc - 2);
+	}
+	
+	@Override
+	public void visit(CondTerm condTerm) {
+		Code.putJump(0); // tacni idu redom
+		conditionStack.push(Code.pc - 2);
+		while(!condFactStack.empty()) {
+			Code.fixup(condFactStack.pop()); // popravljanje adresa za skok na else
+		}
+	}
+	
+	
+	@Override public void visit(Condition_y condition_y) {
+		Code.putJump(0); // u slucaju da je netacno
+		skipThen.push(Code.pc - 2);
+		while(!conditionStack.empty()) {
+			Code.fixup(conditionStack.pop());
+		}
+			
+	}
+	
+	@Override 
+	public void visit(ElseStatement_Epsilon elseStatement_Epsilon) {
+		Code.fixup(skipThen.pop()); // na trenutnu adresu postavi skokove u slucaju kada if nije ispunjen
+	}
+	
+	@Override
+	public void visit(ElseIdent elseIdent) {
+		Code.putJump(0); // Izvrsen then, dosli do else koji se preskace
+		skipElse.push(Code.pc - 2);
+		Code.fixup(skipThen.pop()); // Popravljanje netacnih
+	}
+	
+	@Override
+	public void visit(ElseStatement_y elseStatement_y) {
+		Code.fixup(skipElse.pop()); // Popravljanje tacnih koji su izvrsili then i preskacu else
+	}
+	
+	
+	// TERNARY OPERATOR //
+	
+	@Override
+	public void visit(Colon colon) {
+		Code.putJump(0);
+		skipElse.push(Code.pc - 2);
+		Code.fixup(skipThen.pop());
+	}
+	
+	@Override
+	public void visit(Expr_Ternary expr_Ternary) {
+		while(!skipElse.empty()) {
+			Code.fixup(skipElse.pop());
+		}
+	}
+	
+	
+	
+	/*----- HELPER FUNCTIONS -----*/
+	
+	
+	private int getRelop(Relop relop) {
+		if(relop instanceof Relop_eq) {
+			return Code.eq;
+		}
+		else if(relop instanceof Relop_ne) {
+			return Code.ne;
+		}
+		else if(relop instanceof Relop_gt) {
+			return Code.gt;
+		}
+		else if(relop instanceof Relop_ge) {
+			return Code.ge;
+		}
+		else if(relop instanceof Relop_le) {
+			return Code.le;
+		}
+		else if(relop instanceof Relop_lt) {
+			return Code.lt;
+		}
+		return -1; // error
+		
+	}
+	
+	/*----- FOR LOOP ------*/
+	
+	
+	private Stack<Integer> beforeCondition = new Stack<>();
+	private Stack<Integer> afterCondition = new Stack<>();
+	private Stack<Integer> statementStart = new Stack<>();
+	private Stack<Integer> continueStack = new Stack<>();
+	private Stack<Integer> breakStack = new Stack<>();
+	
+	
+	@Override
+	public void visit(Statement_for statement_for) {
+		while(!continueStack.empty()) {
+			Code.fixup(continueStack.pop());
+		}
+		Code.putJump(afterCondition.pop()); // ono sto je doslo dovde se vraca na promenu iteratora
+		Code.fixup(skipThen.pop());	// fixup za kada uslov petlje nije ispunjen, pa se preskace ceo statement
+		
+		while(!breakStack.empty()) {
+			Code.fixup(breakStack.pop());
+		}
+	}
+	
+	@Override 
+	public void visit(Semi1 semi1) {
+		loopType = 2;
+		beforeCondition.push(Code.pc);
+	}
+	
+	@Override 
+	public void visit(Semi2 semi2) {
+		Code.putJump(0); // skip promene iteratora jer se to tek na kraju radi
+		statementStart.push(Code.pc - 2);
+		afterCondition.push(Code.pc); // sta god da se radi, ako ima putJump ide prvo to pa onda sve ostalo !!!
+	}
+	
+	@Override
+	public void visit(RParen rparen) {
+		Code.putJump(beforeCondition.pop());
+		Code.fixup(statementStart.pop());
+	}
+	
+	@Override
+	public void visit(Statement_break statement_break) {
+		Code.putJump(0);
+		breakStack.push(Code.pc - 2);
+	}
+	
+	@Override 
+	public void visit(Statement_continue statement_continue) {
+		if(loopType == 1){ //1 switch, 2 for
+			Code.put(Code.pop);
+		}
+		Code.putJump(0);
+		continueStack.push(Code.pc - 2); // da bi znao gde da ode ako nakon continue treba da se zavrsi petlja
+	}
+	
+	/*------ SWTICH -------*/
+
+	private Stack<Integer> skipCase = new Stack<>();
+	
+	@Override
+	public void visit(Statement_switch statement_switch) {
+				
+	    if(!skipCase.empty()) {
+	        Code.fixup(skipCase.pop());
+	    }	    
+		
+		while(!breakStack.empty()) {
+			Code.fixup(breakStack.pop());
+		}
+		Code.put(Code.pop);
+		
+	}
+			
+	@Override
+	public void visit(CaseNumber caseNumber) {		
+		{   // Ovo sve treba da se skipuje od trenutka kada se nadje tacna vrednost
+			Code.put(Code.dup); // dupliranje vrednosti expr-a
+			Code.loadConst(caseNumber.getN1());
+			
+			Code.putFalseJump(Code.eq, 0); // ako je Expr != Case skoci
+			skipCase.push(Code.pc - 2);
+		} 
+		
+	}
+	
+	@Override
+	public void visit(CaseList_y caseList_y ) {
+		if(!(caseList_y.getParent() instanceof Statement_switch)) {
+			Code.putJump(Code.pc + 8);
+		}
+	}
+	
+	@Override
+	public void visit(Case case_) {
+		loopType = 1;
+		if(!skipCase.empty()) {
+	        Code.fixup(skipCase.pop());
+	    }
+	}
+	
+	
+	
+
+	
+}
+

@@ -1,0 +1,201 @@
+INFO  16:13:12,225 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  16:13:12,327 - #2 program
+INFO  16:13:12,327 - #48 test302
+INFO  16:13:12,328 - #9 const
+INFO  16:13:12,330 - #48 int
+INFO  16:13:12,330 - #48 jedan
+INFO  16:13:12,331 - #10 =
+INFO  16:13:12,332 - #45 1
+INFO  16:13:12,332 - #11 ;
+INFO  16:13:12,334 - #48 int
+INFO  16:13:12,336 - #48 i
+INFO  16:13:12,337 - #11 ;
+INFO  16:13:12,338 - #48 bool
+INFO  16:13:12,340 - #48 ibool
+INFO  16:13:12,341 - #11 ;
+INFO  16:13:12,341 - #48 int
+INFO  16:13:12,341 - #48 niz
+INFO  16:13:12,342 - #7 [
+INFO  16:13:12,342 - #8 ]
+INFO  16:13:12,342 - #11 ;
+INFO  16:13:12,343 - #3 {
+INFO  16:13:12,343 - #48 int
+INFO  16:13:12,345 - #48 sum
+INFO  16:13:12,347 - #5 (
+INFO  16:13:12,348 - #48 int
+INFO  16:13:12,348 - #48 z
+INFO  16:13:12,348 - #13 ,
+INFO  16:13:12,349 - #48 int
+INFO  16:13:12,349 - #48 d
+INFO  16:13:12,349 - #6 )
+INFO  16:13:12,351 - #3 {
+INFO  16:13:12,352 - #14 if
+INFO  16:13:12,353 - #5 (
+INFO  16:13:12,354 - #6 )
+ERROR 16:13:12,354 - 
+Sintaksna greska na liniji 15
+INFO  16:13:12,354 - #3 {
+INFO  16:13:12,354 - #4 }
+INFO  16:13:12,354 - #18 return
+ERROR 16:13:12,356 - Oporavak od greske kod deklaracije formalnih parametara f-je. Linija: 15
+INFO  16:13:12,359 - #48 z
+INFO  16:13:12,361 - #38 +
+INFO  16:13:12,366 - #48 d
+INFO  16:13:12,367 - #11 ;
+INFO  16:13:12,369 - #4 }
+INFO  16:13:12,370 - #4 }
+INFO  16:13:12,375 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Var(
+      DeclarationList_Var(
+        DeclarationList_Const(
+          DeclarationList_Epsilon(
+          ) [DeclarationList_Epsilon]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstAssign(
+             jedan
+              Constant_n(
+               1
+              ) [Constant_n]
+            ) [ConstAssign]
+            ConstantList_Epsilon(
+            ) [ConstantList_Epsilon]
+          ) [ConstDecl]
+        ) [DeclarationList_Const]
+        GlobalVarDecl_y(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             i
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [GlobalVarDecl_y]
+      ) [DeclarationList_Var]
+      GlobalVarDecl_y(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl_var(
+           ibool
+          ) [VarDecl_var]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [GlobalVarDecl_y]
+    ) [DeclarationList_Var]
+    GlobalVarDecl_y(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_array(
+         niz
+        ) [VarDecl_array]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [GlobalVarDecl_y]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Type(
+        Type(
+         int
+        ) [Type]
+       sum
+      ) [MethodType_Type]
+      FormParsList_y(
+        FormPars_var(
+          Type(
+           int
+          ) [Type]
+         z
+        ) [FormPars_var]
+        FormParsMore_y(
+          FormPars_var(
+            Type(
+             int
+            ) [Type]
+           d
+          ) [FormPars_var]
+          FormParsMore_Epsilon(
+          ) [FormParsMore_Epsilon]
+        ) [FormParsMore_y]
+      ) [FormParsList_y]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_y(
+        StatementList_y(
+          StatementList_Epsilon(
+          ) [StatementList_Epsilon]
+          Statement_if(
+            Condition_error(
+            ) [Condition_error]
+            Statement_list(
+              StatementList_Epsilon(
+              ) [StatementList_Epsilon]
+            ) [Statement_list]
+            ElseStatement_Epsilon(
+            ) [ElseStatement_Epsilon]
+          ) [Statement_if]
+        ) [StatementList_y]
+        Statement_return2(
+          Expr_NonTernary(
+            NonTernaryExpr(
+              AddopTermList_addop(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factorMinus(
+                      FactorMinus(
+                        OptionalMinus_Epsilon(
+                        ) [OptionalMinus_Epsilon]
+                        Factor_designator(
+                          Designator_only(
+                            DesignatorName(
+                             z
+                            ) [DesignatorName]
+                          ) [Designator_only]
+                        ) [Factor_designator]
+                      ) [FactorMinus]
+                    ) [MulopFactorList_factorMinus]
+                  ) [Term]
+                ) [AddopTermList_term]
+                Addop_plus(
+                ) [Addop_plus]
+                Term(
+                  MulopFactorList_factorMinus(
+                    FactorMinus(
+                      OptionalMinus_Epsilon(
+                      ) [OptionalMinus_Epsilon]
+                      Factor_designator(
+                        Designator_only(
+                          DesignatorName(
+                           d
+                          ) [DesignatorName]
+                        ) [Designator_only]
+                      ) [Factor_designator]
+                    ) [FactorMinus]
+                  ) [MulopFactorList_factorMinus]
+                ) [Term]
+              ) [AddopTermList_addop]
+            ) [NonTernaryExpr]
+          ) [Expr_NonTernary]
+        ) [Statement_return2]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  16:13:12,376 - =====================================================================

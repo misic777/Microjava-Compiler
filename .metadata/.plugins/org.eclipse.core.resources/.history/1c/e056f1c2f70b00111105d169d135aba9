@@ -1,0 +1,38 @@
+program loopsTest
+
+int i, j, k;
+char x, y, z;
+
+{
+
+	void funcSwitch(){
+		i = 2;
+			switch(i){
+				case 1:
+					print(1);
+					break;
+				
+				case 2:
+					print(2);
+				case 3:
+					print(3);
+			}
+	}
+	
+	
+	void funcFor(int a)
+	int n;
+	{
+		n = 5;
+		for(i = 0; i < n; i++){
+			print(i);
+		}
+		
+	
+	}
+	
+	void main(){
+		funcFor(2);
+	}
+
+}

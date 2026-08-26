@@ -1,0 +1,20 @@
+program returnTest
+
+
+int i;
+
+{
+
+	int fun(){
+		i = 1;
+		if(i == 1) return 7;
+		
+	}
+	
+
+	void main(){
+		print(fun());
+	}
+
+	
+}

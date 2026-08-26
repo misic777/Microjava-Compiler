@@ -1,0 +1,138 @@
+INFO  23:00:44,606 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  23:00:44,679 - #2 program
+INFO  23:00:44,679 - #48 Prog1
+INFO  23:00:44,680 - #9 const
+INFO  23:00:44,681 - #48 int
+INFO  23:00:44,682 - #48 pi
+INFO  23:00:44,683 - #10 =
+INFO  23:00:44,683 - #45 3
+INFO  23:00:44,683 - #11 ;
+INFO  23:00:44,685 - #48 int
+INFO  23:00:44,686 - #48 x
+INFO  23:00:44,687 - #13 ,
+INFO  23:00:44,687 - #48 y
+INFO  23:00:44,687 - #7 [
+INFO  23:00:44,687 - #8 ]
+INFO  23:00:44,687 - #11 ;
+INFO  23:00:44,688 - #3 {
+INFO  23:00:44,690 - #12 void
+INFO  23:00:44,691 - #48 main
+INFO  23:00:44,691 - #5 (
+INFO  23:00:44,692 - #6 )
+INFO  23:00:44,692 - #48 int
+INFO  23:00:44,693 - #48 a
+INFO  23:00:44,695 - #13 ,
+INFO  23:00:44,695 - #48 b
+INFO  23:00:44,696 - #13 ,
+INFO  23:00:44,696 - #48 c
+INFO  23:00:44,696 - #11 ;
+INFO  23:00:44,696 - #3 {
+INFO  23:00:44,696 - #20 print
+INFO  23:00:44,697 - #5 (
+INFO  23:00:44,698 - #45 1
+INFO  23:00:44,699 - #6 )
+INFO  23:00:44,703 - #11 ;
+INFO  23:00:44,703 - #4 }
+INFO  23:00:44,703 - #4 }
+INFO  23:00:44,707 - Program(
+  ProgramName(
+   Prog1
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         pi
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    GlobalVarDecl_y(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_var(
+         x
+        ) [VarDecl_var]
+        VarDeclMore_y(
+          VarDecl_array(
+           y
+          ) [VarDecl_array]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclMore_y]
+      ) [VarDeclList]
+    ) [GlobalVarDecl_y]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_y(
+        VarDeclListRec_Epsilon(
+        ) [VarDeclListRec_Epsilon]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_var(
+           a
+          ) [VarDecl_var]
+          VarDeclMore_y(
+            VarDecl_var(
+             b
+            ) [VarDecl_var]
+            VarDeclMore_y(
+              VarDecl_var(
+               c
+              ) [VarDecl_var]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclMore_y]
+          ) [VarDeclMore_y]
+        ) [VarDeclList]
+      ) [VarDeclListRec_y]
+      StatementList_y(
+        StatementList_Epsilon(
+        ) [StatementList_Epsilon]
+        Statement_print1(
+          Expr_NonTernary(
+            NonTernaryExpr(
+              AddopTermList_term(
+                Term(
+                  MulopFactorList_factorMinus(
+                    FactorMinus(
+                      OptionalMinus_Epsilon(
+                      ) [OptionalMinus_Epsilon]
+                      Factor_num(
+                       1
+                      ) [Factor_num]
+                    ) [FactorMinus]
+                  ) [MulopFactorList_factorMinus]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [NonTernaryExpr]
+          ) [Expr_NonTernary]
+        ) [Statement_print1]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  23:00:44,707 - =====================================================================
+INFO  23:00:44,724 - =====================================================================
+INFO  23:00:44,744 - Parsiranje uspesno zavrseno!

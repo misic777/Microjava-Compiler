@@ -1,0 +1,117 @@
+INFO  18:17:53,713 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  18:17:53,759 - #2 program
+INFO  18:17:53,759 - #48 Test
+INFO  18:17:53,759 - #9 const
+INFO  18:17:53,761 - #48 int
+INFO  18:17:53,761 - #48 a
+INFO  18:17:53,761 - #10 =
+INFO  18:17:53,762 - #45 3
+INFO  18:17:53,762 - #11 ;
+INFO  18:17:53,763 - #9 const
+INFO  18:17:53,764 - #48 char
+INFO  18:17:53,764 - #48 c
+INFO  18:17:53,764 - #10 =
+INFO  18:17:53,764 - #47 a
+INFO  18:17:53,764 - #11 ;
+INFO  18:17:53,765 - #3 {
+INFO  18:17:53,765 - #12 void
+INFO  18:17:53,765 - #48 main
+INFO  18:17:53,765 - #5 (
+INFO  18:17:53,765 - #6 )
+INFO  18:17:53,766 - #3 {
+INFO  18:17:53,767 - #48 a
+INFO  18:17:53,767 - #25 ++
+INFO  18:17:53,776 - #11 ;
+INFO  18:17:53,777 - #48 c
+INFO  18:17:53,777 - #25 ++
+INFO  18:17:53,777 - #11 ;
+INFO  18:17:53,778 - #4 }
+INFO  18:17:53,778 - #4 }
+INFO  18:17:53,780 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         a
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstAssign(
+       c
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_y(
+        StatementList_y(
+          StatementList_Epsilon(
+          ) [StatementList_Epsilon]
+          Statement_Designator(
+            DesignatorStatement_O(
+              DesignatorStatementO_inc(
+                Designator_only(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [Designator_only]
+              ) [DesignatorStatementO_inc]
+            ) [DesignatorStatement_O]
+          ) [Statement_Designator]
+        ) [StatementList_y]
+        Statement_Designator(
+          DesignatorStatement_O(
+            DesignatorStatementO_inc(
+              Designator_only(
+                DesignatorName(
+                 c
+                ) [DesignatorName]
+              ) [Designator_only]
+            ) [DesignatorStatementO_inc]
+          ) [DesignatorStatement_O]
+        ) [Statement_Designator]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  18:17:53,781 - =====================================================================
+INFO  18:17:53,791 - Pristup simbolickoj konstanti: a [Kind: 0][Type: 1] na liniji 10
+ERROR 18:17:53,792 - Inc nad neadkvatnom promenljivom a na liniji 10
+INFO  18:17:53,792 - Pristup promenljivoj: a [Kind: 0][Type: 1] na liniji 10
+INFO  18:17:53,793 - Pristup simbolickoj konstanti: c [Kind: 0][Type: 2] na liniji 11
+ERROR 18:17:53,793 - Inc nad neadkvatnom promenljivom c na liniji 11
+ERROR 18:17:53,793 - Inc promenljive c koja nije int na liniji 11
+INFO  18:17:53,793 - Pristup promenljivoj: c [Kind: 0][Type: 2] na liniji 11
+INFO  18:17:53,793 - =====================================================================
+INFO  18:17:53,794 - Parsiranje uspesno zavrseno!

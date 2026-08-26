@@ -1,0 +1,12 @@
+program enumTest
+
+enum Broj {NULA, JEDAN, TRI = 3, PET = 5, SEST, SEDAM, DESET = 10}
+
+{
+	void main(){
+		print(Broj.NULA + BROJ.TRI + 5);
+	
+	}
+	
+	
+}

@@ -1,0 +1,31 @@
+program MJtest
+
+const int jedan = 1;
+
+enum Broj = { NULA, JEDAN, DVA, PET = 5, SEDAM = 7}
+
+int i;
+bool ibool;
+
+int niz[];
+{
+	
+	int sum(int z, int d)
+	{
+		return z + d;
+	}
+	
+	int inkrement(int a, int inc) int pom; 
+	{
+		if(inc == jedan) pom = 1;
+		else if(inc == 2) pom = a;
+
+		return sum(a,pom);
+	}
+		
+	
+	void main()
+	{
+		
+	}
+}

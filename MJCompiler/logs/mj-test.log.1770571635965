@@ -1,0 +1,172 @@
+INFO  18:18:36,571 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  18:18:36,620 - #2 program
+INFO  18:18:36,620 - #48 Test
+INFO  18:18:36,620 - #9 const
+INFO  18:18:36,621 - #48 int
+INFO  18:18:36,622 - #48 a
+INFO  18:18:36,622 - #10 =
+INFO  18:18:36,622 - #45 3
+INFO  18:18:36,622 - #11 ;
+INFO  18:18:36,624 - #9 const
+INFO  18:18:36,625 - #48 char
+INFO  18:18:36,625 - #48 c
+INFO  18:18:36,626 - #10 =
+INFO  18:18:36,626 - #47 a
+INFO  18:18:36,626 - #11 ;
+INFO  18:18:36,626 - #3 {
+INFO  18:18:36,626 - #12 void
+INFO  18:18:36,627 - #48 main
+INFO  18:18:36,627 - #5 (
+INFO  18:18:36,627 - #6 )
+INFO  18:18:36,628 - #3 {
+INFO  18:18:36,628 - #48 ord
+INFO  18:18:36,629 - #5 (
+INFO  18:18:36,639 - #48 c
+INFO  18:18:36,640 - #6 )
+INFO  18:18:36,643 - #11 ;
+INFO  18:18:36,643 - #48 chr
+INFO  18:18:36,644 - #5 (
+INFO  18:18:36,644 - #48 a
+INFO  18:18:36,644 - #6 )
+INFO  18:18:36,645 - #11 ;
+INFO  18:18:36,645 - #4 }
+INFO  18:18:36,645 - #4 }
+INFO  18:18:36,648 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         a
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstAssign(
+       c
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_y(
+        StatementList_y(
+          StatementList_Epsilon(
+          ) [StatementList_Epsilon]
+          Statement_Designator(
+            DesignatorStatement_O(
+              DesignatorStatementO_ActPars(
+                Designator_only(
+                  DesignatorName(
+                   ord
+                  ) [DesignatorName]
+                ) [Designator_only]
+                ActParsOptional_y(
+                  ActPars(
+                    ExprList_base(
+                      Expr_NonTernary(
+                        NonTernaryExpr(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factorMinus(
+                                FactorMinus(
+                                  OptionalMinus_Epsilon(
+                                  ) [OptionalMinus_Epsilon]
+                                  Factor_designator(
+                                    Designator_only(
+                                      DesignatorName(
+                                       c
+                                      ) [DesignatorName]
+                                    ) [Designator_only]
+                                  ) [Factor_designator]
+                                ) [FactorMinus]
+                              ) [MulopFactorList_factorMinus]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [NonTernaryExpr]
+                      ) [Expr_NonTernary]
+                    ) [ExprList_base]
+                  ) [ActPars]
+                ) [ActParsOptional_y]
+              ) [DesignatorStatementO_ActPars]
+            ) [DesignatorStatement_O]
+          ) [Statement_Designator]
+        ) [StatementList_y]
+        Statement_Designator(
+          DesignatorStatement_O(
+            DesignatorStatementO_ActPars(
+              Designator_only(
+                DesignatorName(
+                 chr
+                ) [DesignatorName]
+              ) [Designator_only]
+              ActParsOptional_y(
+                ActPars(
+                  ExprList_base(
+                    Expr_NonTernary(
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_designator(
+                                  Designator_only(
+                                    DesignatorName(
+                                     a
+                                    ) [DesignatorName]
+                                  ) [Designator_only]
+                                ) [Factor_designator]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                    ) [Expr_NonTernary]
+                  ) [ExprList_base]
+                ) [ActPars]
+              ) [ActParsOptional_y]
+            ) [DesignatorStatementO_ActPars]
+          ) [DesignatorStatement_O]
+        ) [Statement_Designator]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  18:18:36,648 - =====================================================================
+INFO  18:18:36,659 - Pristup simbolickoj konstanti: c [Kind: 0][Type: 2] na liniji 10
+INFO  18:18:36,723 - Pozivanje globalne funkcije ord [Kind: 3][Type: 1] na liniji 10
+INFO  18:18:36,723 - Pristup simbolickoj konstanti: a [Kind: 0][Type: 1] na liniji 11
+INFO  18:18:36,723 - Pozivanje globalne funkcije chr [Kind: 3][Type: 2] na liniji 11
+INFO  18:18:36,723 - =====================================================================
+INFO  18:18:36,724 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,636 @@
+INFO  14:22:31,143 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  14:22:31,173 - #2 program
+INFO  14:22:31,173 - #48 test301
+INFO  14:22:31,173 - #28 enum
+INFO  14:22:31,174 - #48 Broj
+INFO  14:22:31,174 - #3 {
+INFO  14:22:31,174 - #48 NULA
+INFO  14:22:31,174 - #13 ,
+INFO  14:22:31,175 - #48 JEDAN
+INFO  14:22:31,175 - #13 ,
+INFO  14:22:31,175 - #48 PET
+INFO  14:22:31,175 - #10 =
+INFO  14:22:31,175 - #45 5
+INFO  14:22:31,175 - #13 ,
+INFO  14:22:31,175 - #48 SEST
+INFO  14:22:31,175 - #13 ,
+INFO  14:22:31,176 - #48 DESET
+INFO  14:22:31,176 - #10 =
+INFO  14:22:31,176 - #45 10
+INFO  14:22:31,176 - #4 }
+INFO  14:22:31,176 - #9 const
+INFO  14:22:31,177 - #48 int
+INFO  14:22:31,177 - #48 nula
+INFO  14:22:31,177 - #10 =
+INFO  14:22:31,177 - #45 0
+INFO  14:22:31,177 - #11 ;
+INFO  14:22:31,179 - #9 const
+INFO  14:22:31,179 - #48 int
+INFO  14:22:31,179 - #48 jedan
+INFO  14:22:31,180 - #10 =
+INFO  14:22:31,180 - #45 1
+INFO  14:22:31,180 - #11 ;
+INFO  14:22:31,180 - #9 const
+INFO  14:22:31,180 - #48 int
+INFO  14:22:31,180 - #48 pet
+INFO  14:22:31,180 - #10 =
+INFO  14:22:31,180 - #45 5
+INFO  14:22:31,180 - #11 ;
+INFO  14:22:31,180 - #48 int
+INFO  14:22:31,180 - #48 niz
+INFO  14:22:31,181 - #7 [
+INFO  14:22:31,181 - #8 ]
+INFO  14:22:31,181 - #11 ;
+INFO  14:22:31,182 - #48 char
+INFO  14:22:31,183 - #48 nizch
+INFO  14:22:31,183 - #7 [
+INFO  14:22:31,183 - #8 ]
+INFO  14:22:31,183 - #11 ;
+INFO  14:22:31,183 - #48 int
+INFO  14:22:31,183 - #48 a
+INFO  14:22:31,183 - #11 ;
+INFO  14:22:31,183 - #48 int
+INFO  14:22:31,183 - #48 temp
+INFO  14:22:31,183 - #11 ;
+INFO  14:22:31,183 - #48 char
+INFO  14:22:31,184 - #48 c
+INFO  14:22:31,184 - #11 ;
+INFO  14:22:31,184 - #3 {
+INFO  14:22:31,184 - #12 void
+INFO  14:22:31,184 - #48 main
+INFO  14:22:31,185 - #5 (
+INFO  14:22:31,185 - #6 )
+INFO  14:22:31,185 - #48 int
+INFO  14:22:31,186 - #48 bodovi
+INFO  14:22:31,186 - #11 ;
+INFO  14:22:31,186 - #48 int
+INFO  14:22:31,187 - #48 temp
+INFO  14:22:31,187 - #11 ;
+INFO  14:22:31,187 - #48 bool
+INFO  14:22:31,187 - #48 bt
+INFO  14:22:31,187 - #11 ;
+INFO  14:22:31,191 - #48 Broj
+INFO  14:22:31,191 - #48 nula
+INFO  14:22:31,191 - #13 ,
+INFO  14:22:31,191 - #48 jedan
+INFO  14:22:31,191 - #11 ;
+INFO  14:22:31,191 - #3 {
+INFO  14:22:31,191 - #48 a
+INFO  14:22:31,192 - #10 =
+INFO  14:22:31,193 - #48 niz
+INFO  14:22:31,194 - #7 [
+INFO  14:22:31,194 - #48 nula
+INFO  14:22:31,194 - #8 ]
+INFO  14:22:31,196 - #11 ;
+INFO  14:22:31,196 - #48 c
+INFO  14:22:31,197 - #10 =
+INFO  14:22:31,197 - #47 a
+INFO  14:22:31,197 - #11 ;
+INFO  14:22:31,197 - #48 a
+INFO  14:22:31,197 - #10 =
+INFO  14:22:31,197 - #48 Broj
+INFO  14:22:31,197 - #27 .
+INFO  14:22:31,197 - #48 JEDAN
+INFO  14:22:31,197 - #11 ;
+INFO  14:22:31,198 - #48 nula
+INFO  14:22:31,198 - #10 =
+INFO  14:22:31,198 - #48 Broj
+INFO  14:22:31,198 - #27 .
+INFO  14:22:31,198 - #48 PET
+INFO  14:22:31,198 - #11 ;
+INFO  14:22:31,198 - #48 jedan
+INFO  14:22:31,198 - #10 =
+INFO  14:22:31,198 - #45 5
+INFO  14:22:31,198 - #11 ;
+INFO  14:22:31,198 - #18 return
+INFO  14:22:31,198 - #11 ;
+INFO  14:22:31,199 - #4 }
+INFO  14:22:31,199 - #48 int
+INFO  14:22:31,200 - #48 fun1
+INFO  14:22:31,200 - #5 (
+INFO  14:22:31,200 - #48 int
+INFO  14:22:31,200 - #48 x
+INFO  14:22:31,200 - #13 ,
+INFO  14:22:31,201 - #48 char
+INFO  14:22:31,201 - #48 c
+INFO  14:22:31,201 - #13 ,
+INFO  14:22:31,201 - #48 bool
+INFO  14:22:31,201 - #48 isTrue
+INFO  14:22:31,201 - #6 )
+INFO  14:22:31,202 - #3 {
+INFO  14:22:31,202 - #4 }
+INFO  14:22:31,202 - #48 char
+INFO  14:22:31,202 - #48 fun2
+INFO  14:22:31,203 - #5 (
+INFO  14:22:31,203 - #48 int
+INFO  14:22:31,203 - #48 x
+INFO  14:22:31,203 - #7 [
+INFO  14:22:31,203 - #8 ]
+INFO  14:22:31,203 - #13 ,
+INFO  14:22:31,203 - #48 int
+INFO  14:22:31,203 - #48 y
+INFO  14:22:31,203 - #6 )
+INFO  14:22:31,203 - #3 {
+INFO  14:22:31,203 - #4 }
+INFO  14:22:31,203 - #4 }
+INFO  14:22:31,206 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Var(
+      DeclarationList_Var(
+        DeclarationList_Var(
+          DeclarationList_Var(
+            DeclarationList_Const(
+              DeclarationList_Const(
+                DeclarationList_Const(
+                  DeclarationList_Enum(
+                    DeclarationList_Epsilon(
+                    ) [DeclarationList_Epsilon]
+                    EnumDecl(
+                      EnumName(
+                       Broj
+                      ) [EnumName]
+                      EnumDeclMore_list(
+                        EnumDeclMore_list(
+                          EnumDeclMore_list(
+                            EnumDeclMore_list(
+                              EnumDeclMore_base(
+                                AssignConst_noVal(
+                                 NULA
+                                ) [AssignConst_noVal]
+                              ) [EnumDeclMore_base]
+                              AssignConst_noVal(
+                               JEDAN
+                              ) [AssignConst_noVal]
+                            ) [EnumDeclMore_list]
+                            AssignConst_val(
+                             PET
+                             5
+                            ) [AssignConst_val]
+                          ) [EnumDeclMore_list]
+                          AssignConst_noVal(
+                           SEST
+                          ) [AssignConst_noVal]
+                        ) [EnumDeclMore_list]
+                        AssignConst_val(
+                         DESET
+                         10
+                        ) [AssignConst_val]
+                      ) [EnumDeclMore_list]
+                    ) [EnumDecl]
+                  ) [DeclarationList_Enum]
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    ConstAssign(
+                     nula
+                      Constant_n(
+                       0
+                      ) [Constant_n]
+                    ) [ConstAssign]
+                    ConstantList_Epsilon(
+                    ) [ConstantList_Epsilon]
+                  ) [ConstDecl]
+                ) [DeclarationList_Const]
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstAssign(
+                   jedan
+                    Constant_n(
+                     1
+                    ) [Constant_n]
+                  ) [ConstAssign]
+                  ConstantList_Epsilon(
+                  ) [ConstantList_Epsilon]
+                ) [ConstDecl]
+              ) [DeclarationList_Const]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstAssign(
+                 pet
+                  Constant_n(
+                   5
+                  ) [Constant_n]
+                ) [ConstAssign]
+                ConstantList_Epsilon(
+                ) [ConstantList_Epsilon]
+              ) [ConstDecl]
+            ) [DeclarationList_Const]
+            GlobalVarDecl_y(
+              VarDeclList(
+                Type(
+                 int
+                ) [Type]
+                VarDecl_array(
+                 niz
+                ) [VarDecl_array]
+                VarDeclMore_Epsilon(
+                ) [VarDeclMore_Epsilon]
+              ) [VarDeclList]
+            ) [GlobalVarDecl_y]
+          ) [DeclarationList_Var]
+          GlobalVarDecl_y(
+            VarDeclList(
+              Type(
+               char
+              ) [Type]
+              VarDecl_array(
+               nizch
+              ) [VarDecl_array]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclList]
+          ) [GlobalVarDecl_y]
+        ) [DeclarationList_Var]
+        GlobalVarDecl_y(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             a
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [GlobalVarDecl_y]
+      ) [DeclarationList_Var]
+      GlobalVarDecl_y(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_var(
+           temp
+          ) [VarDecl_var]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [GlobalVarDecl_y]
+    ) [DeclarationList_Var]
+    GlobalVarDecl_y(
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_var(
+         c
+        ) [VarDecl_var]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [GlobalVarDecl_y]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_y(
+      MethodDeclList_y(
+        MethodDeclList_Epsilon(
+        ) [MethodDeclList_Epsilon]
+        MethodDecl(
+          MethodType_Void(
+           main
+          ) [MethodType_Void]
+          FormParsList_Epsilon(
+          ) [FormParsList_Epsilon]
+          VarDeclListRec_y(
+            VarDeclListRec_y(
+              VarDeclListRec_y(
+                VarDeclListRec_y(
+                  VarDeclListRec_Epsilon(
+                  ) [VarDeclListRec_Epsilon]
+                  VarDeclList(
+                    Type(
+                     int
+                    ) [Type]
+                    VarDecl_var(
+                     bodovi
+                    ) [VarDecl_var]
+                    VarDeclMore_Epsilon(
+                    ) [VarDeclMore_Epsilon]
+                  ) [VarDeclList]
+                ) [VarDeclListRec_y]
+                VarDeclList(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDecl_var(
+                   temp
+                  ) [VarDecl_var]
+                  VarDeclMore_Epsilon(
+                  ) [VarDeclMore_Epsilon]
+                ) [VarDeclList]
+              ) [VarDeclListRec_y]
+              VarDeclList(
+                Type(
+                 bool
+                ) [Type]
+                VarDecl_var(
+                 bt
+                ) [VarDecl_var]
+                VarDeclMore_Epsilon(
+                ) [VarDeclMore_Epsilon]
+              ) [VarDeclList]
+            ) [VarDeclListRec_y]
+            VarDeclList(
+              Type(
+               Broj
+              ) [Type]
+              VarDecl_var(
+               nula
+              ) [VarDecl_var]
+              VarDeclMore_y(
+                VarDecl_var(
+                 jedan
+                ) [VarDecl_var]
+                VarDeclMore_Epsilon(
+                ) [VarDeclMore_Epsilon]
+              ) [VarDeclMore_y]
+            ) [VarDeclList]
+          ) [VarDeclListRec_y]
+          StatementList_y(
+            StatementList_y(
+              StatementList_y(
+                StatementList_y(
+                  StatementList_y(
+                    StatementList_y(
+                      StatementList_Epsilon(
+                      ) [StatementList_Epsilon]
+                      Statement_Designator(
+                        DesignatorStatement_A(
+                          DesignatorStatementA_Assignop(
+                            Designator_only(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [Designator_only]
+                            Assignop(
+                            ) [Assignop]
+                            Expr_NonTernary(
+                              NonTernaryExpr(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factorMinus(
+                                      FactorMinus(
+                                        OptionalMinus_Epsilon(
+                                        ) [OptionalMinus_Epsilon]
+                                        Factor_designator(
+                                          Designator_arrElem(
+                                            DesignatorName(
+                                             niz
+                                            ) [DesignatorName]
+                                            Expr_NonTernary(
+                                              NonTernaryExpr(
+                                                AddopTermList_term(
+                                                  Term(
+                                                    MulopFactorList_factorMinus(
+                                                      FactorMinus(
+                                                        OptionalMinus_Epsilon(
+                                                        ) [OptionalMinus_Epsilon]
+                                                        Factor_designator(
+                                                          Designator_only(
+                                                            DesignatorName(
+                                                             nula
+                                                            ) [DesignatorName]
+                                                          ) [Designator_only]
+                                                        ) [Factor_designator]
+                                                      ) [FactorMinus]
+                                                    ) [MulopFactorList_factorMinus]
+                                                  ) [Term]
+                                                ) [AddopTermList_term]
+                                              ) [NonTernaryExpr]
+                                            ) [Expr_NonTernary]
+                                          ) [Designator_arrElem]
+                                        ) [Factor_designator]
+                                      ) [FactorMinus]
+                                    ) [MulopFactorList_factorMinus]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [NonTernaryExpr]
+                            ) [Expr_NonTernary]
+                          ) [DesignatorStatementA_Assignop]
+                        ) [DesignatorStatement_A]
+                      ) [Statement_Designator]
+                    ) [StatementList_y]
+                    Statement_Designator(
+                      DesignatorStatement_A(
+                        DesignatorStatementA_Assignop(
+                          Designator_only(
+                            DesignatorName(
+                             c
+                            ) [DesignatorName]
+                          ) [Designator_only]
+                          Assignop(
+                          ) [Assignop]
+                          Expr_NonTernary(
+                            NonTernaryExpr(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factorMinus(
+                                    FactorMinus(
+                                      OptionalMinus_Epsilon(
+                                      ) [OptionalMinus_Epsilon]
+                                      Factor_char(
+                                       a
+                                      ) [Factor_char]
+                                    ) [FactorMinus]
+                                  ) [MulopFactorList_factorMinus]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [NonTernaryExpr]
+                          ) [Expr_NonTernary]
+                        ) [DesignatorStatementA_Assignop]
+                      ) [DesignatorStatement_A]
+                    ) [Statement_Designator]
+                  ) [StatementList_y]
+                  Statement_Designator(
+                    DesignatorStatement_A(
+                      DesignatorStatementA_Assignop(
+                        Designator_only(
+                          DesignatorName(
+                           a
+                          ) [DesignatorName]
+                        ) [Designator_only]
+                        Assignop(
+                        ) [Assignop]
+                        Expr_NonTernary(
+                          NonTernaryExpr(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factorMinus(
+                                  FactorMinus(
+                                    OptionalMinus_Epsilon(
+                                    ) [OptionalMinus_Epsilon]
+                                    Factor_designator(
+                                      Designator_enum(
+                                        DesignatorName(
+                                         Broj
+                                        ) [DesignatorName]
+                                       JEDAN
+                                      ) [Designator_enum]
+                                    ) [Factor_designator]
+                                  ) [FactorMinus]
+                                ) [MulopFactorList_factorMinus]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [NonTernaryExpr]
+                        ) [Expr_NonTernary]
+                      ) [DesignatorStatementA_Assignop]
+                    ) [DesignatorStatement_A]
+                  ) [Statement_Designator]
+                ) [StatementList_y]
+                Statement_Designator(
+                  DesignatorStatement_A(
+                    DesignatorStatementA_Assignop(
+                      Designator_only(
+                        DesignatorName(
+                         nula
+                        ) [DesignatorName]
+                      ) [Designator_only]
+                      Assignop(
+                      ) [Assignop]
+                      Expr_NonTernary(
+                        NonTernaryExpr(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factorMinus(
+                                FactorMinus(
+                                  OptionalMinus_Epsilon(
+                                  ) [OptionalMinus_Epsilon]
+                                  Factor_designator(
+                                    Designator_enum(
+                                      DesignatorName(
+                                       Broj
+                                      ) [DesignatorName]
+                                     PET
+                                    ) [Designator_enum]
+                                  ) [Factor_designator]
+                                ) [FactorMinus]
+                              ) [MulopFactorList_factorMinus]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [NonTernaryExpr]
+                      ) [Expr_NonTernary]
+                    ) [DesignatorStatementA_Assignop]
+                  ) [DesignatorStatement_A]
+                ) [Statement_Designator]
+              ) [StatementList_y]
+              Statement_Designator(
+                DesignatorStatement_A(
+                  DesignatorStatementA_Assignop(
+                    Designator_only(
+                      DesignatorName(
+                       jedan
+                      ) [DesignatorName]
+                    ) [Designator_only]
+                    Assignop(
+                    ) [Assignop]
+                    Expr_NonTernary(
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_num(
+                                 5
+                                ) [Factor_num]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                    ) [Expr_NonTernary]
+                  ) [DesignatorStatementA_Assignop]
+                ) [DesignatorStatement_A]
+              ) [Statement_Designator]
+            ) [StatementList_y]
+            Statement_return1(
+            ) [Statement_return1]
+          ) [StatementList_y]
+        ) [MethodDecl]
+      ) [MethodDeclList_y]
+      MethodDecl(
+        MethodType_Type(
+          Type(
+           int
+          ) [Type]
+         fun1
+        ) [MethodType_Type]
+        FormParsList_y(
+          FormPars_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPars_var]
+          FormParsMore_y(
+            FormPars_var(
+              Type(
+               char
+              ) [Type]
+             c
+            ) [FormPars_var]
+            FormParsMore_y(
+              FormPars_var(
+                Type(
+                 bool
+                ) [Type]
+               isTrue
+              ) [FormPars_var]
+              FormParsMore_Epsilon(
+              ) [FormParsMore_Epsilon]
+            ) [FormParsMore_y]
+          ) [FormParsMore_y]
+        ) [FormParsList_y]
+        VarDeclListRec_Epsilon(
+        ) [VarDeclListRec_Epsilon]
+        StatementList_Epsilon(
+        ) [StatementList_Epsilon]
+      ) [MethodDecl]
+    ) [MethodDeclList_y]
+    MethodDecl(
+      MethodType_Type(
+        Type(
+         char
+        ) [Type]
+       fun2
+      ) [MethodType_Type]
+      FormParsList_y(
+        FormPars_array(
+          Type(
+           int
+          ) [Type]
+         x
+        ) [FormPars_array]
+        FormParsMore_y(
+          FormPars_var(
+            Type(
+             int
+            ) [Type]
+           y
+          ) [FormPars_var]
+          FormParsMore_Epsilon(
+          ) [FormParsMore_Epsilon]
+        ) [FormParsMore_y]
+      ) [FormParsList_y]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  14:22:31,207 - =====================================================================
+ERROR 14:22:31,215 - Niz mora biti indeksiran int-om na liniji 26
+ERROR 14:22:31,215 - Dodela neadekvatne vrednosti u a na liniji 26
+ERROR 14:22:31,215 - Dodela neadekvatne vrednosti u jedan na liniji 30
+INFO  14:22:31,215 - =====================================================================
+INFO  14:22:31,216 - Parsiranje uspesno zavrseno!

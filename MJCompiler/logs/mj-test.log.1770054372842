@@ -1,0 +1,73 @@
+INFO  18:45:40,938 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  18:45:41,005 - #2 program
+INFO  18:45:41,005 - #48 test123
+INFO  18:45:41,005 - #9 const
+INFO  18:45:41,007 - #48 int
+INFO  18:45:41,008 - #48 pi
+INFO  18:45:41,009 - #10 =
+INFO  18:45:41,009 - #45 3
+INFO  18:45:41,009 - #11 ;
+INFO  18:45:41,011 - #3 {
+INFO  18:45:41,012 - #12 void
+INFO  18:45:41,013 - #48 main
+INFO  18:45:41,014 - #5 (
+INFO  18:45:41,014 - #6 )
+INFO  18:45:41,015 - #3 {
+INFO  18:45:41,016 - #48 int
+INFO  18:45:41,017 - #48 hi
+ERROR 18:45:41,017 - 
+Sintaksna greska na liniji 5
+INFO  18:45:41,017 - #10 =
+INFO  18:45:41,018 - #45 7
+INFO  18:45:41,018 - #11 ;
+INFO  18:45:41,019 - #4 }
+INFO  18:45:41,027 - #4 }
+ERROR 18:45:41,028 - Oporavak od greske u iskazu dodele. Linija: 12
+INFO  18:45:41,032 - Program(
+  ProgramName(
+   test123
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Epsilon(
+    ) [DeclarationList_Epsilon]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstAssign(
+       pi
+        Constant_n(
+         3
+        ) [Constant_n]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_y(
+        StatementList_Epsilon(
+        ) [StatementList_Epsilon]
+        Statement_Designator(
+          DesignatorStatement_A(
+            DesignatorStatementA_error(
+            ) [DesignatorStatementA_error]
+          ) [DesignatorStatement_A]
+        ) [Statement_Designator]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  18:45:41,033 - =====================================================================
+INFO  18:45:41,048 - =====================================================================
+ERROR 18:45:41,050 - Parsiranje NIJE uspesno zavrseno!

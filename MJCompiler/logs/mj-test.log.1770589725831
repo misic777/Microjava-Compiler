@@ -1,0 +1,89 @@
+INFO  23:28:24,119 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  23:28:24,162 - #2 program
+INFO  23:28:24,162 - #48 Test
+INFO  23:28:24,162 - #9 const
+INFO  23:28:24,163 - #48 int
+INFO  23:28:24,163 - #48 a
+INFO  23:28:24,164 - #10 =
+INFO  23:28:24,164 - #45 3
+INFO  23:28:24,164 - #11 ;
+INFO  23:28:24,165 - #9 const
+INFO  23:28:24,166 - #48 char
+INFO  23:28:24,166 - #48 c
+INFO  23:28:24,166 - #10 =
+INFO  23:28:24,167 - #47 a
+INFO  23:28:24,167 - #11 ;
+INFO  23:28:24,167 - #3 {
+INFO  23:28:24,167 - #12 void
+INFO  23:28:24,168 - #48 main
+INFO  23:28:24,168 - #5 (
+INFO  23:28:24,168 - #48 int
+INFO  23:28:24,168 - #48 a
+INFO  23:28:24,168 - #6 )
+INFO  23:28:24,169 - #3 {
+INFO  23:28:24,170 - #4 }
+INFO  23:28:24,171 - #4 }
+INFO  23:28:24,172 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         a
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstAssign(
+       c
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_y(
+        FormPars_var(
+          Type(
+           int
+          ) [Type]
+         a
+        ) [FormPars_var]
+        FormParsMore_Epsilon(
+        ) [FormParsMore_Epsilon]
+      ) [FormParsList_y]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  23:28:24,173 - =====================================================================
+ERROR 23:28:24,179 - Program nema main metodu na liniji 1
+INFO  23:28:24,179 - =====================================================================
+INFO  23:28:24,180 - Parsiranje uspesno zavrseno!

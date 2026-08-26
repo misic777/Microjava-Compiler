@@ -1,0 +1,259 @@
+INFO  00:43:28,675 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  00:43:28,702 - #2 program
+INFO  00:43:28,702 - #48 test301
+INFO  00:43:28,702 - #28 enum
+INFO  00:43:28,703 - #48 Broj
+INFO  00:43:28,703 - #3 {
+INFO  00:43:28,703 - #48 NULA
+INFO  00:43:28,703 - #13 ,
+INFO  00:43:28,703 - #48 JEDAN
+INFO  00:43:28,703 - #13 ,
+INFO  00:43:28,703 - #48 PET
+INFO  00:43:28,704 - #10 =
+INFO  00:43:28,704 - #45 5
+INFO  00:43:28,704 - #13 ,
+INFO  00:43:28,704 - #48 DESET
+INFO  00:43:28,704 - #10 =
+INFO  00:43:28,704 - #45 10
+INFO  00:43:28,704 - #4 }
+INFO  00:43:28,704 - #9 const
+INFO  00:43:28,705 - #48 int
+INFO  00:43:28,705 - #48 nula
+INFO  00:43:28,706 - #10 =
+INFO  00:43:28,713 - #45 0
+INFO  00:43:28,713 - #11 ;
+INFO  00:43:28,714 - #9 const
+INFO  00:43:28,714 - #48 int
+INFO  00:43:28,714 - #48 jedan
+INFO  00:43:28,715 - #10 =
+INFO  00:43:28,715 - #45 1
+INFO  00:43:28,715 - #11 ;
+INFO  00:43:28,715 - #9 const
+INFO  00:43:28,715 - #48 int
+INFO  00:43:28,715 - #48 pet
+INFO  00:43:28,715 - #10 =
+INFO  00:43:28,715 - #45 5
+INFO  00:43:28,715 - #11 ;
+INFO  00:43:28,715 - #48 int
+INFO  00:43:28,715 - #48 niz
+INFO  00:43:28,715 - #7 [
+INFO  00:43:28,715 - #8 ]
+INFO  00:43:28,715 - #11 ;
+INFO  00:43:28,716 - #48 char
+INFO  00:43:28,717 - #48 nizch
+INFO  00:43:28,717 - #7 [
+INFO  00:43:28,717 - #8 ]
+INFO  00:43:28,717 - #11 ;
+INFO  00:43:28,717 - #48 int
+INFO  00:43:28,717 - #48 a
+INFO  00:43:28,717 - #11 ;
+INFO  00:43:28,717 - #3 {
+INFO  00:43:28,717 - #12 void
+INFO  00:43:28,718 - #48 main
+INFO  00:43:28,718 - #5 (
+INFO  00:43:28,718 - #6 )
+INFO  00:43:28,719 - #48 int
+INFO  00:43:28,719 - #48 bodovi
+INFO  00:43:28,719 - #11 ;
+INFO  00:43:28,719 - #48 int
+INFO  00:43:28,719 - #48 temp
+INFO  00:43:28,719 - #11 ;
+INFO  00:43:28,720 - #48 bool
+INFO  00:43:28,720 - #48 bt
+INFO  00:43:28,720 - #11 ;
+INFO  00:43:28,720 - #3 {
+INFO  00:43:28,720 - #4 }
+INFO  00:43:28,720 - #48 int
+INFO  00:43:28,721 - #48 main
+INFO  00:43:28,721 - #5 (
+INFO  00:43:28,721 - #6 )
+INFO  00:43:28,721 - #3 {
+INFO  00:43:28,721 - #4 }
+INFO  00:43:28,721 - #4 }
+INFO  00:43:28,722 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationList_Var(
+    DeclarationList_Var(
+      DeclarationList_Var(
+        DeclarationList_Const(
+          DeclarationList_Const(
+            DeclarationList_Const(
+              DeclarationList_Enum(
+                DeclarationList_Epsilon(
+                ) [DeclarationList_Epsilon]
+                EnumDecl(
+                 Broj
+                 NULA
+                  AssignConst_Epsilon(
+                  ) [AssignConst_Epsilon]
+                  EnumDeclMore_y(
+                   JEDAN
+                    AssignConst_Epsilon(
+                    ) [AssignConst_Epsilon]
+                    EnumDeclMore_y(
+                     PET
+                      AssignConst_y(
+                       5
+                      ) [AssignConst_y]
+                      EnumDeclMore_y(
+                       DESET
+                        AssignConst_y(
+                         10
+                        ) [AssignConst_y]
+                        EnumDeclMore_Epsilon(
+                        ) [EnumDeclMore_Epsilon]
+                      ) [EnumDeclMore_y]
+                    ) [EnumDeclMore_y]
+                  ) [EnumDeclMore_y]
+                ) [EnumDecl]
+              ) [DeclarationList_Enum]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstAssign(
+                 nula
+                  Constant_n(
+                   0
+                  ) [Constant_n]
+                ) [ConstAssign]
+                ConstantList_Epsilon(
+                ) [ConstantList_Epsilon]
+              ) [ConstDecl]
+            ) [DeclarationList_Const]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstAssign(
+               jedan
+                Constant_n(
+                 1
+                ) [Constant_n]
+              ) [ConstAssign]
+              ConstantList_Epsilon(
+              ) [ConstantList_Epsilon]
+            ) [ConstDecl]
+          ) [DeclarationList_Const]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstAssign(
+             pet
+              Constant_n(
+               5
+              ) [Constant_n]
+            ) [ConstAssign]
+            ConstantList_Epsilon(
+            ) [ConstantList_Epsilon]
+          ) [ConstDecl]
+        ) [DeclarationList_Const]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_array(
+           niz
+          ) [VarDecl_array]
+          VarDeclMore_Epsilon(
+          ) [VarDeclMore_Epsilon]
+        ) [VarDeclList]
+      ) [DeclarationList_Var]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_array(
+         nizch
+        ) [VarDecl_array]
+        VarDeclMore_Epsilon(
+        ) [VarDeclMore_Epsilon]
+      ) [VarDeclList]
+    ) [DeclarationList_Var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_var(
+       a
+      ) [VarDecl_var]
+      VarDeclMore_Epsilon(
+      ) [VarDeclMore_Epsilon]
+    ) [VarDeclList]
+  ) [DeclarationList_Var]
+  MethodDeclList_y(
+    MethodDeclList_y(
+      MethodDeclList_Epsilon(
+      ) [MethodDeclList_Epsilon]
+      MethodDecl(
+        MethodType_Void(
+         main
+        ) [MethodType_Void]
+        FormParsList_Epsilon(
+        ) [FormParsList_Epsilon]
+        VarDeclListRec_y(
+          VarDeclListRec_y(
+            VarDeclListRec_y(
+              VarDeclListRec_Epsilon(
+              ) [VarDeclListRec_Epsilon]
+              VarDeclList(
+                Type(
+                 int
+                ) [Type]
+                VarDecl_var(
+                 bodovi
+                ) [VarDecl_var]
+                VarDeclMore_Epsilon(
+                ) [VarDeclMore_Epsilon]
+              ) [VarDeclList]
+            ) [VarDeclListRec_y]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               temp
+              ) [VarDecl_var]
+              VarDeclMore_Epsilon(
+              ) [VarDeclMore_Epsilon]
+            ) [VarDeclList]
+          ) [VarDeclListRec_y]
+          VarDeclList(
+            Type(
+             bool
+            ) [Type]
+            VarDecl_var(
+             bt
+            ) [VarDecl_var]
+            VarDeclMore_Epsilon(
+            ) [VarDeclMore_Epsilon]
+          ) [VarDeclList]
+        ) [VarDeclListRec_y]
+        StatementList_Epsilon(
+        ) [StatementList_Epsilon]
+      ) [MethodDecl]
+    ) [MethodDeclList_y]
+    MethodDecl(
+      MethodType_Type(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodType_Type]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  00:43:28,723 - =====================================================================
+ERROR 00:43:28,729 - Metoda main mora biti povratnog tipa void na liniji 24
+ERROR 00:43:28,729 - Metoda main vec postoji na liniji 24
+INFO  00:43:28,729 - =====================================================================
+INFO  00:43:28,729 - Parsiranje uspesno zavrseno!

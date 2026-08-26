@@ -1,0 +1,78 @@
+INFO  23:28:45,833 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  23:28:45,860 - #2 program
+INFO  23:28:45,860 - #48 Test
+INFO  23:28:45,861 - #9 const
+INFO  23:28:45,862 - #48 int
+INFO  23:28:45,862 - #48 a
+INFO  23:28:45,862 - #10 =
+INFO  23:28:45,862 - #45 3
+INFO  23:28:45,862 - #11 ;
+INFO  23:28:45,863 - #9 const
+INFO  23:28:45,864 - #48 char
+INFO  23:28:45,864 - #48 c
+INFO  23:28:45,864 - #10 =
+INFO  23:28:45,864 - #47 a
+INFO  23:28:45,864 - #11 ;
+INFO  23:28:45,865 - #3 {
+INFO  23:28:45,865 - #12 void
+INFO  23:28:45,865 - #48 main
+INFO  23:28:45,865 - #5 (
+INFO  23:28:45,866 - #6 )
+INFO  23:28:45,866 - #3 {
+INFO  23:28:45,867 - #4 }
+INFO  23:28:45,867 - #4 }
+INFO  23:28:45,869 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         a
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstAssign(
+       c
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_Epsilon(
+      ) [StatementList_Epsilon]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  23:28:45,869 - =====================================================================
+INFO  23:28:45,875 - =====================================================================
+INFO  23:28:45,876 - Parsiranje uspesno zavrseno!

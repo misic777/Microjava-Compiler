@@ -1,0 +1,174 @@
+INFO  18:31:48,583 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\rekordi.mj
+INFO  18:31:48,659 - #2 program
+INFO  18:31:48,659 - #48 Test
+INFO  18:31:48,659 - #9 const
+INFO  18:31:48,661 - #48 int
+INFO  18:31:48,661 - #48 a
+INFO  18:31:48,662 - #10 =
+INFO  18:31:48,663 - #45 3
+INFO  18:31:48,663 - #11 ;
+INFO  18:31:48,665 - #9 const
+INFO  18:31:48,666 - #48 char
+INFO  18:31:48,666 - #48 c
+INFO  18:31:48,666 - #10 =
+INFO  18:31:48,667 - #47 a
+INFO  18:31:48,667 - #11 ;
+INFO  18:31:48,667 - #3 {
+INFO  18:31:48,667 - #12 void
+INFO  18:31:48,668 - #48 main
+INFO  18:31:48,669 - #5 (
+INFO  18:31:48,669 - #6 )
+INFO  18:31:48,670 - #3 {
+INFO  18:31:48,671 - #48 ord
+INFO  18:31:48,672 - #5 (
+INFO  18:31:48,682 - #48 a
+INFO  18:31:48,683 - #6 )
+INFO  18:31:48,687 - #11 ;
+INFO  18:31:48,688 - #48 chr
+INFO  18:31:48,688 - #5 (
+INFO  18:31:48,688 - #48 c
+INFO  18:31:48,688 - #6 )
+INFO  18:31:48,689 - #11 ;
+INFO  18:31:48,689 - #4 }
+INFO  18:31:48,689 - #4 }
+INFO  18:31:48,695 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  DeclarationList_Const(
+    DeclarationList_Const(
+      DeclarationList_Epsilon(
+      ) [DeclarationList_Epsilon]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstAssign(
+         a
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConstAssign]
+        ConstantList_Epsilon(
+        ) [ConstantList_Epsilon]
+      ) [ConstDecl]
+    ) [DeclarationList_Const]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstAssign(
+       c
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConstAssign]
+      ConstantList_Epsilon(
+      ) [ConstantList_Epsilon]
+    ) [ConstDecl]
+  ) [DeclarationList_Const]
+  MethodDeclList_y(
+    MethodDeclList_Epsilon(
+    ) [MethodDeclList_Epsilon]
+    MethodDecl(
+      MethodType_Void(
+       main
+      ) [MethodType_Void]
+      FormParsList_Epsilon(
+      ) [FormParsList_Epsilon]
+      VarDeclListRec_Epsilon(
+      ) [VarDeclListRec_Epsilon]
+      StatementList_y(
+        StatementList_y(
+          StatementList_Epsilon(
+          ) [StatementList_Epsilon]
+          Statement_Designator(
+            DesignatorStatement_O(
+              DesignatorStatementO_ActPars(
+                Designator_only(
+                  DesignatorName(
+                   ord
+                  ) [DesignatorName]
+                ) [Designator_only]
+                ActParsOptional_y(
+                  ActPars(
+                    ExprList_base(
+                      Expr_NonTernary(
+                        NonTernaryExpr(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factorMinus(
+                                FactorMinus(
+                                  OptionalMinus_Epsilon(
+                                  ) [OptionalMinus_Epsilon]
+                                  Factor_designator(
+                                    Designator_only(
+                                      DesignatorName(
+                                       a
+                                      ) [DesignatorName]
+                                    ) [Designator_only]
+                                  ) [Factor_designator]
+                                ) [FactorMinus]
+                              ) [MulopFactorList_factorMinus]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [NonTernaryExpr]
+                      ) [Expr_NonTernary]
+                    ) [ExprList_base]
+                  ) [ActPars]
+                ) [ActParsOptional_y]
+              ) [DesignatorStatementO_ActPars]
+            ) [DesignatorStatement_O]
+          ) [Statement_Designator]
+        ) [StatementList_y]
+        Statement_Designator(
+          DesignatorStatement_O(
+            DesignatorStatementO_ActPars(
+              Designator_only(
+                DesignatorName(
+                 chr
+                ) [DesignatorName]
+              ) [Designator_only]
+              ActParsOptional_y(
+                ActPars(
+                  ExprList_base(
+                    Expr_NonTernary(
+                      NonTernaryExpr(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factorMinus(
+                              FactorMinus(
+                                OptionalMinus_Epsilon(
+                                ) [OptionalMinus_Epsilon]
+                                Factor_designator(
+                                  Designator_only(
+                                    DesignatorName(
+                                     c
+                                    ) [DesignatorName]
+                                  ) [Designator_only]
+                                ) [Factor_designator]
+                              ) [FactorMinus]
+                            ) [MulopFactorList_factorMinus]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [NonTernaryExpr]
+                    ) [Expr_NonTernary]
+                  ) [ExprList_base]
+                ) [ActPars]
+              ) [ActParsOptional_y]
+            ) [DesignatorStatementO_ActPars]
+          ) [DesignatorStatement_O]
+        ) [Statement_Designator]
+      ) [StatementList_y]
+    ) [MethodDecl]
+  ) [MethodDeclList_y]
+) [Program]
+INFO  18:31:48,695 - =====================================================================
+INFO  18:31:48,711 - Pristup simbolickoj konstanti: a [Kind: 0][Type: 1] na liniji 10
+ERROR 18:31:48,804 - Neodgovarajuci tip 1. parametra u pozivu metode ord na liniji 10
+INFO  18:31:48,804 - Pozivanje globalne funkcije ord [Kind: 3][Type: 1] na liniji 10
+INFO  18:31:48,805 - Pristup simbolickoj konstanti: c [Kind: 0][Type: 2] na liniji 11
+ERROR 18:31:48,805 - Neodgovarajuci tip 1. parametra u pozivu metode chr na liniji 11
+INFO  18:31:48,805 - Pozivanje globalne funkcije chr [Kind: 3][Type: 2] na liniji 11
+INFO  18:31:48,805 - =====================================================================
+INFO  18:31:48,806 - Parsiranje uspesno zavrseno!

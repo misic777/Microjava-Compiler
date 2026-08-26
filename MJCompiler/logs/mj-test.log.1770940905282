@@ -1,0 +1,56 @@
+INFO  01:01:29,244 - Compiling source file: D:\Andrija\PP1 projekat\workspace\MJCompiler\test\program.mj
+INFO  01:01:29,400 - #2 program
+INFO  01:01:29,400 - #48 Test
+INFO  01:01:29,400 - #9 const
+INFO  01:01:29,405 - #48 int
+INFO  01:01:29,407 - #48 a
+INFO  01:01:29,409 - #10 =
+INFO  01:01:29,410 - #45 3
+INFO  01:01:29,410 - #11 ;
+INFO  01:01:29,415 - #9 const
+INFO  01:01:29,418 - #48 char
+INFO  01:01:29,419 - #48 c
+INFO  01:01:29,419 - #10 =
+INFO  01:01:29,419 - #47 a
+INFO  01:01:29,419 - #11 ;
+INFO  01:01:29,420 - #48 int
+INFO  01:01:29,420 - #48 y
+INFO  01:01:29,420 - #11 ;
+INFO  01:01:29,423 - #3 {
+INFO  01:01:29,426 - #12 void
+INFO  01:01:29,429 - #48 main
+INFO  01:01:29,429 - #5 (
+INFO  01:01:29,430 - #6 )
+INFO  01:01:29,440 - #48 int
+INFO  01:01:29,442 - #48 i
+INFO  01:01:29,442 - #11 ;
+INFO  01:01:29,442 - #3 {
+INFO  01:01:29,443 - #48 i
+INFO  01:01:29,446 - #10 =
+INFO  01:01:29,448 - #45 4
+INFO  01:01:29,454 - #11 ;
+INFO  01:01:29,464 - #48 y
+INFO  01:01:29,464 - #10 =
+INFO  01:01:29,465 - #5 (
+INFO  01:01:29,465 - #48 i
+INFO  01:01:29,465 - #33 ==
+INFO  01:01:29,465 - #45 4
+INFO  01:01:29,469 - #6 )
+ERROR 01:01:29,474 - 
+Sintaksna greska na liniji 13
+INFO  01:01:29,474 - #43 ?
+INFO  01:01:29,474 - #45 1
+INFO  01:01:29,474 - #24 :
+INFO  01:01:29,476 - #45 2
+ERROR 01:01:29,476 - Oporavak od greske kod deklaracije formalnih parametara f-je. Linija: 13
+INFO  01:01:29,483 - #11 ;
+ERROR 01:01:29,484 - 
+Sintaksna greska na liniji 13
+INFO  01:01:29,484 - #20 print
+INFO  01:01:29,485 - #5 (
+INFO  01:01:29,485 - #48 y
+INFO  01:01:29,485 - #6 )
+INFO  01:01:29,485 - #11 ;
+INFO  01:01:29,486 - #4 }
+INFO  01:01:29,486 - #4 }
+ERROR 01:01:29,486 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17
