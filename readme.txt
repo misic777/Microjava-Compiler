@@ -1,6 +1,5 @@
 
 
-Opis postavke zadatka
 Cilj ovog projekta je kreiranje kompajlera za jezik Mikrojava (izmišljeni jezik koji predstavlja uprošćenu javu). Izrada je podeljena na 4 faze, leksičku analizu, sintaksnu analizu, semantičku analizu i generisanje koda. Nakon završene sve 4 faze, očekuje se da kompajler prevodi kod tačno po određenim pravilima.
 
 Opis komandi za generisanje Java koda alatima
